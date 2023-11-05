@@ -1,0 +1,63 @@
+- check out open source software {{renderer :todomaster}}{{video https://www.youtube.com/watch?v=oLrwk07zZ0Y}}
+  id:: 6547d4bb-5ed8-4b47-ba06-ad255a3275a1
+	- TODO [04:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=273s) Dashy - Browser Dash and Shortcuts
+	- TODO [05:58](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=358s) Metabase - No Code Data Analytics
+	- DONE [07:30](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=450s) Portainer -> see below
+	- TODO [11:01](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=661s) Proxmox - Virtualiation Orchestrator
+	- TODO [13:02](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=782s) NGinX Proxy Manager
+	- TODO [14:31](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=871s) MeshCentral - Remote Machine Management
+	- TODO [16:23](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=983s) TrueNAS Scale
+	- TODO [19:09](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1149s) Vaultwarden - Password Manager
+	- TODO [20:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1235s) Remotely - Remote Support Tool
+	- TODO [21:54](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1314s) Guacamole - Remote Desktop in the Browser
+	- TODO [24:12](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1452s) Pi-hole - Ad-blockingDNS
+	- TODO [25:07](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1507s) Pi-Alert - Notification of New Network Devices
+	- DONE [26:05](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1565s) Speedtest Tracker -> see below
+	- TODO [27:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1655s) Uptime Kuma - Status / Uptime Monitor
+	- TODO [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) Home Assistant
+	- TODO [31:11](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1871s) Mail-in-a-box - Self Hosted Email
+	- TODO [32:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1953s) OpenSprinkler
+	-
+	- [[portainer]]
+		- Install on synology as I want to install [[speedtest tracker]] which runs in a docker container and since it runs every hour and logs internet speed I want to put it on [[synology]].
+		- Install portainer on synology
+			- {{video https://www.youtube.com/watch?v=g7oAZQR1fiY}}
+			- synology package file station, dalesyn1, docker, create folder 'portainer-ce'
+			- enable [[synology ssh]]
+				- control panel > terminal & snmp, check off enable ssh service, keep port 22, click apply button
+					- note: on this screen there is a 'terminal' link for more information on what to type in terminal
+			- from terminal, ssh into synology nas (see below)
+				- enter the following in terminal:
+					- sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /volume1/docker/portainer-ce:/data portainer/portainer-ce:latest
+			- from my linux browser enter the following:
+				- https://192.168.86.47:9443/
+					- added 'synology, portainer' entry in both password managers
+		- how to ssh into synology
+			- {{video https://www.youtube.com/watch?v=ciTNqAPbBkk}}
+				- from terminal
+				- sudo -i ssh dbmccombieAdmin@192.168.86.47
+		- disable ssh functionality on synology when done
+	- [[speedtest tracker]]
+		- go to the website: [GitHub - henrywhitaker3/Speedtest-Tracker: Continuously track your internet speed](https://github.com/henrywhitaker3/Speedtest-Tracker)
+			- synology package file station, dalesyn1, docker, create folder 'speedtesttracker'
+			- great helper video
+				- [How to Install Speedtest Tracker on Your Synology NAS with Docker](https://neellik.com/install-speed-test-tracker-on-your-synology-nas/#portainer_speedtesttracker)
+			- [[synology ssh]] into docker as per the above instructions I enter the following to create the docker container, these are the 'using docker' instructions on the GitHub site so just get the latest from there.
+				- sudo docker run -d   --name=speedtesttracker   -e PUID=1026   
+				  -e PGID=100   -p 8788:80   -e TZ=Europe/London   -e OOKLA_EULA_GDPR=true   -v /volume1/doc
+				  ker/speedtesttracker:/config   --restart always   henrywhitaker3/speedtest-tracker
+			- from my linux browser enter the following:
+				- [Speedtest Tracker](http://192.168.86.47:8788/)
+					- added 'synology, speedtest tracker' entry in both password managers
+					- created a telegram bot for notifications:
+						- name:: dbmccombie-internet-speedtest
+						  username:: dbmccombieinternetspeedtestbot
+						  http-api-token:: 6603612455:AAG0ofzh9B-rWAZTKnfhx4LaBaoMDDivIHA
+							- telegram notice
+							- Done! Congratulations on your new bot. You will find it at t.me/dbmccombieinternetspeedtestbot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
+							- Use this token to access the HTTP API:
+							  6603612455:AAG0ofzh9B-rWAZTKnfhx4LaBaoMDDivIHA
+							  Keep your token secure and store it safely, it can be used by anyone to control your bot.
+							- For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+						-
+	-
