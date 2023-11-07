@@ -35,7 +35,7 @@
 		- how to ssh into synology
 			- {{video https://www.youtube.com/watch?v=ciTNqAPbBkk}}
 				- from terminal
-				- sudo -i ssh dbmccombieAdmin@192.168.86.47
+					- sudo -i ssh dbmccombieAdmin@192.168.86.47
 		- disable ssh functionality on synology when done
 	- [[speedtest tracker]]
 		- go to the website: [GitHub - henrywhitaker3/Speedtest-Tracker: Continuously track your internet speed](https://github.com/henrywhitaker3/Speedtest-Tracker)
