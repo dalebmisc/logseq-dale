@@ -75,23 +75,23 @@
 - [[terminal ripgrep]]
 	- sudo apt install ripgrep
 	- usage:
-	  case sensitive...
-	  rg <text to search for>
-	  ignores case differences...
-	  rg -i <text to search for>
-	  regex search...
-	  rg -e 'REGEX SEARCH PATTERN'
-	  limit search scope to specific directory and any characters followed by .org...
-	  rg --glob 'tc/*.org' <text to search for>
-	  other...
-	  rg --glob 'tc/**/*.org' <text to search for>
+		- case sensitive...
+			- rg <text to search for>
+		- ignores case differences...
+			- rg -i <text to search for>
+		- regex search...
+			- rg -e 'REGEX SEARCH PATTERN'
+		- limit search scope to specific directory and any characters followed by .org...
+			- rg --glob 'tc/*.org' <text to search for>
+			  other...
+			  rg --glob 'tc/**/*.org' <text to search for>
 - [[terminal fzf]]
 	- sudo apt install fzf
 	- usage:
-	  to get a list of all files to search through...
-	  fzf
-	  then type what you want to search for...
-	  can also search through terminal history by <ctrl> + r, then type what you want to search for
+		- to get a list of all files to search through...
+		- fzf
+			- then type what you want to search for...
+			- can also search through terminal history by <ctrl> + r, then type what you want to search for
 - [[terminal zoxide]]
 	- sudo apt install zoxide
 	- usage:
@@ -104,12 +104,12 @@
 		- ls *.py | entr python main.py
 	- notes:
 		- watch for files to change and can perform an action
-		  e.g. watch for a change in your python file then have it run the file
+			- e.g. watch for a change in your python file then have it run the file
 - [[terminal mc]]
 	- sudo apt install mc
 	- usage:
 	- notes:
-	  file manager
+		- file manager
 - [[terminal tldr]]
 	- sudo apt install tldr
 	- usage:
