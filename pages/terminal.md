@@ -129,13 +129,16 @@
 	  exit
 	  notes:
 	  open multiple terminals in a single window
-- wikit can be used to parse wikipedia text in the command line, try installing and see how it works, looks pretty neat...
-- duckduckgo searches from terminal
-  sudo apt-get install build-essential unzip -y
-  wget https://github.com/jarun/ddgr/archive/refs/tags/v2.1.zip
-  unzip file, then go to folder with terminal, then type: sudo make install
-  usage:
-  ddgr <search phrase>
-  type number of search item and hit enter to launch it in browser
-  q to exit or hit enter twice
-  ? to see options
+- [[terminal wikit]]
+	- wikit can be used to parse wikipedia text in the command line, try installing and see how it works, looks pretty neat...
+- [[terminal ddgr]]
+	- duckduckgo searches from terminal
+	- ```terminal
+	  ```
+	- sudo apt-get install build-essential unzip -ywget https://github.com/jarun/ddgr/archive/refs/tags/v2.1.zip
+	  unzip file, then go to folder with terminal, then type: sudo make install
+	  usage:
+	  ddgr <search phrase>
+	  type number of search item and hit enter to launch it in browser
+	  q to exit or hit enter twice
+	  ? to see options
