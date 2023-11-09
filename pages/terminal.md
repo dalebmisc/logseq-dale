@@ -107,28 +107,28 @@
 		  e.g. watch for a change in your python file then have it run the file
 - [[terminal mc]]
 	- sudo apt install mc
-	  usage:
-	  notes:
+	- usage:
+	- notes:
 	  file manager
 - [[terminal tldr]]
 	- sudo apt install tldr
 	- usage:
-	  tldr <sudo>
-	  notes:
-	  tldw for videos
+		- tldr <sudo>
+	- notes:
+		- tldw for videos
 - [[terminal neofetch]]
 	- sudo apt install neofetch
 	- usage:
-	  neofetch
-	  notes:
-	  displays distro logo and system info
+		- neofetch
+	- notes:
+		- displays distro logo and system info
 - [[terminal tmux]]
 	- sudo apt install tmux
 	- usage:
-	  tmux
-	  exit
-	  notes:
-	  open multiple terminals in a single window
+		- tmux
+		- exit
+	- notes:
+		- open multiple terminals in a single window
 - [[terminal wikit]]
 	- wikit can be used to parse wikipedia text in the command line, try installing and see how it works, looks pretty neat...
 - [[terminal ddgr]]
@@ -140,6 +140,6 @@
 	  ```
 	- usage:
 		- ddgr <search phrase>
-		  type number of search item and hit enter to launch it in browser
-		  q to exit or hit enter twice
-		  ? to see options
+		- type number of search item and hit enter to launch it in browser
+		- q to exit or hit enter twice
+		- ? to see options
