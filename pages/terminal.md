@@ -40,52 +40,58 @@
 	  ncdu
 	  notes:
 	  if you want to delete something just select it and press 'd' to get a dialogue
-- sudo apt install btop
-  usage:
-  btop
-  notes:
-  toggle through preset layouts with 'p'
-  can click the number keys corresponding to sections to turn them on and off
-- sudo apt install
-  usage:
-  commands && ntfy send success || ntfy send failure
-  where commands are the commands to run such as an rsync job, or perhaps a shell script
-- sudo apt install exa
-  usage:
-  exa
-  exa -alh
-  exa --tree
-  exa --tree --long
-  can add aliases, likely to bash file:
-  alias ls="exa"
-  alias ll="exa -alh"
-  alias tree="exa --tree"
-  notes:
-  similar to ls
-- sudo apt install bat
-  usage:
-  bat tilename
-  bat -p filename
-  notes:
-  similar to cat for viewing contents of file, formats nicer and has line numbers
-- sudo apt install ripgrep
-  usage:
-  case sensitive...
-  rg <text to search for>
-  ignores case differences...
-  rg -i <text to search for>
-  regex search...
-  rg -e 'REGEX SEARCH PATTERN'
-  limit search scope to specific directory and any characters followed by .org...
-  rg --glob 'tc/*.org' <text to search for>
-  other...
-  rg --glob 'tc/**/*.org' <text to search for>
-- sudo apt install fzf
-  usage:
-  to get a list of all files to search through...
-  fzf
-  then type what you want to search for...
-  can also search through terminal history by <ctrl> + r, then type what you want to search for
+- [[btop]]
+	- sudo apt install btop
+	- usage:
+	  btop
+	  notes:
+	  toggle through preset layouts with 'p'
+	  can click the number keys corresponding to sections to turn them on and off
+- [[ntfy]]
+	- sudo apt install
+	- usage:
+	  commands && ntfy send success || ntfy send failure
+	  where commands are the commands to run such as an rsync job, or perhaps a shell script
+- [[exa]]
+	- sudo apt install exa
+	- usage:
+	  exa
+	  exa -alh
+	  exa --tree
+	  exa --tree --long
+	  can add aliases, likely to bash file:
+	  alias ls="exa"
+	  alias ll="exa -alh"
+	  alias tree="exa --tree"
+	  notes:
+	  similar to ls
+- [[bat]]
+	- sudo apt install bat
+	- usage:
+	  bat tilename
+	  bat -p filename
+	  notes:
+	  similar to cat for viewing contents of file, formats nicer and has line numbers
+- [[ripgrep]]
+	- sudo apt install ripgrep
+	- usage:
+	  case sensitive...
+	  rg <text to search for>
+	  ignores case differences...
+	  rg -i <text to search for>
+	  regex search...
+	  rg -e 'REGEX SEARCH PATTERN'
+	  limit search scope to specific directory and any characters followed by .org...
+	  rg --glob 'tc/*.org' <text to search for>
+	  other...
+	  rg --glob 'tc/**/*.org' <text to search for>
+- [[fzf]]
+	- sudo apt install fzf
+	- usage:
+	  to get a list of all files to search through...
+	  fzf
+	  then type what you want to search for...
+	  can also search through terminal history by <ctrl> + r, then type what you want to search for
 - sudo apt install zoxide
   usage:
   z <location>
