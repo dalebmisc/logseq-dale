@@ -5,12 +5,26 @@
 		- ./<filename> to run
 		- ```sh
 		  #!/bin/bash
-		  # A script to install apps on debian
+		  # A script to install apps on fedora
+		  
+		  # some initial config (can do later too):
+		  # [7 Things You MUST DO After Installing Fedora Linux - YouTube](https://www.youtube.com/watch?v=RrRpXs2pkzg)
+		  # 00:00 - Fedora 36 Post Install Guide
+		  # 00:30 - 1. DNF Configuration
+		  # sudo nano /etc/dnf/dnf.conf
+		  # fastestmirror=True
+		  # max_parallel_downloads=10
+		  # defaultyes=True
+		  # keepcache=True
+		  # <CTRL> + o to write the above
+		  # <CTRL> + x to exit and continue
+		  
+		  # to run this file, start a terminal...
+		  # set file permission: chmod +x <name of file>
+		  # to run: ./<name of file>
 		  
 		  # After installing, remove installation flash drive, then reboot and go through the startup process for some quick settings and to add gmail account
 		  # Can add more gmail accounts later in settings
-		  #
-		  # Go to gnome software and install any updates under the updates tab
 		  
 		  # Add the flathub repository if not already added
 		  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -214,16 +228,6 @@
 		  # }
 		  # Set the PS1: [Bash Shell PS1: 10 Examples to Make Your Linux Prompt like Angelina Jolie](https://www.thegeekstuff.com/2008/09/bash-shell-ps1-10-examples-to-make-your-linux-prompt-like-angelina-jolie/)
 		  # PS1="\[\033[41m\]\[\033[37m\][\s-\V    \d  \@] \u@\h    -->    \w \$(git_branch)\$ \[\033[0m\]" 
-		  
-		  
-		  # proton vpn
-		  # [How to install the ProtonVPN Linux app on Debian 11+](https://protonvpn.com/support/official-linux-vpn-debian/)
-		  # download the proton vpn deb package and then double-click it to install
-		  # install the gui
-		  # sudo apt-get update
-		  # sudo apt-get install proton-vpn-gnome-desktop
-		  # install ubuntu appindicators to get a tray icon.  after installing, reboot, then open the proton vpn app and the tray icon should appear
-		  # sudo apt install libayatana-appindicator3-1 gir1.2-ayatanaappindicator3-0.1 gnome-shell-extension-appindicator
 		  
 		  
 		  ```
