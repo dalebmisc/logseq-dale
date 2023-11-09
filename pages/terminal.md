@@ -1,4 +1,4 @@
-- [[rmlint]]
+- [[terminal rmlint]]
 	- sudo apt install rmlint
 	- usage:
 		- rmlint - spots duplicates by both name and content
@@ -11,7 +11,7 @@
 		  	to remove the files:
 		  	run the rmlink.sh file that was created, it shows location at the end of the terminal output
 		  	check the manual for everything that can be done with rmlint
-- [[rsync]]
+- [[terminal rsync]]
 	- sudo apt install rsync
 	- usage:
 	  to ingest...
@@ -110,22 +110,25 @@
 	  usage:
 	  notes:
 	  file manager
-- sudo apt install tldr
-  usage:
-  tldr <sudo>
-  notes:
-  tldw for videos
-- sudo apt install neofetch
-  usage:
-  neofetch
-  notes:
-  displays distro logo and system info
-- sudo apt install tmux
-  usage:
-  tmux
-  exit
-  notes:
-  open multiple terminals in a single window
+- [[terminal tldr]]
+	- sudo apt install tldr
+	- usage:
+	  tldr <sudo>
+	  notes:
+	  tldw for videos
+- [[terminal neofetch]]
+	- sudo apt install neofetch
+	- usage:
+	  neofetch
+	  notes:
+	  displays distro logo and system info
+- [[terminal tmux]]
+	- sudo apt install tmux
+	- usage:
+	  tmux
+	  exit
+	  notes:
+	  open multiple terminals in a single window
 - wikit can be used to parse wikipedia text in the command line, try installing and see how it works, looks pretty neat...
 - duckduckgo searches from terminal
   sudo apt-get install build-essential unzip -y
