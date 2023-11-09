@@ -92,21 +92,24 @@
 	  fzf
 	  then type what you want to search for...
 	  can also search through terminal history by <ctrl> + r, then type what you want to search for
-- sudo apt install zoxide
-  usage:
-  z <location>
-- notes:
-  like cd command
-- sudo apt install entr
-  usage:
-  ls *.py | entr python main.py
-  notes:
-  watch for files to change and can perform an action
-  e.g. watch for a change in your python file then have it run the file
-- sudo apt install mc
-  usage:
-  notes:
-  file manager
+- [[zoxide]]
+	- sudo apt install zoxide
+	- usage:
+		- z <location>
+	- notes:
+		- like cd command
+- [[entr]]
+	- sudo apt install entr
+	- usage:
+		- ls *.py | entr python main.py
+	- notes:
+		- watch for files to change and can perform an action
+		  e.g. watch for a change in your python file then have it run the file
+- [[terminal-mc]]
+	- sudo apt install mc
+	  usage:
+	  notes:
+	  file manager
 - sudo apt install tldr
   usage:
   tldr <sudo>
