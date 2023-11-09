@@ -162,7 +162,7 @@
   :END:
 	- DONE {{video https://www.youtube.com/watch?v=TB9JZEN49SM&t=299s}}
 	- TODO {{video https://www.youtube.com/watch?v=7yVdh7ITvz4}}
-		- <ctrl> + <shift> + p will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
+		- <ctrl> + <shift> + y will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
 		- {{youtube-timestamp 669}} Helium plugin
 - dale test a flashcard #card
   card-last-score:: 1
