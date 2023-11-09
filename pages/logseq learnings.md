@@ -51,7 +51,7 @@
 		- TODO automatic links - doesn't seem to be working, try again later...
 		- DONE helium - can be useful I believe
 			- Right-click the block the video is in, then select 'start float', then the video will now go past the top of the screen in case you are busy journaling under the video with a lot of text that would normally fill up the screen and push your video up and off the viewable area
-		- TODO git
+		- DONE git
 		- DONE automatic format url title - keep, does a nice job of adding an icon and formatting the title to be shorter
 		- DONE logtools - keep, some neat features
 			- kanban
