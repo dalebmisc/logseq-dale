@@ -1,5 +1,5 @@
 - The following can be created in a file with extension .sh and then:
-	-
+	- chmod +x /<>
 	- ```sh
 	  #!/bin/bash
 	  # A script to install apps on debian
