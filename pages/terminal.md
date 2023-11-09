@@ -14,39 +14,39 @@
 - [[terminal rsync]]
 	- sudo apt install rsync
 	- usage:
-	  to ingest...
-	  rsync -av --progress /directory that you want to sync from, e.g. sd card
-	  to sync where we are copying recursively and copying timestamps and permissions and file ownership if running as superuser...
-	  rsync -av source-directory target-directory
-	  benefits:
-	  more reliable than a standard copy
-	  faster
-	  incremental
-	  notes:
-	  can sync files to a nas
-	  just mount the nas as a folder
-	  can also send from rsync on the computer to rsync on the nas by passing the host name of nas and path of nas to sync to if your nas supports it
-	  only works locally
+		- to ingest...
+			- rsync -av --progress /directory that you want to sync from, e.g. sd card
+			  to sync where we are copying recursively and copying timestamps and permissions and file ownership if running as superuser...
+			- rsync -av source-directory target-directory
+	- benefits:
+		- more reliable than a standard copy
+		- faster
+		- incremental
+		- notes:
+		  can sync files to a nas
+		  just mount the nas as a folder
+		  can also send from rsync on the computer to rsync on the nas by passing the host name of nas and path of nas to sync to if your nas supports it
+		  only works locally
 - [[terminal rclone]]
 	- sudo apt install rclone
 	- usage:
-	  rclone config
-	  rclone sync -P . b2test:co-techcraft-test (. is current directory, and target is whatever your target is)
-	  notes:
-	  similar to rsync but supports cloud providers
+		- rclone config
+		- rclone sync -P . b2test:co-techcraft-test (. is current directory, and target is whatever your target is)
+	- notes:
+		- similar to rsync but supports cloud providers
 - [[terminal ncdu]]
 	- sudo apt install ncdu
 	- usage:
-	  ncdu
-	  notes:
-	  if you want to delete something just select it and press 'd' to get a dialogue
+		- ncdu
+	- notes:
+		- if you want to delete something just select it and press 'd' to get a dialogue
 - [[terminal btop]]
 	- sudo apt install btop
 	- usage:
 		- btop
 	- notes:
-	  toggle through preset layouts with 'p'
-	  can click the number keys corresponding to sections to turn them on and off
+		- toggle through preset layouts with 'p'
+	- can click the number keys corresponding to sections to turn them on and off
 - [[terminal ntfy]]
 	- sudo apt install
 	- usage:
