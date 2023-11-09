@@ -27,32 +27,32 @@
 	  just mount the nas as a folder
 	  can also send from rsync on the computer to rsync on the nas by passing the host name of nas and path of nas to sync to if your nas supports it
 	  only works locally
-- [[rclone]]
+- [[terminal rclone]]
 	- sudo apt install rclone
 	- usage:
 	  rclone config
 	  rclone sync -P . b2test:co-techcraft-test (. is current directory, and target is whatever your target is)
 	  notes:
 	  similar to rsync but supports cloud providers
-- [[ncdu]]
+- [[terminal ncdu]]
 	- sudo apt install ncdu
 	- usage:
 	  ncdu
 	  notes:
 	  if you want to delete something just select it and press 'd' to get a dialogue
-- [[btop]]
+- [[terminal btop]]
 	- sudo apt install btop
 	- usage:
 	  btop
 	  notes:
 	  toggle through preset layouts with 'p'
 	  can click the number keys corresponding to sections to turn them on and off
-- [[ntfy]]
+- [[terminal ntfy]]
 	- sudo apt install
 	- usage:
 	  commands && ntfy send success || ntfy send failure
 	  where commands are the commands to run such as an rsync job, or perhaps a shell script
-- [[exa]]
+- [[terminal exa]]
 	- sudo apt install exa
 	- usage:
 	  exa
@@ -65,14 +65,14 @@
 	  alias tree="exa --tree"
 	  notes:
 	  similar to ls
-- [[bat]]
+- [[terminal bat]]
 	- sudo apt install bat
 	- usage:
 	  bat tilename
 	  bat -p filename
 	  notes:
 	  similar to cat for viewing contents of file, formats nicer and has line numbers
-- [[ripgrep]]
+- [[terminal ripgrep]]
 	- sudo apt install ripgrep
 	- usage:
 	  case sensitive...
@@ -85,27 +85,27 @@
 	  rg --glob 'tc/*.org' <text to search for>
 	  other...
 	  rg --glob 'tc/**/*.org' <text to search for>
-- [[fzf]]
+- [[terminal fzf]]
 	- sudo apt install fzf
 	- usage:
 	  to get a list of all files to search through...
 	  fzf
 	  then type what you want to search for...
 	  can also search through terminal history by <ctrl> + r, then type what you want to search for
-- [[zoxide]]
+- [[terminal zoxide]]
 	- sudo apt install zoxide
 	- usage:
 		- z <location>
 	- notes:
 		- like cd command
-- [[entr]]
+- [[terminal entr]]
 	- sudo apt install entr
 	- usage:
 		- ls *.py | entr python main.py
 	- notes:
 		- watch for files to change and can perform an action
 		  e.g. watch for a change in your python file then have it run the file
-- [[terminal-mc]]
+- [[terminal mc]]
 	- sudo apt install mc
 	  usage:
 	  notes:
