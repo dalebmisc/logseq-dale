@@ -14,8 +14,8 @@
 		- a.tag[data-ref="dairen"] { background-color: purple !important; }
 		- a.tag[data-ref="test"] { background-color: gold !important; color: black !important; }
 -
-- {{renderer :todomaster}}
-- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}}
+- {{renderer :todomaster}} [[todo progress]]
+- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}} [[todo progress]]
   id:: 6545de18-dc84-4dee-b21b-a3a53a78a295
 	- DONE haricut
 	  DEADLINE: <2023-11-04 Sat 1 PM>
@@ -32,7 +32,7 @@
 	  :LOGBOOK:
 	  CLOCK: [2023-11-04 Sat 08:17:34]--[2023-11-04 Sat 08:17:38] =>  00:00:04
 	  :END:
-	- TODO test all extensions to see what to keep {{renderer :todomaster}}
+	- test all extensions to see what to keep {{renderer :todomaster}} [[todo progress]]
 		- DONE heatmap - keep for now, looks like a nice compact view of activity
 		  :LOGBOOK:
 		  CLOCK: [2023-11-04 Sat 20:41:04]--[2023-11-04 Sat 20:41:05] =>  00:00:01
