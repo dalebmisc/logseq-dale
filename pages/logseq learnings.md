@@ -156,9 +156,6 @@
 	  :LOGBOOK:
 	  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
 	  :END:
-		-
-		-
-	-
 - logseq videos:
   :LOGBOOK:
   CLOCK: [2023-11-04 Sat 07:11:36]--[2023-11-04 Sat 07:11:39] =>  00:00:03
@@ -167,9 +164,6 @@
 	- TODO {{video https://www.youtube.com/watch?v=7yVdh7ITvz4}}
 		- <ctrl> + <shift> + p will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
 		- {{youtube-timestamp 669}} Helium plugin
-		-
-		-
-	-
 - dale test a flashcard #card
   card-last-score:: 1
   card-repeats:: 1
@@ -177,7 +171,6 @@
   card-last-interval:: -1
   card-ease-factor:: 2.5
   card-last-reviewed:: 2023-11-04T14:20:01.270Z
-	-
 	- 1 + 1 = {{cloze 2}}
 	- the capital city of saskatchewan is {{cloze regina}}
 	- the capital city of province {{cloze saskatchewan}} is regina
