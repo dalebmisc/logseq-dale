@@ -15,7 +15,7 @@
 		- a.tag[data-ref="test"] { background-color: gold !important; color: black !important; }
 -
 - {{renderer :todomaster}}
-- LATER Test todo list {{renderer :todomaster}} {{renderer :wordcount_}}
+- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}}
   id:: 6545de18-dc84-4dee-b21b-a3a53a78a295
 	- DONE haricut
 	  DEADLINE: <2023-11-04 Sat 1 PM>
