@@ -43,35 +43,35 @@
 - [[terminal btop]]
 	- sudo apt install btop
 	- usage:
-	  btop
-	  notes:
+		- btop
+	- notes:
 	  toggle through preset layouts with 'p'
 	  can click the number keys corresponding to sections to turn them on and off
 - [[terminal ntfy]]
 	- sudo apt install
 	- usage:
-	  commands && ntfy send success || ntfy send failure
-	  where commands are the commands to run such as an rsync job, or perhaps a shell script
+		- commands && ntfy send success || ntfy send failure
+			- where commands are the commands to run such as an rsync job, or perhaps a shell script
 - [[terminal exa]]
 	- sudo apt install exa
 	- usage:
-	  exa
-	  exa -alh
-	  exa --tree
-	  exa --tree --long
-	  can add aliases, likely to bash file:
-	  alias ls="exa"
-	  alias ll="exa -alh"
-	  alias tree="exa --tree"
-	  notes:
-	  similar to ls
+		- exa
+		- exa -alh
+		- exa --tree
+		- exa --tree --long
+	- can add aliases, likely to bash file:
+		- alias ls="exa"
+		- alias ll="exa -alh"
+		- alias tree="exa --tree"
+	- notes:
+		- similar to ls
 - [[terminal bat]]
 	- sudo apt install bat
 	- usage:
-	  bat tilename
-	  bat -p filename
-	  notes:
-	  similar to cat for viewing contents of file, formats nicer and has line numbers
+		- bat tilename
+		- bat -p filename
+	- notes:
+		- similar to cat for viewing contents of file, formats nicer and has line numbers
 - [[terminal ripgrep]]
 	- sudo apt install ripgrep
 	- usage:
@@ -83,8 +83,8 @@
 			- rg -e 'REGEX SEARCH PATTERN'
 		- limit search scope to specific directory and any characters followed by .org...
 			- rg --glob 'tc/*.org' <text to search for>
-			  other...
-			  rg --glob 'tc/**/*.org' <text to search for>
+		- other...
+			- rg --glob 'tc/**/*.org' <text to search for>
 - [[terminal fzf]]
 	- sudo apt install fzf
 	- usage:
