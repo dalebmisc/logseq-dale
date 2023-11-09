@@ -1,41 +1,45 @@
-- sudo apt install rmlint
-  usage:
-  rmlint - spots duplicates by both name and content
-  	rm files will be removed
-  	ls files will be kept
-  	can adjust this though:
-  	at the file level
-  	and can specify a directory that contains the original as follows:
-  	rmlint * // pictures
-  	to remove the files:
-  	run the rmlink.sh file that was created, it shows location at the end of the terminal output
-  	check the manual for everything that can be done with rmlint
-- sudo apt install rsync
-  usage:
-  to ingest...
-  rsync -av --progress /directory that you want to sync from, e.g. sd card
-  to sync where we are copying recursively and copying timestamps and permissions and file ownership if running as superuser...
-  rsync -av source-directory target-directory
-  benefits:
-  more reliable than a standard copy
-  faster
-  incremental
-  notes:
-  can sync files to a nas
-  just mount the nas as a folder
-  can also send from rsync on the computer to rsync on the nas by passing the host name of nas and path of nas to sync to if your nas supports it
-  only works locally
-- sudo apt install rclone
-  usage:
-  rclone config
-  rclone sync -P . b2test:co-techcraft-test (. is current directory, and target is whatever your target is)
-  notes:
-  similar to rsync but supports cloud providers
-- sudo apt install ncdu
-  usage:
-  ncdu
-  notes:
-  if you want to delete something just select it and press 'd' to get a dialogue
+- [[rmlint]]
+	- sudo apt install rmlint
+	- usage:
+		- rmlint - spots duplicates by both name and content
+		  	rm files will be removed
+		  	ls files will be kept
+		  	can adjust this though:
+		  	at the file level
+		  	and can specify a directory that contains the original as follows:
+		  	rmlint * // pictures
+		  	to remove the files:
+		  	run the rmlink.sh file that was created, it shows location at the end of the terminal output
+		  	check the manual for everything that can be done with rmlint
+- [[rsync]]
+	- sudo apt install rsync
+	- usage:
+	  to ingest...
+	  rsync -av --progress /directory that you want to sync from, e.g. sd card
+	  to sync where we are copying recursively and copying timestamps and permissions and file ownership if running as superuser...
+	  rsync -av source-directory target-directory
+	  benefits:
+	  more reliable than a standard copy
+	  faster
+	  incremental
+	  notes:
+	  can sync files to a nas
+	  just mount the nas as a folder
+	  can also send from rsync on the computer to rsync on the nas by passing the host name of nas and path of nas to sync to if your nas supports it
+	  only works locally
+- [[rclone]]
+	- sudo apt install rclone
+	- usage:
+	  rclone config
+	  rclone sync -P . b2test:co-techcraft-test (. is current directory, and target is whatever your target is)
+	  notes:
+	  similar to rsync but supports cloud providers
+- [[ncdu]]
+	- sudo apt install ncdu
+	- usage:
+	  ncdu
+	  notes:
+	  if you want to delete something just select it and press 'd' to get a dialogue
 - sudo apt install btop
   usage:
   btop
