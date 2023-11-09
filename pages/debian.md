@@ -227,4 +227,42 @@
 		  
 		  
 		  ```
-	-
+	- Additional setup:
+		- ```terminal
+		  sudo apt install flatpak gnome-software-plugin-flatpak
+		  sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+		  
+		  hamburger menu in software, enable all repositories
+		  
+		  sudo apt install libavcodec-extra
+		  
+		  sudo tee /etc/apt/sources.list.d/backports.list<<EOF
+		  deb http://deb.debian.org/debian bookworm-backports main
+		  EOF
+		  sudo apt update
+		  
+		  debian will add newer apps and kernels to backports that it approves, you have to manually install from there as follows:
+		  sudo apt install -t bookworm-backports package-name
+		  
+		  sudo apt install synaptic
+		  
+		  to mount synology drives...
+		  create directories...
+		  sudo mkdir /mnt/synology
+		  sudo mkdir /mnt/synology/dalesyn1_books
+		  sudo mkdir /mnt/synology/dalesyn1_home
+		  sudo mkdir /mnt/synology/dalesyn1_music
+		  sudo mkdir /mnt/synology/dalesyn1_streaming
+		  then mount each...
+		  sudo mount -t cifs //192.168.86.31/books /mnt/synology/dalesyn1_books -o username=dale,password=Sxi6Yxi9
+		  sudo mount -t cifs //192.168.86.31/home /mnt/synology/dalesyn1_home -o username=dale,password=Sxi6Yxi9
+		  sudo mount -t cifs //192.168.86.31/music /mnt/synology/dalesyn1_music -o username=dale,password=Sxi6Yxi9
+		  sudo mount -t cifs //192.168.86.31/streaming /mnt/synology/dalesyn1_streaming -o username=dale,password=Sxi6Yxi9
+		  to unmount...
+		  sudo umount /mnt/synology/dalesyn1_books
+		  sudo umount /mnt/synology/dalesyn1_home
+		  sudo umount /mnt/synology/dalesyn1_music
+		  sudo umount /mnt/synology/dalesyn1_streaming
+		  
+		  
+		  ```
