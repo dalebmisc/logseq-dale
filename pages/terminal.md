@@ -2,15 +2,14 @@
 	- sudo apt install rmlint
 	- usage:
 		- rmlint - spots duplicates by both name and content
-		  	rm files will be removed
-		  	ls files will be kept
-		  	can adjust this though:
-		  	at the file level
-		  	and can specify a directory that contains the original as follows:
-		  	rmlint * // pictures
-		  	to remove the files:
-		  	run the rmlink.sh file that was created, it shows location at the end of the terminal output
-		  	check the manual for everything that can be done with rmlint
+		- rm files will be removed
+		- ls files will be kept
+		- can adjust this though:
+			- at the file level and can specify a directory that contains the original as follows:
+			  	rmlint * // pictures
+			  	to remove the files:
+			  	run the rmlink.sh file that was created, it shows location at the end of the terminal output
+			  	check the manual for everything that can be done with rmlint
 - [[terminal rsync]]
 	- sudo apt install rsync
 	- usage:
@@ -22,11 +21,11 @@
 		- more reliable than a standard copy
 		- faster
 		- incremental
-		- notes:
-		  can sync files to a nas
-		  just mount the nas as a folder
-		  can also send from rsync on the computer to rsync on the nas by passing the host name of nas and path of nas to sync to if your nas supports it
-		  only works locally
+	- notes:
+		- can sync files to a nas
+		- just mount the nas as a folder
+		- can also send from rsync on the computer to rsync on the nas by passing the host name of nas and path of nas to sync to if your nas supports it
+		- only works locally
 - [[terminal rclone]]
 	- sudo apt install rclone
 	- usage:
