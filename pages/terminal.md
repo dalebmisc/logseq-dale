@@ -6,10 +6,10 @@
 		- ls files will be kept
 		- can adjust this though:
 			- at the file level and can specify a directory that contains the original as follows:
-			  	rmlint * // pictures
-			  	to remove the files:
-			  	run the rmlink.sh file that was created, it shows location at the end of the terminal output
-			  	check the manual for everything that can be done with rmlint
+				- rmlint * // pictures
+			- to remove the files:
+				- run the rmlink.sh file that was created, it shows location at the end of the terminal output
+					- check the manual for everything that can be done with rmlint
 - [[terminal rsync]]
 	- sudo apt install rsync
 	- usage:
