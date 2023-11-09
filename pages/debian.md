@@ -1,5 +1,6 @@
 - The following can be created in a file with extension .sh and then:
-	- chmod +x /<>
+	- chmod +x <filename> to set permissions
+	- ./<filename> to run
 	- ```sh
 	  #!/bin/bash
 	  # A script to install apps on debian
