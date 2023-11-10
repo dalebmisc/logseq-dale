@@ -32,6 +32,39 @@
 	  :LOGBOOK:
 	  CLOCK: [2023-11-04 Sat 08:17:34]--[2023-11-04 Sat 08:17:38] =>  00:00:04
 	  :END:
+- ## flashcards
+	- dale test a flashcard #card
+	  card-last-score:: 1
+	  card-repeats:: 1
+	  card-next-schedule:: 2023-11-05T06:00:00.000Z
+	  card-last-interval:: -1
+	  card-ease-factor:: 2.5
+	  card-last-reviewed:: 2023-11-04T14:20:01.270Z
+		- 1 + 1 = {{cloze 2}}
+		- the capital city of saskatchewan is {{cloze regina}}
+		- the capital city of province {{cloze saskatchewan}} is regina
+- ## miscellaneous
+	- #### pound sign
+		- `#10` use back ticks if you want to use pound without it being a tag
+	- #### code block
+		- ```python
+		  ```
+	- #### emojis
+		- /emoji to get emoji picker
+- ## queries
+	- ### Default queries
+		- Add to config.edn and they show on journal
+			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
+	- ### Queries
+		-
+- ## videos
+  :LOGBOOK:
+  CLOCK: [2023-11-04 Sat 07:11:36]--[2023-11-04 Sat 07:11:39] =>  00:00:03
+  :END:
+	- DONE {{video https://www.youtube.com/watch?v=TB9JZEN49SM&t=299s}}
+	- TODO {{video https://www.youtube.com/watch?v=7yVdh7ITvz4}}
+		- <ctrl> + <shift> + y will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
+		- {{youtube-timestamp 669}} Helium plugin
 - ## extensions
 	- test all extensions to see what to keep {{renderer :todomaster}} [[todo progress]]
 		- DONE heatmap - keep for now, looks like a nice compact view of activity
@@ -156,36 +189,3 @@
 		  :LOGBOOK:
 		  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
 		  :END:
-- ## videos
-  :LOGBOOK:
-  CLOCK: [2023-11-04 Sat 07:11:36]--[2023-11-04 Sat 07:11:39] =>  00:00:03
-  :END:
-	- DONE {{video https://www.youtube.com/watch?v=TB9JZEN49SM&t=299s}}
-	- TODO {{video https://www.youtube.com/watch?v=7yVdh7ITvz4}}
-		- <ctrl> + <shift> + y will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
-		- {{youtube-timestamp 669}} Helium plugin
-- ## flashcards
-	- dale test a flashcard #card
-	  card-last-score:: 1
-	  card-repeats:: 1
-	  card-next-schedule:: 2023-11-05T06:00:00.000Z
-	  card-last-interval:: -1
-	  card-ease-factor:: 2.5
-	  card-last-reviewed:: 2023-11-04T14:20:01.270Z
-		- 1 + 1 = {{cloze 2}}
-		- the capital city of saskatchewan is {{cloze regina}}
-		- the capital city of province {{cloze saskatchewan}} is regina
-- ## miscellaneous
-	- #### pound sign
-		- `#10` use back ticks if you want to use pound without it being a tag
-	- #### code block
-		- ```python
-		  ```
-	- #### emojis
-		- /emoji to get emoji picker
-- ## queries
-	- ### Default queries
-		- Add to config.edn and they show on journal
-			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
-	- ### Queries
-		-
