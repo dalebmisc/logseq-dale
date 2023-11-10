@@ -60,7 +60,15 @@
 	- ## Scratchpad
 		-
 - procons #.v-kanban
+  template:: proscons-horizontal
 	- #like
 		-
 	- #dislike
 		-
+-
+-
+- #like
+	-
+- #dislike
+	-
+-
