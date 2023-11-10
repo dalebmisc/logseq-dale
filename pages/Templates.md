@@ -45,7 +45,8 @@
 		-
 		-
 - procons #.v-kanban
-  template:: procons
+  template:: proscons
+  template-including-parent:: false
 	- #like
 		-
 	- #dislike
@@ -57,3 +58,4 @@
 		-
 	- ## Scratchpad
 		-
+-
