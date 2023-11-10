@@ -1,11 +1,11 @@
-- links
+## links
 	- can update settings so when you leave the line the brackets aren't shown, makes text nicer to read
 	- links will create a page that can be selected with all content for that topic
 	- when in doubt use a link
 	- using spaces in link names are more reasonable
 	- try to keep the tags and links separate
 	- [[todo]] page is an example
-- tags
+- ## tags
 	- Use tags to help bundle things together (such as somebody's name that you want to talk about the line you are writing and you remove the tag when you are done, 'research' if you want to learn more but don't want a to do item, or idea for ideas you have, etc.) or filter them
 	- avoid multi-word tags otherwise you will need to use hash and bracket such as #[[halloween night]]
 	- can install the tags extension which make it easy to see all your tags, sort them, and view the content using the tags
@@ -13,7 +13,7 @@
 		- /* Color names https://www.w3schools.com/cssref/css_colors.asp */
 		- a.tag[data-ref="dairen"] { background-color: purple !important; }
 		- a.tag[data-ref="test"] { background-color: gold !important; color: black !important; }
--
+- ## todo
 - {{renderer :todomaster}} [[todo progress]]
 - Test todo list {{renderer :todomaster}} {{renderer :wordcount_}} [[todo progress]]
   id:: 6545de18-dc84-4dee-b21b-a3a53a78a295
@@ -32,6 +32,7 @@
 	  :LOGBOOK:
 	  CLOCK: [2023-11-04 Sat 08:17:34]--[2023-11-04 Sat 08:17:38] =>  00:00:04
 	  :END:
+- ## extensions
 	- test all extensions to see what to keep {{renderer :todomaster}} [[todo progress]]
 		- DONE heatmap - keep for now, looks like a nice compact view of activity
 		  :LOGBOOK:
@@ -152,10 +153,10 @@
 				- This is a [[test]] of the emergency broadcast system
 		- DONE block calendar - removed as it just seems to navigate to a journal page when clicking a day.  I can do this with today's journal from the tool bar.
 		-
-	- TODO test linking to a part in a pdf
-	  :LOGBOOK:
-	  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
-	  :END:
+		- TODO test linking to a part in a pdf
+		  :LOGBOOK:
+		  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
+		  :END:
 - logseq videos:
   :LOGBOOK:
   CLOCK: [2023-11-04 Sat 07:11:36]--[2023-11-04 Sat 07:11:39] =>  00:00:03
