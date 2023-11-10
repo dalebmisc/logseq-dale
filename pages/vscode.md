@@ -4,7 +4,8 @@
 	- TODO Figure out how the aws code whisperer works
 	- DONE  Can I get a good openai plugin #openai #chatgpt
 		- Plugins seem to integrate with the api and it doesn't seem like me paying for chatgpt gives me access to the api beyond the free tier so I won't spend more time on this at this time.
-	- TODO Look at tabnine
+	- DONE Look at tabnine
+		- Looks like a possibility for the future, see what aws code whisperer can do
 	- DONE install data wrangler
 - ## settings
 	- #### black formatter or others such as autopep8
