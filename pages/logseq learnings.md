@@ -47,10 +47,10 @@
 - ## miscellaneous
 	- ### pound sign
 		- `#10` use back ticks if you want to use pound without it being a tag
-	- ### code block
+	- ### #[[code block]]
 		- ```python
 		  ```
-	- ### emojis
+	- ### #emojis
 		- /emoji to get emoji picker
 - ## queries
 	- ### Default queries
