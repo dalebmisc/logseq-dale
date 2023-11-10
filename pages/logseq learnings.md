@@ -174,7 +174,7 @@
 		- DONE wordcount - gimicky but kinda cool, keep for now {{renderer :wordcount_}}
 			- </> + 'word count' + <enter> to show the info
 		- DONE markmap - keep, a pretty useful way to see how something is laid out
-		- DONE movie properties - cool enough to keep for now
+		- DONE movie properties - cool enough but uses hash tags for many of the words and a to keep for now
 			- [[halloween]]
 			- create a page for the movie, then go to the page and right click the movie name, then select 'insert movie properties'
 				- for halloween I just entered halloween as the text and when I selected the option I was presented with a list of movies to choose from
