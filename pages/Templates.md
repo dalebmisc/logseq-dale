@@ -28,7 +28,7 @@
 		- 2
 - #.v-eisenhower-matrix
   template:: eisenhower-matrix
-	- TODO
+	- TO DO
 		-
 		-
 		-
