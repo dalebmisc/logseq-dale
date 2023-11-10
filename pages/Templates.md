@@ -51,7 +51,7 @@
 	- #dislike
 		-
 - daily journal
-	- ## [[TODO]]
+	- ## [[TODO]] {{renderer :todomaster}}
 		-
-	- ## Other
+	- ## Videos
 		-
