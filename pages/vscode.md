@@ -2,8 +2,8 @@
 	-
 - ## [[TODO]] {{renderer :todomaster}} #[[todo progress]]
 	- TODO Figure out how the aws code whisperer works
-	- TODO  Can I get a good openai plugin
-		-
+	- DONE  Can I get a good openai plugin #openai #chatgpt
+		- Plugins seem to integrate with the api and it doesn't seem like me paying for chatgpt gives me access to the api beyond the free tier so I won't spend more time on this at this time.
 	- TODO Look at tabline?? or tapline??, is it free
 	- TODO install data wrangler
 - ## settings
