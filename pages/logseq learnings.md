@@ -4,7 +4,7 @@
 	- when in doubt use a link
 	- using spaces in link names are more reasonable
 	- try to keep the tags and links separate
-	- [[todo]] page is an example
+	- [[linux]] page is an example
 - ## #tags
 	- Use tags to help bundle things together (such as somebody's name that you want to talk about the line you are writing and you remove the tag when you are done, 'research' if you want to learn more but don't want a to do item, or idea for ideas you have, etc.) or filter them
 	- avoid multi-word tags otherwise you will need to use hash and bracket such as #[[halloween night]]
