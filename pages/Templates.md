@@ -57,7 +57,7 @@
   template-including-parent:: false
 	- ## Scratchpad
 		-
-	- ## [[TODO]] {{renderer :todomaster}} #[[todo progress]]
+	- ## [[inbox]] {{renderer :todomaster}} #[[todo progress]]
 		-
 - procons #.v-kanban
   template:: proscons-horizontal
