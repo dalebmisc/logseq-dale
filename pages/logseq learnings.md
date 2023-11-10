@@ -181,4 +181,8 @@
 		- ```python
 		  ```
 	- #### emojis
-		- /emoji to get emoji pickerr
+		- /emoji to get emoji picker
+- ### Queries
+	- ### Default queries
+	- ### Queries
+		-
