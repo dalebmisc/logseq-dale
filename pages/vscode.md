@@ -1,7 +1,9 @@
 ## Scratchpad
 	-
 - ## [[TODO]] {{renderer :todomaster}}
-	- TODO Figure out how the aws
+	- TODO Figure out how the aws code whisperer works
+	- TODO  Can I get a good openai plugin
+	- TODO Look at tabline?? or tapline??, is it free
 - ## Settings
 	- #### black formatter
 		- {{renderer :linkpreview,[Powerful VSCode Tips And Tricks For Python Development And Design - YouTube](https://youtu.be/fj2tuTIcUys?si=teDGSSNKbpB13U0Q&t=446}})
