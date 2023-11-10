@@ -165,17 +165,17 @@
 		- <ctrl> + <shift> + y will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
 		- {{youtube-timestamp 669}} Helium plugin
 - ## flashcards
-- dale test a flashcard #card
-  card-last-score:: 1
-  card-repeats:: 1
-  card-next-schedule:: 2023-11-05T06:00:00.000Z
-  card-last-interval:: -1
-  card-ease-factor:: 2.5
-  card-last-reviewed:: 2023-11-04T14:20:01.270Z
-	- 1 + 1 = {{cloze 2}}
-	- the capital city of saskatchewan is {{cloze regina}}
-	- the capital city of province {{cloze saskatchewan}} is regina
-- ### Miscellaneous
+	- dale test a flashcard #card
+	  card-last-score:: 1
+	  card-repeats:: 1
+	  card-next-schedule:: 2023-11-05T06:00:00.000Z
+	  card-last-interval:: -1
+	  card-ease-factor:: 2.5
+	  card-last-reviewed:: 2023-11-04T14:20:01.270Z
+		- 1 + 1 = {{cloze 2}}
+		- the capital city of saskatchewan is {{cloze regina}}
+		- the capital city of province {{cloze saskatchewan}} is regina
+- ## miscellaneous
 	- #### pound sign
 		- `#10` use back ticks if you want to use pound without it being a tag
 	- #### code block
@@ -183,7 +183,7 @@
 		  ```
 	- #### emojis
 		- /emoji to get emoji picker
-- ### Queries
+- ## queries
 	- ### Default queries
 		- Add to config.edn and they show on journal
 			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
