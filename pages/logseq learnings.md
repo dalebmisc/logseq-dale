@@ -10,7 +10,7 @@
 	- avoid multi-word tags otherwise you will need to use hash and bracket such as #[[halloween night]]
 	- can install the tags extension which make it easy to see all your tags, sort them, and view the content using the tags
 	- can add colors to tags by editing the custom them css file in settings, here is a sample line
-		- /* Color names https://www.w3schools.com/cssref/css_colors.asp */
+		- {{renderer :linkpreview,https://www.w3schools.com/cssref/css_colors.asp}}
 		- a.tag[data-ref="dairen"] { background-color: purple !important; }
 		- a.tag[data-ref="test"] { background-color: gold !important; color: black !important; }
 - ## #todo
