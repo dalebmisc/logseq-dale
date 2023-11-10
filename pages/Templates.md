@@ -55,9 +55,9 @@
 - daily journal
   template:: Daily Template
   template-including-parent:: false
-	- ## [[TODO]] {{renderer :todomaster}}
-		-
 	- ## Scratchpad
+		-
+	- ## [[TODO]] {{renderer :todomaster}}
 		-
 - procons #.v-kanban
   template:: proscons-horizontal
