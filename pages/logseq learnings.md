@@ -184,5 +184,7 @@
 		- /emoji to get emoji picker
 - ### Queries
 	- ### Default queries
+		- Add to config.edn and they show on journal
+			- See example on combiningminds knowledge's videlogseq
 	- ### Queries
 		-
