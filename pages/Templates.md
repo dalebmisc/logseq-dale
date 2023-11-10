@@ -51,7 +51,9 @@
 	- #dislike
 		-
 - daily journal
+  template:: Daily Template
+  template-including-parent:: false
 	- ## [[TODO]] {{renderer :todomaster}}
 		-
-	- ## Videos
+	- ## Scratchpad
 		-
