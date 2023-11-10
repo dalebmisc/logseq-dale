@@ -1,11 +1,11 @@
-## links
+## #links
 	- can update settings so when you leave the line the brackets aren't shown, makes text nicer to read
 	- links will create a page that can be selected with all content for that topic
 	- when in doubt use a link
 	- using spaces in link names are more reasonable
 	- try to keep the tags and links separate
 	- [[todo]] page is an example
-- ## tags
+- ## #tags
 	- Use tags to help bundle things together (such as somebody's name that you want to talk about the line you are writing and you remove the tag when you are done, 'research' if you want to learn more but don't want a to do item, or idea for ideas you have, etc.) or filter them
 	- avoid multi-word tags otherwise you will need to use hash and bracket such as #[[halloween night]]
 	- can install the tags extension which make it easy to see all your tags, sort them, and view the content using the tags
@@ -33,7 +33,7 @@
 			  CLOCK: [2023-11-04 Sat 08:17:34]--[2023-11-04 Sat 08:17:38] =>  00:00:04
 			  :END:
 			- WAITING I am waiting #waiting
-- ## flashcards
+- ## #flashcards
 	- dale test a flashcard #card
 	  card-last-score:: 1
 	  card-repeats:: 1
