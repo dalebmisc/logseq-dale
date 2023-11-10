@@ -47,6 +47,7 @@
 - procons #.v-kanban
   template:: proscons-vertical
   template-including-parent:: false
+  id:: 654820c1-477f-473a-a11d-8916d81a5387
 	- #like
 		-
 	- #dislike
@@ -58,9 +59,4 @@
 		-
 	- ## Scratchpad
 		-
-- #like
-	- good
-	- tood
-	-
-- #dislike
-	-
+-
