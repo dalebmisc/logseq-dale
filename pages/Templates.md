@@ -50,3 +50,5 @@
 		-
 	- #dislike
 		-
+- daily journal
+	- ##
