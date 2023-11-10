@@ -52,18 +52,18 @@
 		  ```
 	- ### #emojis
 		- /emoji to get emoji picker
-- ## queries
+- ## #queries
 	- ### Default queries
 		- Add to config.edn and they show on journal
 			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
 	- ### Queries
 		-
-- ## videos
+- ## #videos
   :LOGBOOK:
   CLOCK: [2023-11-04 Sat 07:11:36]--[2023-11-04 Sat 07:11:39] =>  00:00:03
   :END:
 	- DONE {{video https://www.youtube.com/watch?v=TB9JZEN49SM&t=299s}}
-	- TODO {{video https://www.youtube.com/watch?v=7yVdh7ITvz4}}
+	- DONE {{video https://www.youtube.com/watch?v=7yVdh7ITvz4}}
 		- <ctrl> + <shift> + y will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
 		- {{youtube-timestamp 669}} Helium plugin
 - ## extensions
