@@ -5,8 +5,10 @@
 	- TODO  Can I get a good openai plugin
 	- TODO Look at tabline?? or tapline??, is it free
 	- TODO install data wrangler
-- ## Settings
+- ## settings
 	- #### black formatter
 		- {{renderer :linkpreview,[Powerful VSCode Tips And Tricks For Python Development And Design - YouTube](https://youtu.be/fj2tuTIcUys?si=teDGSSNKbpB13U0Q&t=446}})
 		-
+- ## extensions
+	- data wrangler
 	-
