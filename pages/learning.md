@@ -1,3 +1,3 @@
 ## Things to learn {{renderer :todomaster}}
-	- ### TODO #vim {{renderer :todomaster}}
-	-
+	- ### #inbox #vim {{renderer :todomaster}}
+		-
