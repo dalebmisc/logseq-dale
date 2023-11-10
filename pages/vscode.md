@@ -5,7 +5,7 @@
 	- DONE  Can I get a good openai plugin #openai #chatgpt
 		- Plugins seem to integrate with the api and it doesn't seem like me paying for chatgpt gives me access to the api beyond the free tier so I won't spend more time on this at this time.
 	- TODO Look at tabline?? or tapline??, is it free
-	- TODO install data wrangler
+	- DONE install data wrangler
 - ## settings
 	- #### black formatter or others such as autopep8
 		- [Powerful VSCode Tips And Tricks For Python Development And Design - YouTube](https://youtu.be/fj2tuTIcUys?si=teDGSSNKbpB13U0Q&t=446)
