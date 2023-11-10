@@ -17,7 +17,7 @@
 	- {{renderer :todomaster}} #[[todo progress]]
 		- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}} #[[todo progress]]
 		  id:: 6545de18-dc84-4dee-b21b-a3a53a78a295
-			- DONE haricut
+			- DONE haricut #deadline
 			  DEADLINE: <2023-11-04 Sat 1 PM>
 			  :LOGBOOK:
 			  CLOCK: [2023-11-04 Sat 07:11:29]--[2023-11-04 Sat 07:11:30] =>  00:00:01
@@ -27,7 +27,7 @@
 			  :LOGBOOK:
 			  CLOCK: [2023-11-04 Sat 08:17:20]--[2023-11-04 Sat 08:17:21] =>  00:00:01
 			  :END:
-			- DONE #dairen send more money for mortgage payment
+			- DONE #dairen send more money for mortgage payment #scheduled
 			  SCHEDULED: <2023-11-05 Sun 8:40>
 			  :LOGBOOK:
 			  CLOCK: [2023-11-04 Sat 08:17:34]--[2023-11-04 Sat 08:17:38] =>  00:00:04
@@ -45,12 +45,12 @@
 		- the capital city of saskatchewan is {{cloze regina}}
 		- the capital city of province {{cloze saskatchewan}} is regina
 - ## miscellaneous
-	- #### pound sign
+	- ### pound sign
 		- `#10` use back ticks if you want to use pound without it being a tag
-	- #### code block
+	- ### code block
 		- ```python
 		  ```
-	- #### emojis
+	- ### emojis
 		- /emoji to get emoji picker
 - ## queries
 	- ### Default queries
