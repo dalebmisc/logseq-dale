@@ -30,7 +30,6 @@ backdrop:: ![](https://image.tmdb.org//t/p/w600_and_h900_bestv2//3dGIUAlrWUvPDMP
 	- episode count: 43
 	- season count: 0
 	- vote average: 0
-	- ![](https://image.tmdb.org//t/p/w600_and_h900_bestv2/undefined){:height 225, :width 150}
 - Season 1
 	- name: Season 1
 	- air date: 2014-01-05
