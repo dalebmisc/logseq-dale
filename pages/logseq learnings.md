@@ -67,7 +67,7 @@
 		- <ctrl> + <shift> + y will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
 		- {{youtube-timestamp 669}} Helium plugin
 - ## extensions
-	- test all extensions to see what to keep {{renderer :todomaster}} [[todo progress]]
+	- test all extensions to see what to keep {{renderer :todomaster}} #[[todo progress]]
 		- DONE heatmap - keep for now, looks like a nice compact view of activity
 		  :LOGBOOK:
 		  CLOCK: [2023-11-04 Sat 20:41:04]--[2023-11-04 Sat 20:41:05] =>  00:00:01
