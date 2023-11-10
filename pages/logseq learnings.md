@@ -14,24 +14,25 @@
 		- a.tag[data-ref="dairen"] { background-color: purple !important; }
 		- a.tag[data-ref="test"] { background-color: gold !important; color: black !important; }
 - ## todo
-- {{renderer :todomaster}} [[todo progress]]
-- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}} [[todo progress]]
-  id:: 6545de18-dc84-4dee-b21b-a3a53a78a295
-	- DONE haricut
-	  DEADLINE: <2023-11-04 Sat 1 PM>
-	  :LOGBOOK:
-	  CLOCK: [2023-11-04 Sat 07:11:29]--[2023-11-04 Sat 07:11:30] =>  00:00:01
-	  CLOCK: [2023-11-04 Sat 07:11:30]--[2023-11-04 Sat 08:14:14] =>  01:02:44
-	  :END:
-	- DONE #dairen show logseq
-	  :LOGBOOK:
-	  CLOCK: [2023-11-04 Sat 08:17:20]--[2023-11-04 Sat 08:17:21] =>  00:00:01
-	  :END:
-	- DONE #dairen send more money for mortgage payment
-	  SCHEDULED: <2023-11-05 Sun 8:40>
-	  :LOGBOOK:
-	  CLOCK: [2023-11-04 Sat 08:17:34]--[2023-11-04 Sat 08:17:38] =>  00:00:04
-	  :END:
+	- {{renderer :todomaster}} [[todo progress]]
+		- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}} [[todo progress]]
+		  id:: 6545de18-dc84-4dee-b21b-a3a53a78a295
+			- DONE haricut
+			  DEADLINE: <2023-11-04 Sat 1 PM>
+			  :LOGBOOK:
+			  CLOCK: [2023-11-04 Sat 07:11:29]--[2023-11-04 Sat 07:11:30] =>  00:00:01
+			  CLOCK: [2023-11-04 Sat 07:11:30]--[2023-11-04 Sat 08:14:14] =>  01:02:44
+			  :END:
+			- DONE #dairen show logseq
+			  :LOGBOOK:
+			  CLOCK: [2023-11-04 Sat 08:17:20]--[2023-11-04 Sat 08:17:21] =>  00:00:01
+			  :END:
+			- DONE #dairen send more money for mortgage payment
+			  SCHEDULED: <2023-11-05 Sun 8:40>
+			  :LOGBOOK:
+			  CLOCK: [2023-11-04 Sat 08:17:34]--[2023-11-04 Sat 08:17:38] =>  00:00:04
+			  :END:
+			- WAITING I am waiting
 - ## flashcards
 	- dale test a flashcard #card
 	  card-last-score:: 1
