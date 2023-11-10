@@ -14,8 +14,8 @@
 		- a.tag[data-ref="dairen"] { background-color: purple !important; }
 		- a.tag[data-ref="test"] { background-color: gold !important; color: black !important; }
 - ## todo
-	- {{renderer :todomaster}} [[todo progress]]
-		- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}} [[todo progress]]
+	- {{renderer :todomaster}} #[[todo progress]]
+		- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}} #[[todo progress]]
 		  id:: 6545de18-dc84-4dee-b21b-a3a53a78a295
 			- DONE haricut
 			  DEADLINE: <2023-11-04 Sat 1 PM>
@@ -32,7 +32,7 @@
 			  :LOGBOOK:
 			  CLOCK: [2023-11-04 Sat 08:17:34]--[2023-11-04 Sat 08:17:38] =>  00:00:04
 			  :END:
-			- WAITING I am waiting
+			- WAITING I am waiting #waiting
 - ## flashcards
 	- dale test a flashcard #card
 	  card-last-score:: 1
