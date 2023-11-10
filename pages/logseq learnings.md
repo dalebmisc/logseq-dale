@@ -152,12 +152,11 @@
 				- This Is a [[Test]] of the Emergency Broadcast System
 				- This is a [[test]] of the emergency broadcast system
 		- DONE block calendar - removed as it just seems to navigate to a journal page when clicking a day.  I can do this with today's journal from the tool bar.
-		-
 		- TODO test linking to a part in a pdf
 		  :LOGBOOK:
 		  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
 		  :END:
-- logseq videos:
+- ## videos
   :LOGBOOK:
   CLOCK: [2023-11-04 Sat 07:11:36]--[2023-11-04 Sat 07:11:39] =>  00:00:03
   :END:
@@ -165,6 +164,7 @@
 	- TODO {{video https://www.youtube.com/watch?v=7yVdh7ITvz4}}
 		- <ctrl> + <shift> + y will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
 		- {{youtube-timestamp 669}} Helium plugin
+- ## flashcards
 - dale test a flashcard #card
   card-last-score:: 1
   card-repeats:: 1
