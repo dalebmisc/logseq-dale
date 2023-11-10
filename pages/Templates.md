@@ -53,4 +53,5 @@
 - daily journal
 	- ## [[TODO]]
 		-
-			-
+	- ## Other
+		-
