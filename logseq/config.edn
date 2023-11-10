@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["halloween" "logseq learnings" "open source" "linux" "dairen" "todo" "my-logseq-learnings-and-workflow"]
+ :favorites ["templates" "halloween" "logseq learnings" "open source" "linux" "dairen" "todo" "my-logseq-learnings-and-workflow"]
 
  ;; Set flashcards interval.
  ;; Expected value:
