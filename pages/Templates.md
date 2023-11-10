@@ -28,19 +28,19 @@
 		- 2
 - #.v-eisenhower-matrix
   template:: eisenhower-matrix
-	- [[TODO]]
+	- TODO
 		-
 		-
 		-
-	- [[DECIDE]]
+	- DECIDE
 		-
 		-
 		-
-	- [[DELEGATE]]
+	- DELEGATE
 		-
 		-
 		-
-	- [[ELIMINATE]]
+	- ELIMINATE
 		-
 		-
 		-
