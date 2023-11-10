@@ -3,6 +3,7 @@
 - ## [[TODO]] {{renderer :todomaster}} #[[todo progress]]
 	- TODO Figure out how the aws code whisperer works
 	- TODO  Can I get a good openai plugin
+		-
 	- TODO Look at tabline?? or tapline??, is it free
 	- TODO install data wrangler
 - ## settings

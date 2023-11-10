@@ -159,7 +159,7 @@
 				- six
 				-
 		- DONE markdown table editor - remove for now, look at it later if I am using markdown tables
-		- TODO gpt-3 - throwing an error, try again later...
+		- DONE gpt-3 - throwing an error, try again later... #openai #chatgpt
 			- can use gpt-3.5-turbo, gpt-4, dalle so see info for plugin
 			- assume this is related to my other todo on the chatgpt api, uninstall the plugin for now.
 		- DONE tabs - seems like it can be useful to move through content
