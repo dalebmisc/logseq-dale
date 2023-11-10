@@ -175,7 +175,10 @@
 	- the capital city of saskatchewan is {{cloze regina}}
 	- the capital city of province {{cloze saskatchewan}} is regina
 - ### Miscellaneous
-	- `#10` use back ticks if you want to use pound without it being a tag
-	- ```python
-	  ```
-	- /emoji to get emoji pickerr
+	- #### pound sign
+		- `#10` use back ticks if you want to use pound without it being a tag
+	- #### code block
+		- ```python
+		  ```
+	- #### emojis
+		- /emoji to get emoji pickerr
