@@ -185,6 +185,6 @@
 - ### Queries
 	- ### Default queries
 		- Add to config.edn and they show on journal
-			- See example on combiningminds knowledge's videlogseq
+			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
 	- ### Queries
 		-
