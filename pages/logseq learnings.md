@@ -178,4 +178,4 @@
 	- `#10` use back ticks if you want to use pound without it being a tag
 	- ```python
 	  ```
-	-
+	- /emoji to get emoji pickerr
