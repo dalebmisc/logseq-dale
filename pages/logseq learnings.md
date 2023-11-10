@@ -56,8 +56,9 @@
 	- ### Default queries
 		- Add to config.edn and they show on journal
 			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
+			- TODO look up some default queries
 	- ### Queries
-		-
+		- TODO look at the logseq site section on queries
 - ## #videos
   :LOGBOOK:
   CLOCK: [2023-11-04 Sat 07:11:36]--[2023-11-04 Sat 07:11:39] =>  00:00:03
