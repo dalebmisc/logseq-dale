@@ -49,8 +49,7 @@ collapsed:: true
 		  # flatpak, changes made to flatpak installation over time
 		  sudo flatpak history
 		  ```
-	-
-	- ### #flatpak
+	- #flatpak
 		- Basic commands: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#basic-commands)
 			- Install an application: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#install-applications)
 			- Update an application: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#updating)
