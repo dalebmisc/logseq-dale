@@ -193,10 +193,8 @@
 				- This is a [[test]] of the emergency broadcast system
 		- DONE block calendar - removed as it just seems to navigate to a journal page when clicking a day.  I can do this with today's journal from the tool bar.
 	- ## #pdf
-		- DONE test linking to a part in a pdf
-		  :LOGBOOK:
-		  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
-		  :END:
+		- adding link to #logseq, 2 methods:
 			- drag #pdf onto #logseq where you want the link to appear
-			-
-			- ![A Dimensional Modeling Manifesto - Kimball Group.pdf](../assets/A_Dimensional_Modeling_Manifesto_-_Kimball_Group_1699671695610_0.pdf)
+			- `/upload an asset`
+		-
+		- ![A Dimensional Modeling Manifesto - Kimball Group.pdf](../assets/A_Dimensional_Modeling_Manifesto_-_Kimball_Group_1699671695610_0.pdf)
