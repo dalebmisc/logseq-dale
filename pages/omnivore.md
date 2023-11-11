@@ -47,3 +47,4 @@
 			  If, instead, you would like to update an individual application, you can supply the --app argument and specify which application you want to update. For example, this command would update the GIMP package downloaded from FlatHub:
 			  > 
 			  $ sudo flatpak update --app org.gimp.GIMP [⤴️](https://omnivore.app/me/how-to-update-flatpak-application-linux-tutorials-learn-linux-co-18bbf15a021#1993b025-30ff-4f7a-8cca-711a61f11bb8)
+- ## 🔖 Articles
