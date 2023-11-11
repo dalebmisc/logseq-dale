@@ -155,6 +155,8 @@
 		- DONE calendar2 - decided not to bother getting a link to google calendar
 		- DONE toc - remove for now, see how the built in Contents feature works
 		- TODO automatic links - doesn't seem to be working, try again later...
+			- ctrl + shift + L turns on auto parsing
+			- ctrp + p parses the block
 		- DONE helium - can be useful I believe
 			- Right-click the block the video is in, then select 'start float', then the video will now go past the top of the screen in case you are busy journaling under the video with a lot of text that would normally fill up the screen and push your video up and off the viewable area
 		- DONE git
