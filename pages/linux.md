@@ -57,4 +57,6 @@ collapsed:: true
 			- List installed applications: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#list-installed-applications)
 	- #nala
 	- #qdirstat
+	- #dbvisualizer
+	- #fsearch
 	-
