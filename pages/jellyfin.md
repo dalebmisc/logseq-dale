@@ -62,4 +62,4 @@
 - URL: [Jellyfin](http://192.168.86.47:8097)
 - users:
 	- admin, see bitwarden and proton
-	- dale, Jxi6Nxi9
+	- dale, see bitwarden and proton
