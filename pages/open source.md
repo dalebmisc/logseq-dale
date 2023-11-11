@@ -69,6 +69,7 @@
 				- **sudo docker run -d --name=home_assistant -e TZ=Canada/Saskatchewan -v /volume1/docker/homeassistant:/config --net=host --restart always homeassistant/home-assistant**
 	- #jellyfin #synology
 		- Followed #chatgpt instructions:
+		  collapsed:: true
 			- ```chatgpt
 			  Installing Jellyfin on Docker:
 			  Access Docker on Synology NAS:
@@ -120,5 +121,7 @@
 			  Regularly backup your NAS configuration, especially before major changes.
 			  Keep an eye on resource usage; running multiple media servers can be demanding on your NAS hardware.
 			  ```
+			-
+		- Used ports 8097 and 8096
+		- Didn't map folders
 		-
--
