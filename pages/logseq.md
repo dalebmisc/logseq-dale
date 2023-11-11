@@ -41,6 +41,7 @@
 	  card-last-interval:: -1
 	  card-ease-factor:: 2.5
 	  card-last-reviewed:: 2023-11-04T14:20:01.270Z
+	  collapsed:: true
 		- 1 + 1 = {{cloze 2}}
 		- the capital city of saskatchewan is {{cloze regina}}
 		- the capital city of province {{cloze saskatchewan}} is regina
