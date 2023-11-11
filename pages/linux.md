@@ -30,6 +30,7 @@ collapsed:: true
 		  
 		  # flatpak, update all
 		  sudo flatpak update
+		  
 		  # flatpak, update single app
 		  sudo flatpak update --app org.gimp.GIMP
 		  ```
