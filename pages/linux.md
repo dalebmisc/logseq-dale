@@ -34,7 +34,20 @@ collapsed:: true
 		  # flatpak, update single app
 		  sudo flatpak update --app org.gimp.GIMP
 		  
+		  # flatpak, uninstall app
+		  sudo flatpak uninstall org.gimp.GIMP
 		  
+		  # flatpak, remove runtimes and extensions that are not used by installed applications
+		  sudo flatpak uninstall --unused
+		  
+		  # flatpak, list installed apps
+		  flatpak list --app
+		  
+		  # flatpak, list all apps
+		  flatpak list
+		  
+		  # flatpak, changes made to flatpak installation over time
+		  flatpak history
 		  ```
 	-
 	- ### #flatpak
