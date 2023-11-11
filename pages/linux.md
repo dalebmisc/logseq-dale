@@ -27,6 +27,7 @@ collapsed:: true
 		- sudo apt upgrade
 	- ### #flatpak
 		-
-		-
+	- ```cmd
+	  ```
 	-
 	-
