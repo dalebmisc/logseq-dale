@@ -69,6 +69,7 @@
 				- **sudo docker run -d --name=home_assistant -e TZ=Canada/Saskatchewan -v /volume1/docker/homeassistant:/config --net=host --restart always homeassistant/home-assistant**
 	- #jellyfin #synology
 		- Followed #chatgpt instructions:
+		  collapsed:: true
 			- ```chatgpt
 			  You
 			  How do I install the jellyfin container on docker?  Also, port 8096 is already in use for Emby on my synology so how do I work around this?
