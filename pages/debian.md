@@ -269,5 +269,6 @@
 		  ```
 	- ## #nala
 		- {{video https://youtu.be/oroSkR4Nn_w?si=uBQ3yjCcEDry_NWY}}
+		- {{youtube-timestamp 142}} add mirror, install
 		-
 		-
