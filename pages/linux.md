@@ -24,12 +24,14 @@ collapsed:: true
 	- ### #apt #flatpak
 		- ```cmd
 		  # apt
-		  
 		  sudo apt update |
 		  sudo apt list --upgradable |
 		  sudo apt upgrade
 		  
-		  # flatpak
+		  # flatpak, update all
+		  sudo flatpak update
+		  # flatpak, update single app
+		  sudo flatpak update --app org.gimp.GIMP
 		  ```
 	-
 	-
