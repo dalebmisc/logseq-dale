@@ -153,7 +153,7 @@
 		  :END:
 		- DONE logseq-mergepages-plugin, seems like this can be useful later for creating aliases and 'joining' pages with different names should that occur, more useful for work I suspect
 		- DONE calendar2 - decided not to bother getting a link to google calendar
-		- DONE toc - remove for now, see how the built in Contents feature works
+		- DONE toc - remove for now, see how the built in #Contents feature works
 		- DONE automatic links - doesn't seem to be working, try again later...
 			- ctrl + shift + L turns on auto parsing
 			- ctrp + p parses the block #pdf
