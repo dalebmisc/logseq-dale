@@ -47,7 +47,7 @@ collapsed:: true
 		  flatpak list
 		  
 		  # flatpak, changes made to flatpak installation over time
-		  flatpak history
+		  sudo flatpak history
 		  ```
 	-
 	- ### #flatpak
