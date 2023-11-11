@@ -154,9 +154,9 @@
 		- DONE logseq-mergepages-plugin, seems like this can be useful later for creating aliases and 'joining' pages with different names should that occur, more useful for work I suspect
 		- DONE calendar2 - decided not to bother getting a link to google calendar
 		- DONE toc - remove for now, see how the built in Contents feature works
-		- TODO automatic links - doesn't seem to be working, try again later...
+		- DONE automatic links - doesn't seem to be working, try again later...
 			- ctrl + shift + L turns on auto parsing
-			- ctrp + p parses the block pdf
+			- ctrp + p parses the block #pdf
 		- DONE helium - can be useful I believe
 			- Right-click the block the video is in, then select 'start float', then the video will now go past the top of the screen in case you are busy journaling under the video with a lot of text that would normally fill up the screen and push your video up and off the viewable area
 		- DONE git
@@ -197,4 +197,5 @@
 		  :LOGBOOK:
 		  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
 		  :END:
+			- drag pdf on
 			- ![A Dimensional Modeling Manifesto - Kimball Group.pdf](../assets/A_Dimensional_Modeling_Manifesto_-_Kimball_Group_1699671695610_0.pdf)
