@@ -297,6 +297,7 @@
 			- {{youtube-timestamp 474}} fetch mirrors, then pick the ones you want saved to settings, can run every month to keep the fastest on list
 				- ```terminal
 				  sudo nala fetch
+				  sudo nala update
 				  ```
 			- x
 				- x
