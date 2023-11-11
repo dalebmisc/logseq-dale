@@ -26,17 +26,5 @@
                                    :height 1361.5989159891599}),
                           :page 1},
                :content {:text "Dimensional modeling (DM) is the name of a logical design technique often used for data warehouses."},
-               :properties {:color "yellow"}}
-              {:id #uuid "654eeeff-2e93-448f-9a1d-0f858db56764",
-               :page 1,
-               :position {:bounding {:x1 32,
-                                     :y1 1282,
-                                     :x2 106,
-                                     :y2 1338,
-                                     :width 1069,
-                                     :height 1361.5989159891599},
-                          :rects (),
-                          :page 1},
-               :content {:text "[:span]", :image 1699671806900},
-               :properties {:color "yellow"}}],
+               :properties {:color "red"}}],
  :extra {:page 1}}
