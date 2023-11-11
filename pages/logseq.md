@@ -196,5 +196,6 @@
 		- adding link to #logseq, 2 methods:
 			- drag #pdf onto #logseq where you want the link to appear
 			- `/upload an asset`
-		-
+		- on the #pdf that appears
+			- highlight an area or block and it will add a reference to logseq with a link that takes you to that spot of the pdf
 		- ![A Dimensional Modeling Manifesto - Kimball Group.pdf](../assets/A_Dimensional_Modeling_Manifesto_-_Kimball_Group_1699671695610_0.pdf)
