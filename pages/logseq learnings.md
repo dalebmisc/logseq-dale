@@ -190,7 +190,7 @@
 				- This Is a [[Test]] of the Emergency Broadcast System
 				- This is a [[test]] of the emergency broadcast system
 		- DONE block calendar - removed as it just seems to navigate to a journal page when clicking a day.  I can do this with today's journal from the tool bar.
-		- TODO test linking to a part in a pdf
+		- DONE test linking to a part in a pdf
 		  :LOGBOOK:
 		  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
 		  :END:
