@@ -37,5 +37,7 @@ collapsed:: true
 	-
 	- ### #flatpak
 		- {{renderer :linkpreview,[Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#install-applications}})
-		- Install an application: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#install-applications)
-		- Update an application:
+		- Basic commands: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#basic-commands)
+			- Install an application: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#install-applications)
+			- Update an application: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#updating)
+			-
