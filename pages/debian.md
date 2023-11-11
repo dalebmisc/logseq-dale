@@ -290,12 +290,18 @@
 				- ```terminal
 				  nala install kitty
 				  ```
-			- {{youtube-timestamp 403}}
+			- {{youtube-timestamp 403}} undo changes from history
 				- ```terminal
 				  nala history
 				  sudo nala history undo 2
 				  ```
-			-
+			- {{youtube-timestamp 474}}
 				- x
+			- x
+				- x
+			- x
+				- x
+			- x
+			-
 			-
 	-
