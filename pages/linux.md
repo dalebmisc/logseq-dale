@@ -21,21 +21,15 @@ collapsed:: true
 	  ```
 	- Possible fstab entries
 - ## update packages
-	- ### #apt sudo apt update |
-	  sudo apt list --upgradable |
-	  sudo apt upgrade
-		- sudo apt update
-		-
-	- ### #flatpak
-		-
-	- ```cmd
-	  # apt
-	  
-	  sudo apt update |
-	  sudo apt list --upgradable |
-	  sudo apt upgrade
-	  
-	  # flatpak
-	  ```
+	- ### #apt #flatpak
+		- ```cmd
+		  # apt
+		  
+		  sudo apt update |
+		  sudo apt list --upgradable |
+		  sudo apt upgrade
+		  
+		  # flatpak
+		  ```
 	-
 	-
