@@ -278,5 +278,6 @@
 			  sudo apt update && sudo apt install nala
 			  ```
 			- ```cmd
+			  sudo nala upgrade
 			  ```
 		-
