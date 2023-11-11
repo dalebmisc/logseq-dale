@@ -127,7 +127,7 @@
 		      :collapsed? true}]}
 		  ```
 	- ### Queries {{renderer :todomaster}} #[[todo progress]]
-		- TODO look at the logseq site section on queries
+		- DONE look at the logseq site section on queries
 - ## #videos
   :LOGBOOK:
   CLOCK: [2023-11-04 Sat 07:11:36]--[2023-11-04 Sat 07:11:39] =>  00:00:03
