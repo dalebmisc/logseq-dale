@@ -270,5 +270,9 @@
 	- ## #nala
 		- {{video https://youtu.be/oroSkR4Nn_w?si=uBQ3yjCcEDry_NWY}}
 		- {{youtube-timestamp 142}} add mirror, install
+			- ```cmd
+			  echo "deb-src https://deb.volian.org/volian/ scar main" | sudo tee -a /etc/apt/sources.list.d/volian-archive-scar-unstable.list
+			  
+			  ```
 		-
 		-
