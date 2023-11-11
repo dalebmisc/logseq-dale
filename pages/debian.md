@@ -285,7 +285,6 @@
 				- ```terminal
 				  nala history
 				  ```
-				-
 			- {{youtube-timestamp 386}}  install
 				- ```terminal
 				  sudo nala install kitty
@@ -295,7 +294,7 @@
 				  nala history
 				  sudo nala history undo 2
 				  ```
-			- {{youtube-timestamp 474}} fetch mirrors
+			- {{youtube-timestamp 474}} fetch mirrors, then pick the ones you want saved to settings
 				- ```terminal
 				  sudo nala fetch
 				  ```
