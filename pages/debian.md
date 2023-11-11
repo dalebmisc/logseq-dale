@@ -288,15 +288,17 @@
 				-
 			- {{youtube-timestamp 386}}  install
 				- ```terminal
-				  nala install kitty
+				  sudo nala install kitty
 				  ```
 			- {{youtube-timestamp 403}} undo changes from history
 				- ```terminal
 				  nala history
 				  sudo nala history undo 2
 				  ```
-			- {{youtube-timestamp 474}}
-				- x
+			- {{youtube-timestamp 474}} fetch mirrors
+				- ```terminal
+				  sudo nala fetch
+				  ```
 			- x
 				- x
 			- x
