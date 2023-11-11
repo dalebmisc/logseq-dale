@@ -194,4 +194,4 @@
 		  :LOGBOOK:
 		  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
 		  :END:
-			-
+			- smb://dalesyn1.local/homes/dale/data%20warehouse,%20kimball/A%20Dimensional%20Modeling%20Manifesto%20-%20Kimball%20Group.pdf]]
