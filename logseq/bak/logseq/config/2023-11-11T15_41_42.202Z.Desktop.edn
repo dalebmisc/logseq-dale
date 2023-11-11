@@ -360,7 +360,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["python" "logseq" "inbox" "halloween" "the curse of oak island" "dairen" "learning" "linux" "open source" "templates" "logseq learnings" "todo" "todo progress" "vscode" "my-logseq-learnings-and-workflow"]
+ :favorites ["debian" "dairen" "halloween" "inbox" "learning" "linux" "logseq" "open source" "python" "templates" "logseq learnings" "the curse of oak island" "todo" "todo progress" "vscode" "my-logseq-learnings-and-workflow"]
 
  ;; Set flashcards interval.
  ;; Expected value:
