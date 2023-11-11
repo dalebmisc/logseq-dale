@@ -28,6 +28,9 @@ collapsed:: true
 	- ### #flatpak
 		-
 	- ```cmd
+	  sudo apt update |
+	  sudo apt list --upgradable |
+	  sudo apt upgrade
 	  ```
 	-
 	-
