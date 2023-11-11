@@ -40,4 +40,5 @@ collapsed:: true
 		- Basic commands: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#basic-commands)
 			- Install an application: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#install-applications)
 			- Update an application: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#updating)
-			-
+			- Remove an application: https://docs.flatpak.org/en/latest/using-flatpak.html#remove-an-application
+			- List installed applications: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#list-installed-applications)
