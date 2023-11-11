@@ -133,3 +133,7 @@
 		- users:
 			- admin, Jxi6Nxi9
 			- dale, Jxi6Nxi9
+		- jellyfin has a #linux app:
+		- ```
+		  flatpak install flathub org.jellyfin.JellyfinServer
+		  ```
