@@ -1,4 +1,5 @@
 - Possible fstab entries
+  collapsed:: true
 	- ```terminal
 	  UUID=ddb70c29-df61-4c48-996d-fb8a49533bc8 /media/dale/INT_SMSNG_1TB_1   ext4    defaults
 	  UUID=2c7c6199-b59e-4aa0-b010-ba181c73b7d0 /media/dale/INT_SMSNG_1TB_2   ext4    defaults
