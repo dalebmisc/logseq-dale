@@ -281,7 +281,7 @@
 			- ```cmd
 			  sudo nala upgrade
 			  ```
-			- x
+			-
 			- x
 			- x
 			- x
