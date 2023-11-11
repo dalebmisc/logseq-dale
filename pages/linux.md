@@ -35,4 +35,6 @@ collapsed:: true
 		  sudo flatpak update --app org.gimp.GIMP
 		  ```
 	-
-	-
+	- ### #flatpak
+		- {{renderer :linkpreview,[Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#install-applications}})
+		-
