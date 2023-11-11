@@ -267,3 +267,6 @@
 		  
 		  
 		  ```
+	- ## #nala
+		- video [Stop using APT - YouTube](https://www.youtube.com/watch?v=oroSkR4Nn_w)
+		-
