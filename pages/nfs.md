@@ -2,5 +2,8 @@
 	- #synology
 		- x
 	- #debian
-		- Ensure nfs is installed: sudo apt install nfs-common
+		- Ensure nfs is installed:
+		- ```cmd
+		  sudo apt install nfs-common
+		  ```
 		-
