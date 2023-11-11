@@ -277,5 +277,6 @@
 			  echo "deb-src [Files...](https://deb.volian.org/volian/) scar main" | sudo tee -a /etc/apt/sources.list.d/volian-archive-scar-unstable.list
 			  sudo apt update && sudo apt install nala
 			  ```
-		-
+			- ```cmd
+			  ```
 		-
