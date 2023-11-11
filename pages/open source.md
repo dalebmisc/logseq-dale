@@ -124,4 +124,7 @@
 			-
 		- Used ports 8097 and 8096
 		- Didn't map folders
-		-
+		- URL: [Jellyfin](http://192.168.86.47:8097)
+		- users:
+			- admin: root,
+			- dale:
