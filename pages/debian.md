@@ -299,11 +299,7 @@
 				  sudo nala fetch
 				  sudo nala update
 				  ```
-			- x
-				- x
-			- x
-				- x
-			- x
+			-
 			-
 			-
 	-
