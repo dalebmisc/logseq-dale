@@ -286,13 +286,16 @@
 				  nala history
 				  ```
 				-
+			- {{youtube-timestamp 386}}  install
+				- ```terminal
+				  nala install kitty
+				  ```
+			- {{youtube-timestamp 403}}
+				- ```terminal
+				  nala history
+				  sudo nala history undo 2
+				  ```
 			-
-				- ```terminal
-				  ```
-			- x
-				- ```terminal
-				  ```
-			- x
-			- x
+				- x
 			-
 	-
