@@ -92,4 +92,4 @@
                           :page 8},
                :content {:text "However, before data is packaged into its ﬁnal queryable format, it must be loaded into a dimensional model. The dimensional model is the only viable technique for achieving both user understandability and high query performance in the face of ever-changing user questions"},
                :properties {:color "green"}}],
- :extra {:page 3}}
+ :extra {:page 1}}
