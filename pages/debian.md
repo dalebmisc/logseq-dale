@@ -278,11 +278,14 @@
 			  sudo apt update && sudo apt install nala
 			  ```
 			- {{youtube-timestamp 190}}  upgrade
-			- ```cmd
-			  sudo nala upgrade
-			  ```
-			-
 				- ```cmd
+				  sudo nala upgrade
+				  ```
+			- {{youtube-timestamp 369}}
+				- ```terminal
+				  sudo 
+				  ```
+				-
 			- x
 			- x
 			- x
