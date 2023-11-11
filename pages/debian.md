@@ -282,7 +282,7 @@
 			  sudo nala upgrade
 			  ```
 			-
-			- x
+				- ```cmd
 			- x
 			- x
 			- x
