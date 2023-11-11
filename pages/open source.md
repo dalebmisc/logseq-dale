@@ -126,5 +126,5 @@
 		- Didn't map folders
 		- URL: [Jellyfin](http://192.168.86.47:8097)
 		- users:
-			- admin: root,
-			- dale:
+			- admin, Jxi6Nxi9
+			- dale, Jxi6Nxi9
