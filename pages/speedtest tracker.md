@@ -3,7 +3,7 @@
 	- synology package file station, dalesyn1, docker, create folder 'speedtesttracker'
 	- great helper video
 		- {{renderer :linkpreview,[How to Install Speedtest Tracker on Your Synology NAS with Docker](https://neellik.com/install-speed-test-tracker-on-your-synology-nas/#portainer_speedtesttracker}})
-	- [[synology ssh]] into docker as per the above instructions I enter the following to create the docker container, these are the 'using docker' instructions on the GitHub site so just get the latest from there.
+	- [[synology ssh]] into docker as per the above instructions I enter the following to create the docker container, these are the 'using docker' instructions on the #GitHub site so just get the latest from there.
 		- sudo docker run -d   --name=speedtesttracker   -e PUID=1026   
 		  -e PGID=100   -p 8788:80   -e TZ=Europe/London   -e OOKLA_EULA_GDPR=true   -v /volume1/doc
 		  ker/speedtesttracker:/config   --restart always   henrywhitaker3/speedtest-tracker

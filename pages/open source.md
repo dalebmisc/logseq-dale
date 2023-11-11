@@ -14,15 +14,11 @@
 	- TODO [25:07](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1507s) Pi-Alert - Notification of New Network Devices
 	- DONE [26:05](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1565s) #[[Speedtest Tracker]]
 	- TODO [27:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1655s) Uptime Kuma - Status / Uptime Monitor
-	- TODO [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) Home Assistant
+	- TODO [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) #[[Home Assistant]]
 	- TODO [31:11](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1871s) Mail-in-a-box - Self Hosted Email
 	- TODO [32:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1953s) OpenSprinkler
 	- DONE #jellyfin
 	-
-	- [[home assistant]]
-		- ssh into synology
-			- script
-				- **sudo docker run -d --name=home_assistant -e TZ=Canada/Saskatchewan -v /volume1/docker/homeassistant:/config --net=host --restart always homeassistant/home-assistant**
 	- #jellyfin #synology
 		- Followed #chatgpt instructions:
 		  collapsed:: true

@@ -1,0 +1,3 @@
+- ssh into synology
+	- script
+		- **sudo docker run -d --name=home_assistant -e TZ=Canada/Saskatchewan -v /volume1/docker/homeassistant:/config --net=host --restart always homeassistant/home-assistant**
