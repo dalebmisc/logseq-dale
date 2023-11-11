@@ -57,6 +57,8 @@
 		- Add to config.edn and they show on journal {{renderer :todomaster}} #[[todo progress]]
 			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
 			- TODO look up some default queries
+		- ```edn
+		  ```
 	- ### Queries {{renderer :todomaster}} #[[todo progress]]
 		- TODO look at the logseq site section on queries
 - ## #videos
