@@ -195,4 +195,3 @@
 		  CLOCK: [2023-11-04 Sat 18:59:36]--[2023-11-04 Sat 18:59:37] =>  00:00:01
 		  :END:
 			- ![A Dimensional Modeling Manifesto - Kimball Group.pdf](../assets/A_Dimensional_Modeling_Manifesto_-_Kimball_Group_1699671695610_0.pdf)
-				-
