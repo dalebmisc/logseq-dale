@@ -22,4 +22,6 @@ collapsed:: true
 	- Possible fstab entries
 - ## update packages
 	- sudo apt update
+	- sudo apt
 	- sudo apt upgrade
+	-
