@@ -228,6 +228,7 @@
 		  
 		  ```
 	- Additional setup:
+	  collapsed:: true
 		- ```terminal
 		  sudo apt install flatpak gnome-software-plugin-flatpak
 		  sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
