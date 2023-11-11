@@ -270,8 +270,9 @@
 	- ## #nala
 		- {{video https://youtu.be/oroSkR4Nn_w?si=uBQ3yjCcEDry_NWY}}
 		- {{youtube-timestamp 142}} add mirror, install
+			- Go to website and download and install the deb packages with keys
 			- ```cmd
-			  echo "deb-src https://deb.volian.org/volian/ scar main" | sudo tee -a /etc/apt/sources.list.d/volian-archive-scar-unstable.list
+			  echo "deb-src [Files...](https://deb.volian.org/volian/) scar main" | sudo tee -a /etc/apt/sources.list.d/volian-archive-scar-unstable.list
 			  
 			  ```
 		-
