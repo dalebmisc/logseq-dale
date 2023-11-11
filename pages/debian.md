@@ -294,7 +294,7 @@
 				  nala history
 				  sudo nala history undo 2
 				  ```
-			- {{youtube-timestamp 474}} fetch mirrors, then pick the ones you want saved to settings
+			- {{youtube-timestamp 474}} fetch mirrors, then pick the ones you want saved to settings, can run every month to keep the fastest on list
 				- ```terminal
 				  sudo nala fetch
 				  ```
