@@ -283,13 +283,15 @@
 				  ```
 			- {{youtube-timestamp 369}}
 				- ```terminal
-				  sudo 
+				  nala history
 				  ```
 				-
+			-
+				- ```terminal
+				  ```
 			- x
-			- x
-			- x
-			- x
+				- ```terminal
+				  ```
 			- x
 			- x
 			-
