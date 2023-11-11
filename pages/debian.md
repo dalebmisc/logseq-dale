@@ -268,7 +268,6 @@
 		  
 		  ```
 	- ## #nala
-		- video [Stop using APT - YouTube](https://www.youtube.com/watch?v=oroSkR4Nn_w)
-		- [Stop using APT - YouTube](https://youtu.be/oroSkR4Nn_w?si=uBQ3yjCcEDry_NWY)
+		- {{video https://youtu.be/oroSkR4Nn_w?si=uBQ3yjCcEDry_NWY}}
 		-
 		-
