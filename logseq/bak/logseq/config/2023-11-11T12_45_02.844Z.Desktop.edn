@@ -20,7 +20,7 @@
  ;; Define the default journal page template.
  ;; Enter the template name between the quotes.
  :default-templates
- {:journals ""}
+ {:journals "Daily Template"}
 
  ;; Set a custom date format for the journal page title.
  ;; Default value: "MMM do, yyyy"
@@ -89,7 +89,7 @@
  ;; Available options:
  ;;  - integer from 0 to 6 (Monday to Sunday)
  ;; Default value: 6 (Sunday)
- :start-of-week 6
+ :start-of-week 0
 
  ;; Specify a custom CSS import.
  ;; This option takes precedence over the local `logseq/custom.css` file.
@@ -207,7 +207,7 @@
  ;; The "NOW" query returns tasks with "NOW" or "DOING" status.
  ;; The "NEXT" query returns tasks with "NOW", "LATER", or "TODO" status.
  :default-queries
- {:journals
+  {:journals
   [{:title "🔨 NOW"
     :query [:find (pull ?h [*])
             :in $ ?start ?today
@@ -238,7 +238,75 @@
             [(< ?d ?next)]]
     :inputs [:today :7d-after]
     :group-by-page? false
-    :collapsed? false}]}
+    :collapsed? false}
+    ; new queries to try
+   {:title "📅 NEXT2"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/marker ?marker]
+            [(contains? #{"NOW" "LATER" "TODO"} ?marker)]
+            ; I want to see TODOs from all pages, not just journals
+            ; and I ignore start and limit, just show all.
+            ; [?h :block/page ?p]
+            ; [?p :block/journal? true]
+            ; [?p :block/journal-day ?d]
+            ; [(>= ?d ?start)]
+            ; [(< ?d ?limit)]
+	]
+    :inputs [:100d :7d-after]
+    :collapsed? false}
+   {:title "🔨 Ongoing tasks"
+    :query [:find (pull ?h [*])
+            :where
+            [?h :block/marker ?m]
+            [(contains? #{"NOW" "DOING"} ?m)]]
+    :collapsed? false}
+   {:title "🗓 Incoming tasks"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?next
+            :where
+            [?h :block/marker ?m]
+            [(contains? #{"LATER" "TODO"} ?m)]
+            (or-join [?h ?d]
+              (and
+                [?h :block/page ?p]
+                [?p :block/journal? true]
+                [?p :block/journal-day ?d])
+              [?h :block/scheduled ?d]
+              [?h :block/deadline ?d])
+            [(> ?d ?start)]
+            [(< ?d ?next)]]
+    :inputs [:today :7d-after]
+    :collapsed? false}
+   {:title "🧰 Now3"
+    :query [:find (pull ?b [*])
+            :where
+            (task ?b #{"NOW" "DOING"})]
+    :collapsed? false}
+   {:title "📅 Queued up"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?next
+            :where
+            [?h :block/marker ?marker]
+            [(contains? #{"LATER" "TODO"} ?marker)]
+            (or-join [?h ?d]
+              (and
+                [?h :block/ref-pages ?p]
+                [?p :block/journal? true]
+                [?p :block/journal-day ?d])
+              [?h :block/scheduled ?d]
+              [?h :block/deadline ?d])
+            (or
+              [(> ?d ?start)]
+              [(< ?d ?next)])]
+    :inputs [:730d-before :21d-after]
+    :collapsed? false}
+   {:title "⏳ Waiting"
+    :query [:find (pull ?b [*])
+            :where
+            (task ?b #{"WAITING"})]
+    :collapsed? true}]}
 
  ;; Add custom commands to the command palette
  ;; Example usage:
@@ -292,7 +360,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["my-logseq-learnings-and-workflow" "TODO"]
+ :favorites ["python" "logseq" "inbox" "halloween" "the curse of oak island" "todo progress" "learning" "vscode" "templates" "logseq learnings" "open source" "linux" "dairen" "todo" "my-logseq-learnings-and-workflow"]
 
  ;; Set flashcards interval.
  ;; Expected value:
