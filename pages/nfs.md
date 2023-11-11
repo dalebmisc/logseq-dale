@@ -1,4 +1,10 @@
 ## Setup nfs between #debian and #logseq
+	- #debian
+		- Ensure nfs is installed:
+		- ```cmd
+		  sudo apt install nfs-common
+		  ```
+		-
 	- #synology
 		- ```chatgpt
 		  You
@@ -103,9 +109,3 @@
 		  Regularly backup important data from your NFS shares.
 		  You should now have a functional NFS setup between your Synology NAS and your Debian Linux machine. If you encounter any issues or need further assistance, feel free to ask!
 		  ```
-	- #debian
-		- Ensure nfs is installed:
-		- ```cmd
-		  sudo apt install nfs-common
-		  ```
-		-
