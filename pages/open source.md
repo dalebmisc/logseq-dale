@@ -63,8 +63,11 @@
 							  Keep your token secure and store it safely, it can be used by anyone to control your bot.
 							- For a description of the Bot API, see this page:tr
 								- {{renderer :linkpreview,[Page not found](https://core.telegram.org/bots/api}})
-		- [[home assistant]]
-			- ssh into synology
-				- script
-					- **sudo docker run -d --name=home_assistant -e TZ=Canada/Saskatchewan -v /volume1/docker/homeassistant:/config --net=host --restart always homeassistant/home-assistant**
-	-
+	- [[home assistant]]
+		- ssh into synology
+			- script
+				- **sudo docker run -d --name=home_assistant -e TZ=Canada/Saskatchewan -v /volume1/docker/homeassistant:/config --net=host --restart always homeassistant/home-assistant**
+	- #jellyfin #synology
+		-
+		-
+-
