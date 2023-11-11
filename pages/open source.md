@@ -18,6 +18,7 @@
 	- TODO [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) Home Assistant
 	- TODO [31:11](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1871s) Mail-in-a-box - Self Hosted Email
 	- TODO [32:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1953s) OpenSprinkler
+	- TODO
 	-
 	- [[portainer]]
 		- Install on synology as I want to install [[speedtest tracker]] which runs in a docker container and since it runs every hour and logs internet speed I want to put it on [[synology]].
