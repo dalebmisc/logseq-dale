@@ -56,8 +56,75 @@
 	- ### Default queries
 		- Add to config.edn and they show on journal {{renderer :todomaster}} #[[todo progress]]
 			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
-			- TODO look up some default queries
+			- DONE look up some default queries
 		- ```edn
+		     {:title "📅 NEXT2"
+		      :query [:find (pull ?h [*])
+		              :in $ ?start ?limit
+		              :where
+		              [?h :block/marker ?marker]
+		              [(contains? #{"NOW" "LATER" "TODO"} ?marker)]
+		              ; I want to see TODOs from all pages, not just journals
+		              ; and I ignore start and limit, just show all.
+		              ; [?h :block/page ?p]
+		              ; [?p :block/journal? true]
+		              ; [?p :block/journal-day ?d]
+		              ; [(>= ?d ?start)]
+		              ; [(< ?d ?limit)]
+		  	]
+		      :inputs [:100d :7d-after]
+		      :collapsed? false}
+		     {:title "🔨 Ongoing tasks"
+		      :query [:find (pull ?h [*])
+		              :where
+		              [?h :block/marker ?m]
+		              [(contains? #{"NOW" "DOING"} ?m)]]
+		      :collapsed? false}
+		     {:title "🗓 Incoming tasks"
+		      :query [:find (pull ?h [*])
+		              :in $ ?start ?next
+		              :where
+		              [?h :block/marker ?m]
+		              [(contains? #{"LATER" "TODO"} ?m)]
+		              (or-join [?h ?d]
+		                (and
+		                  [?h :block/page ?p]
+		                  [?p :block/journal? true]
+		                  [?p :block/journal-day ?d])
+		                [?h :block/scheduled ?d]
+		                [?h :block/deadline ?d])
+		              [(> ?d ?start)]
+		              [(< ?d ?next)]]
+		      :inputs [:today :7d-after]
+		      :collapsed? false}
+		     {:title "🧰 Now3"
+		      :query [:find (pull ?b [*])
+		              :where
+		              (task ?b #{"NOW" "DOING"})]
+		      :collapsed? false}
+		     {:title "📅 Queued up"
+		      :query [:find (pull ?h [*])
+		              :in $ ?start ?next
+		              :where
+		              [?h :block/marker ?marker]
+		              [(contains? #{"LATER" "TODO"} ?marker)]
+		              (or-join [?h ?d]
+		                (and
+		                  [?h :block/ref-pages ?p]
+		                  [?p :block/journal? true]
+		                  [?p :block/journal-day ?d])
+		                [?h :block/scheduled ?d]
+		                [?h :block/deadline ?d])
+		              (or
+		                [(> ?d ?start)]
+		                [(< ?d ?next)])]
+		      :inputs [:730d-before :21d-after]
+		      :collapsed? false}
+		     {:title "⏳ Waiting"
+		      :query [:find (pull ?b [*])
+		              :where
+		              (task ?b #{"WAITING"})]
+		      :collapsed? true}]}
 		  ```
 	- ### Queries {{renderer :todomaster}} #[[todo progress]]
 		- TODO look at the logseq site section on queries
