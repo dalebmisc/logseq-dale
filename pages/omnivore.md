@@ -1,5 +1,18 @@
 ## 🔖 Articles
+	- The ONE book every developer MUST read! - DEV Community](https://omnivore.app/me/the-one-book-every-developer-must-read-dev-community-18bc48c4b24)
+	  collapsed:: true
+	  site:: [DEV Community](https://dev.to/lukegarrigan/the-one-book-every-developer-must-read-33p9)
+	  author:: Luke Garrigan
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Aug 24th, 2019]]
+	- Python Libraries For Data Science](https://omnivore.app/me/python-libraries-for-data-science-18bc48c4a80)
+	  collapsed:: true
+	  site:: [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2019/07/dont-miss-out-24-amazing-python-libraries-data-science/)
+	  author:: Shubham Singh
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Jul 4th, 2019]]
 	- Top Python Resources for Beginners | HackerNoon](https://omnivore.app/me/top-python-resources-for-beginners-hacker-noon-18bc48d1b49)
+	  collapsed:: true
 	  site:: [hackernoon.com](https://hackernoon.com/top-python-resources-for-beginners-yi6h3yh0)
 	  author:: Cyril Michino
 	  date-saved:: [[Nov 12th, 2023]]
@@ -6899,6 +6912,7 @@
 	  labels:: [[sent to logseq]] [[eda]]
 	  date-saved:: [[Nov 12th, 2023]]
 	- Powerful Exploratory Data Analysis in just two lines of code - KDnuggets](https://omnivore.app/me/powerful-exploratory-data-analysis-in-just-two-lines-of-code-k-d-18bc48bedbf)
+	  collapsed:: true
 	  site:: [KDnuggets](https://www.kdnuggets.com/2021/02/powerful-exploratory-data-analysis-sweetviz.html)
 	  labels:: [[sent to logseq]]
 	  date-saved:: [[Nov 12th, 2023]]
