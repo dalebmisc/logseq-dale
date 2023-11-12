@@ -1,3 +1,3 @@
 /* Color names https://www.w3schools.com/cssref/css_colors.asp */
 a.tag[data-ref="dairen"] { background-color: purple !important; }
-a.tag[data-ref="dairen"] { background-color: gold !important; color: black !important; }
+a.tag[data-ref="test"] { background-color: gold !important; color: black !important; }
