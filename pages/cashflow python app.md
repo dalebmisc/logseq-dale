@@ -15,6 +15,8 @@
 		- ```terminal
 		  #!/bin/bash
 		  
+		  # launch_cashflow.sh
+		  
 		  # Create conda environment
 		  conda create --name cashflow python=3.12
 		  
