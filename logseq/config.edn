@@ -208,7 +208,13 @@
  ;; The "NEXT" query returns tasks with "NOW", "LATER", or "TODO" status.
  :default-queries
   {:journals
-  [{:title "🔨 NOW"
+  [
+   {:title "🧰 OnIt"
+    :query [:find (pull ?b [*])
+            :where
+            (task ?b #{"NOW" "DOING"})]
+    :collapsed? false}
+   {:title "🔨 NOW"
     :query [:find (pull ?h [*])
             :in $ ?start ?today
             :where
