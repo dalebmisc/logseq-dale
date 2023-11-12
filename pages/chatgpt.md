@@ -1,5 +1,5 @@
 - Custom instructions
-	- General
+	- About me
 		- ```chatgpt
 		  I am Canadian.
 		  My employer: government financial institution that lends money. 
