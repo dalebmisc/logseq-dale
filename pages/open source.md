@@ -17,7 +17,7 @@
 	- TODO [20:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1235s) Remotely - Remote Support Tool
 	- TODO [21:54](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1314s) Guacamole - Remote Desktop in the Browser
 	- TODO [24:12](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1452s) Pi-hole - Ad-blockingDNS
-	- TODO [25:07](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1507s) Pi-Alert - Notification of New Network Devices
+	- TODO [25:07](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1507s) Pi-Alert - Notification of New Network Devicestr
 	- DONE [26:05](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1565s) #[[Speedtest Tracker]]
 	- TODO [27:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1655s) Uptime Kuma - Status / Uptime Monitor
 	- DOING [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) #[[Home Assistant]]
