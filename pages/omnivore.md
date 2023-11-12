@@ -1,4 +1,11 @@
 ## 🔖 Articles
+	- Understanding Cross Validation in Scikit-Learn with cross_validate - Pierian Training](https://omnivore.app/me/understanding-cross-validation-in-scikit-learn-with-cross-valida-18bc48d47a0)
+	  collapsed:: true
+	  site:: [Pierian Training](https://pieriantraining.com/understanding-cross-validation-in-scikit-learn-with-cross_validate/)
+	  author:: Pierian Training
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Apr 12th, 2023]]
 	- 🎢 Introduction to Exploratory Data Analysis | Kaggle](https://omnivore.app/me/introduction-to-exploratory-data-analysis-kaggle-18bc48d47c7)
 	  collapsed:: true
 	  site:: [kaggle.com](https://www.kaggle.com/code/robikscube/introduction-to-exploratory-data-analysis/notebook)
