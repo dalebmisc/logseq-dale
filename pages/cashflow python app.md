@@ -39,6 +39,12 @@
 			  Run the Script:
 			  
 			  Execute the script by running ./launch_cashflow.sh in your terminal.
+			  
+			  Notes:
+			  Python Version: Adjust the Python version in the script if needed.
+			  Package Versions: If specific versions of packages are required, specify them in the install commands (e.g., pip install pandas==1.3.0).
+			  Conda Activation: If conda activate doesn't work in the script, you might need to initialize Conda in your shell or use source activate depending on your Conda setup.
+			  Script Location: Ensure that cashflow.py is in the directory where you run the script, or provide the full path to the file in the script.
 			  ```
 		- desktop shortcut: cashflows.desktop
 			- ```linux
