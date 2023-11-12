@@ -13,4 +13,5 @@
 	  CLOCK: [2023-11-12 Sun 12:47:57]
 	  :END:
 		- ```terminal
+		  conda create --name cashflow python=3.
 		  ```
