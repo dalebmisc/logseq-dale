@@ -1,2 +1,3 @@
 /* Color names https://www.w3schools.com/cssref/css_colors.asp */
 a.tag[data-ref="test"] { background-color: green !important; }
+a.tag[data-ref="dairen"] { background-color: red !important; color: black !important; }
