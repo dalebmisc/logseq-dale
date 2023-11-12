@@ -7,7 +7,8 @@
 		- Looks #like a nice way to organize apps but not something I want to spend time on...
 	- TODO [05:58](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=358s) Metabase - No Code Data Analytics
 	- DONE [07:30](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=450s) #portainer
-	- TODO [11:01](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=661s) Proxmox - Virtualiation Orchestrator
+	- DONE [11:01](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=661s) Proxmox - Virtualiation Orchestrator
+		- For now I will use what I have...
 	- DONE [13:02](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=782s) NGinX Proxy Manager
 		- No need at this time
 	- DONE [14:31](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=871s) MeshCentral - Remote Machine Management
