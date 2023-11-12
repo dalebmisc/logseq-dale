@@ -24,8 +24,9 @@
 		- No need for this #type of tool at the moment
 	- TODO [24:12](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1452s) Pi-hole - Ad-blockingDNS
 	- TODO [25:07](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1507s) Pi-Alert - Notification of New Network Devices
+		- Looks useful but won't spend time on it
 	- DONE [26:05](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1565s) #[[Speedtest Tracker]]
-	- DONE [27:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1655s) Uptime Kuma - Status / Uptime Monitor
+	- DONE [27:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1655s) Uptime Kuma - #Status / Uptime Monitor
 	  :LOGBOOK:
 	  CLOCK: [2023-11-12 Sun 12:36:22]--[2023-11-12 Sun 12:36:25] =>  00:00:03
 	  :END:
