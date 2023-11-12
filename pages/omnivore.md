@@ -1,4 +1,65 @@
 ## 🔖 Articles
+	- Z Test Statistics Formula & Python Implementation | by Angel Das | Towards Data Science](https://omnivore.app/me/z-test-statistics-formula-python-implementation-by-angel-das-tow-18bc48d428f)
+	  collapsed:: true
+	  site:: [Towards Data Science](https://towardsdatascience.com/z-test-statistics-formula-python-implementation-3755d67ba0e7)
+	  author:: Angel Das
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Nov 8th, 2022]]
+	- ChatGPT API Python Guide - Pierian Training](https://omnivore.app/me/chat-gpt-api-python-guide-pierian-training-18bc48d426a)
+	  collapsed:: true
+	  site:: [Pierian Training](https://pieriantraining.com/chatgpt-api-python-guide/)
+	  author:: Pierian Training
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[May 29th, 2023]]
+	- AI Stock Trading Platform | Automated Trading | Pluto](https://omnivore.app/me/ai-stock-trading-platform-automated-trading-pluto-18bc48d3ce4)
+	  collapsed:: true
+	  site:: [Pluto](https://www.pluto.fi)
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	- Creating a date dimension table in PostgreSQL | by duffn | Medium](https://omnivore.app/me/creating-a-date-dimension-table-in-postgre-sql-by-duffn-medium-18bc48d28f7)
+	  collapsed:: true
+	  site:: [Medium](https://duffn.medium.com/creating-a-date-dimension-table-in-postgresql-af3f8e2941ac)
+	  author:: duffn
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Apr 22nd, 2016]]
+	- Exploring an Alternative to Jupyter Notebooks for Python Development - Practical Business Python](https://omnivore.app/me/exploring-an-alternative-to-jupyter-notebooks-for-python-develop-18bc48d241a)
+	  collapsed:: true
+	  site:: [pbpython.com](https://pbpython.com/notebook-alternative.html)
+	  author:: Chris Moffitt
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[May 3rd, 2020]]
+	- Useful Queries For PostgreSQL Index Maintenance](https://omnivore.app/me/useful-queries-for-postgre-sql-index-maintenance-18bc48d222e)
+	  collapsed:: true
+	  site:: [Percona Database Performance Blog](https://www.percona.com/blog/2020/03/31/useful-queries-for-postgresql-index-maintenance/)
+	  author:: Ibrar Ahmed
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Mar 31st, 2020]]
+	- Refactoring With Tests in Python: a Practical Example | HackerNoon](https://omnivore.app/me/refactoring-with-tests-in-python-a-practical-example-hacker-noon-18bc48d1f12)
+	  collapsed:: true
+	  site:: [hackernoon.com](https://hackernoon.com/refactoring-with-tests-in-python-a-practical-example-x3oj24jt)
+	  author:: The Digital Cat
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Apr 10th, 2020]]
+	- 4 Markdown tools for the Linux command line | Opensource.com](https://omnivore.app/me/4-markdown-tools-for-the-linux-command-line-opensource-com-18bc48d0481)
+	  collapsed:: true
+	  site:: [Opensource.com](https://opensource.com/article/20/3/markdown-apps-linux-command-line)
+	  author:: Scott Nesbitt
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Mar 18th, 2020]]
+	- Install Synaptic Package Manager on you Chromebook](https://omnivore.app/me/install-synaptic-package-manager-on-you-chromebook-18bc48d03c3)
+	  collapsed:: true
+	  site:: [Chrome Unboxed - The Latest Chrome OS News](https://chromeunboxed.com/install-synaptic-package-manager-on-you-chromebook/)
+	  author:: Gabriel Brangers
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Feb 29th, 2020]]
 	- Techniques to Write Better Python Code - MachineLearningMastery.com](https://omnivore.app/me/techniques-to-write-better-python-code-machine-learning-mastery--18bc48d45ba)
 	  collapsed:: true
 	  site:: [MachineLearningMastery.com](https://machinelearningmastery.com/techniques-to-write-better-python-code/)
