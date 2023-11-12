@@ -14,8 +14,10 @@
 		- Can run docker and kubernetes apps
 	- DONE [19:09](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1149s) Vaultwarden - Password Manager
 		- Looks good for the future if for some reason I stop using BitWarden and Proton Pass
-	- TODO [20:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1235s) Remotely - Remote Support Tool
-	- TODO [21:54](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1314s) Guacamole - Remote Desktop in the Browser
+	- DONE [20:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1235s) Remotely - Remote Support Tool
+		- No need for this #type of tool at the moment
+	- DONE [21:54](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1314s) Guacamole - Remote Desktop in the Browser
+		- No need for this type of tool at the moment
 	- TODO [24:12](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1452s) Pi-hole - Ad-blockingDNS
 	- TODO [25:07](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1507s) Pi-Alert - Notification of New Network Devicestr
 	- DONE [26:05](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1565s) #[[Speedtest Tracker]]

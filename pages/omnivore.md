@@ -6890,7 +6890,7 @@
 	- Getting Started with Omnivore](https://omnivore.app/me/getting-started-with-omnivore)
 	  collapsed:: true
 	  site:: [Omnivore Blog](https://blog.omnivore.app/p/getting-started-with-omnivore)
-	  author:: The Omnivore Team
+	  author:: The #Omnivore Team
 	  labels:: [[sent to logseq]]
 	  date-saved:: [[Nov 11th, 2023]]
 	  date-published:: [[Oct 12th, 2021]]
