@@ -29,6 +29,13 @@
 		  # Run the streamlit app
 		  streamlit run cashflow.py
 		  ```
+			- ### Instructions to Use the Script:
+				- **Save the Script**: Copy the above script into a file named `launch_cashflow.sh`.
+				- **Make the Script Executable**:
+					- Run `chmod +x launch_cashflow.sh` in your terminal. This command makes the script executable.
+			- -
+			- **Run the Script**:
+			- Execute the script by running `./launch_cashflow.sh` in your terminal.
 		- desktop shortcut: cashflows.desktop
 			- ```linux
 			  [Desktop Entry]
