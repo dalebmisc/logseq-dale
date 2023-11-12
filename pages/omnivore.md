@@ -1,4 +1,11 @@
 ## 🔖 Articles
+	- Prioritizing simplicity in your Python code | Opensource.com](https://omnivore.app/me/prioritizing-simplicity-in-your-python-code-opensource-com-18bc48d0328)
+	  collapsed:: true
+	  site:: [Opensource.com](https://opensource.com/article/19/12/zen-python-simplicity-complexity)
+	  author:: Moshe Zadka
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Dec 22nd, 2019]]
 	- Understanding Cross Validation in Scikit-Learn with cross_validate - Pierian Training](https://omnivore.app/me/understanding-cross-validation-in-scikit-learn-with-cross-valida-18bc48d47a0)
 	  collapsed:: true
 	  site:: [Pierian Training](https://pieriantraining.com/understanding-cross-validation-in-scikit-learn-with-cross_validate/)
