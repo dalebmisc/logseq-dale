@@ -268,7 +268,7 @@
                         (sort-by (fn [h]
                                    (get h :block/priority "Z")) result))
     :group-by-page? false
-    :inputs [:100d :7d-after]
+    :inputs [:100d :14d-after]
     :collapsed? false}
 ;   {:title "🔨 Ongoing tasks"
 ;    :query [:find (pull ?h [*])
