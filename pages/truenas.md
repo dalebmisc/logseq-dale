@@ -1,0 +1,3 @@
+- Install video:
+	- {{video https://youtu.be/Wya16ef1G-E?si=BcGp70uZhC59EsVG}}
+-
