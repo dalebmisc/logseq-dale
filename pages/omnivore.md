@@ -1,11 +1,25 @@
 ## 🔖 Articles
-	- Prioritizing simplicity in your Python code | Opensource.com](https://omnivore.app/me/prioritizing-simplicity-in-your-python-code-opensource-com-18bc48d0328)
+	- Techniques to Write Better Python Code - MachineLearningMastery.com](https://omnivore.app/me/techniques-to-write-better-python-code-machine-learning-mastery--18bc48d45ba)
 	  collapsed:: true
+	  site:: [MachineLearningMastery.com](https://machinelearningmastery.com/techniques-to-write-better-python-code/)
+	  author:: Adrian Tam
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Apr 29th, 2022]]
+	- Exploratory Data Analysis: The Ultimate Workflow | by Arthur Mello | Level Up Coding](https://omnivore.app/me/exploratory-data-analysis-the-ultimate-workflow-by-arthur-mello--18bc48d4394)
+	  collapsed:: true
+	  site:: [Level Up Coding](https://levelup.gitconnected.com/exploratory-data-analysis-the-ultimate-workflow-a82b1d21f747)
+	  author:: Arthur Mello
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Apr 20th, 2023]]
+	- Prioritizing simplicity in your Python code | Opensource.com](https://omnivore.app/me/prioritizing-simplicity-in-your-python-code-opensource-com-18bc48d0328)
 	  site:: [Opensource.com](https://opensource.com/article/19/12/zen-python-simplicity-complexity)
 	  author:: Moshe Zadka
 	  labels:: [[sent to logseq]]
 	  date-saved:: [[Nov 12th, 2023]]
 	  date-published:: [[Dec 22nd, 2019]]
+	  collapsed:: true
 	- Understanding Cross Validation in Scikit-Learn with cross_validate - Pierian Training](https://omnivore.app/me/understanding-cross-validation-in-scikit-learn-with-cross-valida-18bc48d47a0)
 	  collapsed:: true
 	  site:: [Pierian Training](https://pieriantraining.com/understanding-cross-validation-in-scikit-learn-with-cross_validate/)
