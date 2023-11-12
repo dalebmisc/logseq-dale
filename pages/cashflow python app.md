@@ -12,3 +12,5 @@
 	  :LOGBOOK:
 	  CLOCK: [2023-11-12 Sun 12:47:57]
 	  :END:
+		- ```terminal
+		  ```
