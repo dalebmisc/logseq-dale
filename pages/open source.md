@@ -1,8 +1,8 @@
 - check out open source software {{renderer :todomaster}}{{video https://www.youtube.com/watch?v=oLrwk07zZ0Y}}
   id:: 6547d4bb-5ed8-4b47-ba06-ad255a3275a1
-	- DOING [04:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=273s) Dashy - Browser Dash and Shortcuts
+	- TODO [04:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=273s) Dashy - Browser Dash and Shortcuts
 	  :LOGBOOK:
-	  CLOCK: [2023-11-12 Sun 06:50:51]
+	  CLOCK: [2023-11-12 Sun 06:50:51]--[2023-11-12 Sun 10:59:54] =>  04:09:03
 	  :END:
 	- TODO [05:58](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=358s) Metabase - No Code Data Analytics
 	- DONE [07:30](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=450s) #portainer
