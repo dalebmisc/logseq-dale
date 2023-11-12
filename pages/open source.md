@@ -30,7 +30,8 @@
 	  :LOGBOOK:
 	  CLOCK: [2023-11-12 Sun 11:00:34]--[2023-11-12 Sun 12:17:21] =>  01:16:47
 	  :END:
-	- TODO [31:11](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1871s) Mail-in-a-box - Self Hosted Email
+	- DONE [31:11](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1871s) Mail-in-a-box - Self Hosted Email
+		- For now, see how proton works
 	- DONE [32:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1953s) OpenSprinkler
 		- Not relevant for me so won't look at this
 	- DONE #jellyfin
