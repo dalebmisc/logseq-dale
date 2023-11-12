@@ -266,12 +266,12 @@
 	]
     :inputs [:100d :7d-after]
     :collapsed? false}
-   {:title "🔨 Ongoing tasks"
-    :query [:find (pull ?h [*])
-            :where
-            [?h :block/marker ?m]
-            [(contains? #{"NOW" "DOING"} ?m)]]
-    :collapsed? false}
+;   {:title "🔨 Ongoing tasks"
+;    :query [:find (pull ?h [*])
+;            :where
+;            [?h :block/marker ?m]
+;            [(contains? #{"NOW" "DOING"} ?m)]]
+;    :collapsed? false}
    {:title "🗓 Incoming tasks"
     :query [:find (pull ?h [*])
             :in $ ?start ?next
@@ -311,23 +311,7 @@
     :query [:find (pull ?b [*])
             :where
             (task ?b #{"WAITING"})]
-    :collapsed? true}
-   {:title "📅 MyInbox"
-    :query [:find (pull ?h [*])
-            :in $ ?start ?limit
-            :where
-            [?h :block/marker ?marker]
-            [(contains? #{"INBOX"} ?marker)]
-            ; I want to see TODOs from all pages, not just journals
-            ; and I ignore start and limit, just show all.
-            ; [?h :block/page ?p]
-            ; [?p :block/journal? true]
-            ; [?p :block/journal-day ?d]
-            ; [(>= ?d ?start)]
-            ; [(< ?d ?limit)]
-	]
-    :inputs [:100d :7d-after]
-    :collapsed? false}]}
+    :collapsed? true}]}
 
  ;; Add custom commands to the command palette
  ;; Example usage:
