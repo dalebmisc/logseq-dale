@@ -1,4 +1,9 @@
 ## 🔖 Articles
+	- 🎢 Introduction to Exploratory Data Analysis | Kaggle](https://omnivore.app/me/introduction-to-exploratory-data-analysis-kaggle-18bc48d47c7)
+	  collapsed:: true
+	  site:: [kaggle.com](https://www.kaggle.com/code/robikscube/introduction-to-exploratory-data-analysis/notebook)
+	  labels:: [[sent to logseq]] [[eda]]
+	  date-saved:: [[Nov 12th, 2023]]
 	- Powerful Exploratory Data Analysis in just two lines of code - KDnuggets](https://omnivore.app/me/powerful-exploratory-data-analysis-in-just-two-lines-of-code-k-d-18bc48bedbf)
 	  collapsed:: true
 	  site:: [KDnuggets](https://www.kdnuggets.com/2021/02/powerful-exploratory-data-analysis-sweetviz.html)
