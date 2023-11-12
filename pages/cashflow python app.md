@@ -29,3 +29,14 @@
 		  # Run the streamlit app
 		  streamlit run cashflow.py
 		  ```
+		- desktop shortcut: cashflows.desktop
+			- ```linux
+			  [Desktop Entry]
+			  Type=Application
+			  Name=Cashflow App
+			  Exec=/path/to/your/launch_cashflow.sh
+			  Icon=/path/to/your/icon.png
+			  Terminal=false
+			  Categories=Utility;
+			  
+			  ```
