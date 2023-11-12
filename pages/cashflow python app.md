@@ -4,10 +4,8 @@
 		- Cashflows are tracked to date ranges
 		- Forecasts are tracked to versions such as when run
 		- Need to apply forecasts to updated balances
-		- Today I update cashflows if they happened or if I am changing my plan, how will this
+		- Today I update cashflows if they happened or if I am changing my plan, how do I want this to work in my app
 	- Compares actual cash flows to forecasts
-	- Tracks forecast to actual
-		- Forecasts are tracked to versions
-		- Cashflows are tracked to date ranges
-	- Proj
+	- Lots of cool graphs
 - # program
+	- TODO create she
