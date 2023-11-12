@@ -9,4 +9,3 @@
 	- Lots of cool graphs
 - # program
 	- TODO create shell script that sets up environment and launches streamlit app
-	- TODO create
