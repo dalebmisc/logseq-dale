@@ -8,4 +8,5 @@
 	- Compares actual cash flows to forecasts
 	- Lots of cool graphs
 - # program
-	- TODO create she
+	- TODO create shell script that sets up environment and launches streamlit app
+	- TODO create
