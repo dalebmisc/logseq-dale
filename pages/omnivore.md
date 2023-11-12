@@ -93,13 +93,13 @@
 	  author:: Luke Garrigan
 	  date-saved:: [[Nov 12th, 2023]]
 	  date-published:: [[Aug 24th, 2019]]
-	- Python Libraries For Data Science](https://omnivore.app/me/python-libraries-for-data-science-18bc48c4a80)
+	- #Python Libraries For Data Science](https://omnivore.app/me/python-libraries-for-data-science-18bc48c4a80)
 	  site:: [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2019/07/dont-miss-out-24-amazing-python-libraries-data-science/)
 	  author:: Shubham Singh
 	  date-saved:: [[Nov 12th, 2023]]
 	  date-published:: [[Jul 4th, 2019]]
 	  collapsed:: true
-	- Top Python Resources for Beginners | HackerNoon](https://omnivore.app/me/top-python-resources-for-beginners-hacker-noon-18bc48d1b49)
+	- Top #Python Resources for Beginners | HackerNoon](https://omnivore.app/me/top-python-resources-for-beginners-hacker-noon-18bc48d1b49)
 	  collapsed:: true
 	  site:: [hackernoon.com](https://hackernoon.com/top-python-resources-for-beginners-yi6h3yh0)
 	  author:: Cyril Michino

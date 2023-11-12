@@ -4,12 +4,13 @@
 	  :LOGBOOK:
 	  CLOCK: [2023-11-12 Sun 06:50:51]--[2023-11-12 Sun 10:59:54] =>  04:09:03
 	  :END:
+		- Looks like a nice way to
 	- TODO [05:58](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=358s) Metabase - No Code Data Analytics
 	- DONE [07:30](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=450s) #portainer
 	- TODO [11:01](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=661s) Proxmox - Virtualiation Orchestrator
 	- TODO [13:02](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=782s) NGinX Proxy Manager
 	- DONE [14:31](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=871s) MeshCentral - Remote Machine Management
-		- No need for this type of tool at the moment
+		- No need for this #type of tool at the moment
 	- DONE [16:23](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=983s) TrueNAS Scale
 		- Can be a replacement for synology if I ever have issues with synology
 		- Can run docker and kubernetes apps
