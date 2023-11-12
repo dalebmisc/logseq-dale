@@ -34,17 +34,17 @@
 			  8. Open pot; stir in egg noodles. Close and lock the lid. Set to high pressure according to manufacturer's instructions for 5 minutes.
 			  9. Release pressure naturally for 5 minutes according to manufacturer's instruction. Release remaining pressure using the quick-release method.
 			  10. Open pressure cooker; stir in sour cream. [⤴️](https://omnivore.app/me/beef-stroganoff-for-instant-pot-recipe-18bc0ee56d1#be17f106-3c05-4b53-b245-d62e828f23a7)
-	- Organize your Omnivore library with labels](https://omnivore.app/me/organize-your-omnivore-library-with-labels)
+	- Organize your #Omnivore library with labels](https://omnivore.app/me/organize-your-omnivore-library-with-labels)
 	  collapsed:: true
 	  site:: [Omnivore Blog](https://blog.omnivore.app/p/organize-your-omnivore-library-with)
-	  author:: The Omnivore Team
+	  author:: The #Omnivore Team
 	  labels:: [[recipes]] [[sent to logseq]]
 	  date-saved:: [[Nov 11th, 2023]]
 	  date-published:: [[Apr 17th, 2022]]
 	- Getting Started with Omnivore](https://omnivore.app/me/getting-started-with-omnivore)
 	  collapsed:: true
 	  site:: [Omnivore Blog](https://blog.omnivore.app/p/getting-started-with-omnivore)
-	  author:: The Omnivore Team
+	  author:: The #Omnivore Team
 	  labels:: [[sent to logseq]]
 	  date-saved:: [[Nov 11th, 2023]]
 	  date-published:: [[Oct 12th, 2021]]
