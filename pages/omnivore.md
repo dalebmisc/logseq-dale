@@ -1,4 +1,11 @@
 ## 🔖 Articles
+	- 20 productivity tools for the Linux terminal | Opensource.com](https://omnivore.app/me/20-productivity-tools-for-the-linux-terminal-opensource-com-18bc48d1c57)
+	  collapsed:: true
+	  site:: [Opensource.com](https://opensource.com/article/20/6/productivity-tools-linux-terminal)
+	  author:: Alan Smithee
+	  labels:: [[sent to logseq]]
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[May 28th, 2020]]
 	- Z Test Statistics Formula & Python Implementation | by Angel Das | Towards Data Science](https://omnivore.app/me/z-test-statistics-formula-python-implementation-by-angel-das-tow-18bc48d428f)
 	  collapsed:: true
 	  site:: [Towards Data Science](https://towardsdatascience.com/z-test-statistics-formula-python-implementation-3755d67ba0e7)
