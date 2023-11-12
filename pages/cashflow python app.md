@@ -13,7 +13,14 @@
 	  CLOCK: [2023-11-12 Sun 12:47:57]
 	  :END:
 		- ```terminal
+		  #!/bin/bash
 		  
+		  # Create conda environment
 		  conda create --name cashflow python=3.12
 		  
+		  # Activate it
+		  conda activate cashflow
+		  
+		  # Install packages
+		  pip install numpy pandas matplotlib plotly seaborn streamlit icecream 
 		  ```
