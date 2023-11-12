@@ -1,14 +1,17 @@
 - check out open source software {{renderer :todomaster}}{{video https://www.youtube.com/watch?v=oLrwk07zZ0Y}}
   id:: 6547d4bb-5ed8-4b47-ba06-ad255a3275a1
-	- TODO [04:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=273s) Dashy - Browser Dash and Shortcuts
+	- DOING [04:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=273s) Dashy - Browser Dash and Shortcuts
+	  :LOGBOOK:
+	  CLOCK: [2023-11-12 Sun 06:50:51]
+	  :END:
 	- TODO [05:58](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=358s) Metabase - No Code Data Analytics
 	- DONE [07:30](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=450s) #portainer
 	- TODO [11:01](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=661s) Proxmox - Virtualiation Orchestrator
 	- TODO [13:02](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=782s) NGinX Proxy Manager
 	- TODO [14:31](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=871s) MeshCentral - Remote Machine Management
 	- TODO [16:23](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=983s) TrueNAS Scale
-	- TODO [19:09](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1149s) Vaultwarden - Password Manager
-		- Looks good for the future if for some reason I stop using BitWarden or
+	- DONE [19:09](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1149s) Vaultwarden - Password Manager
+		- Looks good for the future if for some reason I stop using BitWarden and Proton Pass
 	- TODO [20:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1235s) Remotely - Remote Support Tool
 	- TODO [21:54](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1314s) Guacamole - Remote Desktop in the Browser
 	- TODO [24:12](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1452s) Pi-hole - Ad-blockingDNS
@@ -17,6 +20,7 @@
 	- TODO [27:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1655s) Uptime Kuma - Status / Uptime Monitor
 	- TODO [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) #[[Home Assistant]]
 	- TODO [31:11](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1871s) Mail-in-a-box - Self Hosted Email
-	- TODO [32:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1953s) OpenSprinkler
+	- DONE [32:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1953s) OpenSprinkler
+		- Not relevant for me so won't look at this
 	- DONE #jellyfin
 -
