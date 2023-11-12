@@ -20,7 +20,10 @@
 	- TODO [25:07](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1507s) Pi-Alert - Notification of New Network Devices
 	- DONE [26:05](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1565s) #[[Speedtest Tracker]]
 	- TODO [27:35](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1655s) Uptime Kuma - Status / Uptime Monitor
-	- TODO [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) #[[Home Assistant]]
+	- DOING [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) #[[Home Assistant]]
+	  :LOGBOOK:
+	  CLOCK: [2023-11-12 Sun 11:00:34]
+	  :END:
 	- TODO [31:11](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1871s) Mail-in-a-box - Self Hosted Email
 	- DONE [32:33](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1953s) OpenSprinkler
 		- Not relevant for me so won't look at this
