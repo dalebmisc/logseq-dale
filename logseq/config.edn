@@ -264,6 +264,10 @@
             ; [(>= ?d ?start)]
             ; [(< ?d ?limit)]
 	]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? false
     :inputs [:100d :7d-after]
     :collapsed? false}
 ;   {:title "🔨 Ongoing tasks"
