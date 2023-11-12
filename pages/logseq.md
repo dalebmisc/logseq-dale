@@ -34,7 +34,7 @@
 			  :END:
 			- WAITING I am waiting #waiting
 - ## #flashcards
-	- dale test a flashcard #card
+	- dale #test a flashcard #card
 	  card-last-score:: 1
 	  card-repeats:: 1
 	  card-next-schedule:: 2023-11-05T06:00:00.000Z

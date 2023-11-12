@@ -57,6 +57,8 @@
   template-including-parent:: false
 	- ## Scratchpad
 		-
+	- ## Content
+		-
 	- ## [[inbox]] {{renderer :todomaster}} #[[todo progress]]
 		-
 - procons #.v-kanban
