@@ -1,4 +1,48 @@
 ## 🔖 Articles
+	- Linux for beginners: 10 commands to get you started at the terminal | Enable Sysadmin](https://omnivore.app/me/linux-for-beginners-10-commands-to-get-you-started-at-the-termin-18bc48c1418)
+	  collapsed:: true
+	  site:: [Enable Sysadmin](https://www.redhat.com/sysadmin/10-commands-terminal)
+	  author:: tcarriga
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Nov 3rd, 2020]]
+	- 11 Linux command line guides you shouldn't be without | Enable Sysadmin](https://omnivore.app/me/11-linux-command-line-guides-you-shouldn-t-be-without-enable-sys-18bc48c0fab)
+	  collapsed:: true
+	  site:: [Enable Sysadmin](https://www.redhat.com/sysadmin/linux-guides-2020)
+	  author:: David Both
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Dec 28th, 2020]]
+	- Free Linux course has already taught one million people | TechRadar](https://omnivore.app/me/free-linux-course-has-already-taught-one-million-people-tech-rad-18bc48c0db9)
+	  collapsed:: true
+	  site:: [TechRadar pro](https://www.techradar.com/amp/news/free-linux-course-has-already-taught-one-million-people)
+	  author:: Anthony Spadafora
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Sep 28th, 2020]]
+	- Installation | Dash for Python Documentation | Plotly](https://omnivore.app/me/installation-dash-for-python-documentation-plotly-18bc48c0b04)
+	  collapsed:: true
+	  site:: [dash.plotly.com](https://dash.plotly.com/installation)
+	  date-saved:: [[Nov 12th, 2023]]
+	- An introduction to hashing and checksums in Linux | Enable Sysadmin](https://omnivore.app/me/an-introduction-to-hashing-and-checksums-in-linux-enable-sysadmi-18bc48c0816)
+	  collapsed:: true
+	  site:: [Enable Sysadmin](https://www.redhat.com/sysadmin/hashing-checksums)
+	  author:: dgarn
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Jan 18th, 2021]]
+	- Level up your shell history with Loki and fzf | Opensource.com](https://omnivore.app/me/level-up-your-shell-history-with-loki-and-fzf-opensource-com-18bc48c06c7)
+	  collapsed:: true
+	  site:: [Opensource.com](https://opensource.com/article/20/10/shell-history-loki-fzf)
+	  author:: Ed Welch
+	  date-saved:: [[Nov 12th, 2023]]
+	  date-published:: [[Sep 30th, 2020]]
+	- ML Platforms: Dataiku vs. Alteryx vs. Sagemaker vs. Datarobot](https://omnivore.app/me/ml-platforms-dataiku-vs-alteryx-vs-sagemaker-vs-datarobot-18bc48bcee5)
+	  collapsed:: true
+	  site:: [datarevenue.com](https://www.datarevenue.com/en-blog/ml-platforms-dataiku-vs-alteryx-vs-sagemaker)
+	  author:: byMarkus Schmitt
+	  date-saved:: [[Nov 12th, 2023]]
+	- Airflow vs Luigi vs Argo vs Kubeflow vs MLFlow](https://omnivore.app/me/airflow-vs-luigi-vs-argo-vs-kubeflow-vs-ml-flow-18bc48bc4ec)
+	  collapsed:: true
+	  site:: [datarevenue.com](https://www.datarevenue.com/en-blog/airflow-vs-luigi-vs-argo-vs-mlflow-vs-kubeflow)
+	  author:: byMarkus Schmitt
+	  date-saved:: [[Nov 12th, 2023]]
 	- The ONE book every developer MUST read! - DEV Community](https://omnivore.app/me/the-one-book-every-developer-must-read-dev-community-18bc48c4b24)
 	  collapsed:: true
 	  site:: [DEV Community](https://dev.to/lukegarrigan/the-one-book-every-developer-must-read-33p9)
@@ -6,11 +50,11 @@
 	  date-saved:: [[Nov 12th, 2023]]
 	  date-published:: [[Aug 24th, 2019]]
 	- Python Libraries For Data Science](https://omnivore.app/me/python-libraries-for-data-science-18bc48c4a80)
-	  collapsed:: true
 	  site:: [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2019/07/dont-miss-out-24-amazing-python-libraries-data-science/)
 	  author:: Shubham Singh
 	  date-saved:: [[Nov 12th, 2023]]
 	  date-published:: [[Jul 4th, 2019]]
+	  collapsed:: true
 	- Top Python Resources for Beginners | HackerNoon](https://omnivore.app/me/top-python-resources-for-beginners-hacker-noon-18bc48d1b49)
 	  collapsed:: true
 	  site:: [hackernoon.com](https://hackernoon.com/top-python-resources-for-beginners-yi6h3yh0)
@@ -6768,7 +6812,7 @@
 	  labels:: [[sent to logseq]]
 	  date-saved:: [[Nov 12th, 2023]]
 	  date-published:: [[Apr 20th, 2023]]
-	- Prioritizing simplicity in your Python code | Opensource.com](https://omnivore.app/me/prioritizing-simplicity-in-your-python-code-opensource-com-18bc48d0328)
+	- Prioritizing simplicity in your #Python code | Opensource.com](https://omnivore.app/me/prioritizing-simplicity-in-your-python-code-opensource-com-18bc48d0328)
 	  site:: [Opensource.com](https://opensource.com/article/19/12/zen-python-simplicity-complexity)
 	  author:: Moshe Zadka
 	  labels:: [[sent to logseq]]
