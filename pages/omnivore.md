@@ -1,6 +1,5 @@
 ## 🔖 Articles
 	- Top Python Resources for Beginners | HackerNoon](https://omnivore.app/me/top-python-resources-for-beginners-hacker-noon-18bc48d1b49)
-	  collapsed:: true
 	  site:: [hackernoon.com](https://hackernoon.com/top-python-resources-for-beginners-yi6h3yh0)
 	  author:: Cyril Michino
 	  date-saved:: [[Nov 12th, 2023]]
