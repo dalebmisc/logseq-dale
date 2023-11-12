@@ -209,7 +209,7 @@
  :default-queries
   {:journals
   [
-   {:title "🧰 OnIt"
+   {:title "🎨 OnIt"
     :query [:find (pull ?b [*])
             :where
             (task ?b #{"NOW" "DOING"})]

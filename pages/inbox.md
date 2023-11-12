@@ -1,1 +1,1 @@
-filters:: {"templates" false}
+filters:: {"templates" false, "vscode" true}
