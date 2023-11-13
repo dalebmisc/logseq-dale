@@ -6854,7 +6854,7 @@
 	  site:: [Level Up Coding](https://levelup.gitconnected.com/exploratory-data-analysis-the-ultimate-workflow-a82b1d21f747)
 	  author:: Arthur Mello
 	  labels:: [[sent to logseq]]
-	  date-saved:: [[Nov 12th, 2023]]
+	  date-saved:: [[Nov 13th, 2023]]
 	  date-published:: [[Apr 20th, 2023]]
 	- Prioritizing simplicity in your #Python code | Opensource.com](https://omnivore.app/me/prioritizing-simplicity-in-your-python-code-opensource-com-18bc48d0328)
 	  site:: [Opensource.com](https://opensource.com/article/19/12/zen-python-simplicity-complexity)
