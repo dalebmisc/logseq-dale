@@ -15,7 +15,9 @@
 		          ready to go such as some email apps like geary and evolution.  Also,
 		          for gmail accounts, the google drive location will show up in the file
 		          manager.
-		  # 4. Go to software application and install any updates under the updates tab
+		  # 4. Go to software application
+		  	# Remove apps you won't use
+		      # Install updates for apps and system, reboot if needed
 		  
 		  # 5. Install flatpak apps
 		  
@@ -26,8 +28,14 @@
 		  # 8. Install popos window manager
 		  
 		  # 9. Install gnome extensions (distros like cinnamon have their own extension store)
+		    # Clipboard Indicator by Tudmotu
+		    # Force Quit by megh
+		    # Tray Icons: Reloaded by Martin
+		    # Extension List by grroot
+		    # Happy Appy Hotkey by jgno
 		  
 		  # 10. Setup keyboard shortcuts
+		  
 		  
 		  ```
 		- ```terminal
