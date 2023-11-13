@@ -32,9 +32,10 @@
 	  CLOCK: [2023-11-12 Sun 12:36:22]--[2023-11-12 Sun 12:36:25] =>  00:00:03
 	  :END:
 		- Could be useful in the future if I have servers
-	- TODO [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) #[[Home Assistant]]
+	- DOING [29:06](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1746s) #[[Home Assistant]]
 	  :LOGBOOK:
 	  CLOCK: [2023-11-12 Sun 11:00:34]--[2023-11-12 Sun 12:17:21] =>  01:16:47
+	  CLOCK: [2023-11-13 Mon 06:02:50]
 	  :END:
 	- DONE [31:11](https://www.youtube.com/watch?v=oLrwk07zZ0Y&t=1871s) Mail-in-a-box - Self Hosted Email
 		- For now, see how proton works
