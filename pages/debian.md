@@ -3,6 +3,8 @@
 		- The following can be created in a file with extension .sh and then:
 		- chmod +x <filename> to set permissions
 		- ./<filename> to run
+		- ```terminal
+		  ```
 		- ```sh
 		  #!/bin/bash
 		  # A script to install apps on debian
@@ -226,7 +228,6 @@
 		  # sudo apt install libayatana-appindicator3-1 gir1.2-ayatanaappindicator3-0.1 gnome-shell-extension-appindicator
 		  
 		  # sudo nala install x11
-		  # sudo nala install xmonad
 		  ```
 	- Additional setup:
 	  collapsed:: true
