@@ -225,7 +225,8 @@
 		  # install ubuntu appindicators to get a tray icon.  after installing, reboot, then open the proton vpn app and the tray icon should appear
 		  # sudo apt install libayatana-appindicator3-1 gir1.2-ayatanaappindicator3-0.1 gnome-shell-extension-appindicator
 		  
-		  
+		  # sudo nala install x11
+		  # sudo nala install xmonad
 		  ```
 	- Additional setup:
 	  collapsed:: true
