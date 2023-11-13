@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Install flatpak apps
 
 # Add the flathub repository if not already added
