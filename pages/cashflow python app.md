@@ -17,8 +17,11 @@
 		  
 		  # launch_cashflow.sh
 		  
+		  # Initialize Conda, needed when running in a script and sometimes in vs code
+		  source ~/anaconda3/etc/profile.d/conda.sh
+		  
 		  # Create conda environment
-		  conda create --name cashflow python=3.12
+		  conda create --name cashflow python=3.9 -y
 		  
 		  # Activate it
 		  conda activate cashflow
@@ -27,7 +30,7 @@
 		  pip install numpy pandas matplotlib plotly seaborn streamlit icecream pretty_errors
 		  
 		  # Run the streamlit app
-		  streamlit run cashflow.py
+		  # streamlit run cashflow.py
 		  ```
 			- ```
 			  Instructions to Use the Script:
