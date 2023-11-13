@@ -48,6 +48,9 @@ collapsed:: true
 		  
 		  # flatpak, changes made to flatpak installation over time
 		  sudo flatpak history
+		  
+		  # run an app
+		  flatpak run com.plexamp.Plexamp
 		  ```
 	- #flatpak
 		- Basic commands: [Using Flatpak — Flatpak  documentation](https://docs.flatpak.org/en/latest/using-flatpak.html#basic-commands)
