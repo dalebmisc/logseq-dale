@@ -47,8 +47,6 @@
 		  
 		  ```
 		- ```sh
-		  
-		  
 		  # other stuff to add: 
 		  
 		  # sudo dnf makecache --refreshhow t
