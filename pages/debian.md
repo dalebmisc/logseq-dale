@@ -1,7 +1,7 @@
 - System setup:
 	- The following steps can be followed, some are automated into a script.
 		- To execute the script:
-			- #File needs extension .sh
+			- needs extension .sh
 			- chmod +x <filename> to set permissions
 			- ./<filename> to run
 		- logseq.order-list-type:: number
