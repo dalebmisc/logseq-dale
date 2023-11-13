@@ -52,7 +52,7 @@
 		  # bitwarden <super> + <ctrl> + p
 		  # nemo <super> + <ctrl> + f (terminal command is nemo)
 		  
-		  
+		  # 11. Install other desktops if they weren't installed when distro was installed
 		  
 		  ```
 		- ```terminal
@@ -161,7 +161,7 @@
 		      # And that's it! Now once you are inside Nemo you can press F3 and the side panel will show up.
 		  
 		  # Done
-		  echo "All apps installed successfully."
+		  echo "Script has finished."
 		  
 		  
 		  # Other
@@ -198,7 +198,6 @@
 		  # UUID=d23ceeb5-8e8b-401c-87bd-1c65995aacee /run/media/dale/INT_SMSNG_1TB_3 ext4 defaults 0 0
 		  # UUID=841db78b-4616-4c26-9032-e0e3fdac98e0 /run/media/dale/INT_WD_1TB_1 ext4 defaults 0 0
 		  # UUID can be found in Disks application.  The path is where drives get mounted on Fedora.  Check the directory to confirm drives get loaded there.
-		  
 		  
 		  # install cinnamon desktop
 		  # [How to Install Cinnamon on Fedora 39/38/37 Linux - LinuxCapable](https://www.linuxcapable.com/how-to-install-cinnamon-desktop-environment-on-fedora-linux/)
@@ -248,6 +247,8 @@
 		  # sudo apt install libayatana-appindicator3-1 gir1.2-ayatanaappindicator3-0.1 gnome-shell-extension-appindicator
 		  
 		  # sudo nala install x11
+		  ```
+		- ```terminal
 		  ```
 	- Additional setup:
 	  collapsed:: true
