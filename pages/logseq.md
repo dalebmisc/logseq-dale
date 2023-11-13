@@ -1,4 +1,9 @@
-## #
+## #[[keyboard shortcuts]]
+	- tt toggles light, dark mode
+	- tr toggles the right panel
+	- tl toggles the left panel
+	- tw togges wide mode
+	- td seems to turn off some margin?? markers
 - ## #links
 	- can update settings so when you leave the line the brackets aren't shown, makes text nicer to read
 	- links will create a page that can be selected with all content for that topic
