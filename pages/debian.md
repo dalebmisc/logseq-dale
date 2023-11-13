@@ -4,6 +4,9 @@
 		- chmod +x <filename> to set permissions
 		- ./<filename> to run
 		- ```terminal
+		  # Install flatpak apps
+		  
+		  
 		  ```
 		- ```sh
 		  #!/bin/bash
