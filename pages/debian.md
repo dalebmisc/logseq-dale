@@ -199,34 +199,6 @@
 		  # UUID=841db78b-4616-4c26-9032-e0e3fdac98e0 /run/media/dale/INT_WD_1TB_1 ext4 defaults 0 0
 		  # UUID can be found in Disks application.  The path is where drives get mounted on Fedora.  Check the directory to confirm drives get loaded there.
 		  
-		  # install cinnamon desktop
-		  # [How to Install Cinnamon on Fedora 39/38/37 Linux - LinuxCapable](https://www.linuxcapable.com/how-to-install-cinnamon-desktop-environment-on-fedora-linux/)
-		  # sudo dnf upgrade --refresh
-		  # sudo dnf group install "Cinnamon Desktop"
-		  # reboot
-		  # to remove the desktop
-		  # sudo dnf upgrade --refresh
-		  # sudo dnf group remove "Cinnamon Desktop"
-		  # reboot
-		  
-		  # install kde desktop
-		  # sudo dnf upgrade --refresh
-		  # sudo dnf groupinstall "KDE Plasma Workspaces"
-		  # sudo reboot
-		  # remove
-		  # sudo dnf upgrade --refresh
-		  # sudo dnf groupremove "KDE"
-		  # reboot
-		  
-		  # install deepin desktop
-		  # sudo dnf upgrade --refresh
-		  # sudo dnf group install "Deepin Desktop"
-		  # sudo reboot
-		  # remove
-		  # sudo dnf upgrade --refresh
-		  # sudo dnf group remove "Deepin Desktop"
-		  # reboot
-		  
 		  # make terminal look nice
 		  # add the following to the end of the /etc/bashrc file: to open the file type the following in terminal: sudo nano /etc/bashrc
 		  # Function to get the current git branch
@@ -249,6 +221,9 @@
 		  # sudo nala install x11
 		  ```
 		- ```terminal
+		  # Install other desktops
+		  
+		  
 		  ```
 	- Additional setup:
 	  collapsed:: true
