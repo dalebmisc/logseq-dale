@@ -12,7 +12,13 @@
 		  #
 		  # Go to gnome software and install any updates under the updates tab
 		  
-		  # Add flatpak apps
+		  # Install flatpak apps
+		  
+		  # Add nala to install apt based apps
+		  
+		  # Install other apps
+		  
+		  
 		  ```
 		- ```terminal
 		  # Install flatpak apps
