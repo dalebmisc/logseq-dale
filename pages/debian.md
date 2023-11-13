@@ -5,19 +5,27 @@
 		- ./<filename> to run
 		- ```terminal
 		  #!/bin/bash
-		  # A script to install apps on debian
+		  # General process to install apps on debian based systems
 		  
-		  # After installing, remove installation flash drive, then reboot and go through the startup process for some quick settings and to add gmail account
-		  # Can add more gmail accounts later in settings
-		  #
-		  # Go to gnome software and install any updates under the updates tab
+		  # After installing the distro
+		  # 1. Remove installation flash drive
+		  # 2. Reboot and the distro will walk you through some initial settings
+		  # 3. In settings go to 'online accounts' and setups accounts such as gmail, 
+		  		this will make some apps that are used automatically have the accounts
+		          ready to go such as some email apps like geary and evolution.  Also,
+		          for gmail accounts, the google drive location will show up in the file
+		          manager.
+		  # 4. Go to software application and install any updates under the updates tab
 		  
-		  # Install flatpak apps
+		  # 5. Install flatpak apps
 		  
-		  # Add nala to install apt based apps
+		  # 6. Add nala to install apt based apps
 		  
-		  # Install other apps
+		  # 7. Install other apps
 		  
+		  # 8. Install popos window manager
+		  
+		  # 9. Setup keyboard shortcuts
 		  
 		  ```
 		- ```terminal
@@ -148,7 +156,6 @@
 		  # add anaconda to $PATH
 		  # export PATH=/home/dale/anaconda3/bin:$PATH
 		  # type 'conda' in terminal, the command should be recognized and provide info
-		  
 		  
 		  # download: private internet access from internet, interactive brokers trader work station
 		  # on downloaded file: chmod +x <name of file>
