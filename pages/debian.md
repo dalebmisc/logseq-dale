@@ -35,6 +35,18 @@
 		    # Happy Appy Hotkey by jgno
 		  
 		  # 10. Setup keyboard shortcuts
+		    # add program launch shortcuts
+		    # use launchers for:
+		    # browser <super> + <ctrl> + b
+		    # settings <super> + <ctrl> + s
+		    # 
+		    # setup shortcuts in Happy Appy Hotkey:
+		    # terminal <super> + <ctrl> + t
+		    # vs code <super> + <ctrl> + v
+		    # qbittorrent <super> + <ctrl> + q
+		    # bitwarden <super> + <ctrl> + p
+		    # nemo <super> + <ctrl> + f (terminal command is nemo)
+		  
 		  
 		  
 		  ```
@@ -71,7 +83,7 @@
 		  
 		  ```
 		- ```sh
-		  # other stuff to add: 
+		  # Install other apps
 		  
 		  # sudo dnf makecache --refreshhow t
 		  sudo dnf clean dbcache
@@ -140,12 +152,6 @@
 		      # the file may rename itself but it can be double clicked to open the app, then on the dock the app icon can be right-clicked and added to dock
 		      # And that's it! Now once you are inside Nemo you can press F3 and the side panel will show up.
 		  
-		  # install pop os window manager, the screen will go black, give it a minute then force power off then restart machine 
-		  # 	after the computer restarts, comment out these lines
-		  # sudo dnf install -y git nodejs typescript make
-		  # git clone [GitHub - pop-os/shell: Pop!_OS Shell](https://github.com/pop-os/shell.git)
-		  # cd shell
-		  # make local-install
 		  
 		  
 		  # Done
@@ -170,20 +176,6 @@
 		  # download: private internet access from internet, interactive brokers trader work station
 		  # on downloaded file: chmod +x <name of file>
 		  # to run: ./<name of file>
-		  
-		  # add program launch shortcuts
-		  # use launchers for:
-		  # browser <super> + <ctrl> + b
-		  # settings <super> + <ctrl> + s
-		  # 
-		  # setup shortcuts in Happy Appy Hotkey:
-		  # terminal <super> + <ctrl> + t
-		  # vs code <super> + <ctrl> + v
-		  # qbittorrent <super> + <ctrl> + q
-		  # bitwarden <super> + <ctrl> + p
-		  # nemo <super> + <ctrl> + f (terminal command is nemo)
-		  
-		  # in software app, remove apps that aren't needed: tour, document scanner
 		  
 		  # add folders to qbittorrent, add search engines
 		  
