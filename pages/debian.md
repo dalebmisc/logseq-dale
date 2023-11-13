@@ -1,11 +1,11 @@
 - System setup:
 	- The following steps can be followed, some are automated into a script.
 		- To execute the script:
-			-
+			- #File needs extension .sh
+			- chmod +x <filename> to set permissions
+			- ./<filename> to run
+		- logseq.order-list-type:: number
 		- [debian_setup_flatpak.sh](/home/dale/Documents/GitHub/logseq-dale/pages/debian_setup_flatpak.sh)
-		- The following can be created in a file with extension .sh and then:
-		- chmod +x <filename> to set permissions
-		- ./<filename> to run
 		- ```terminal
 		  #!/bin/bash
 		  # General process to install apps on debian based systems
