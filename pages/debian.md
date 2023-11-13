@@ -223,6 +223,33 @@
 		- ```terminal
 		  # Install other desktops
 		  
+		  # install cinnamon desktop
+		  # [How to Install Cinnamon on Fedora 39/38/37 Linux - LinuxCapable](https://www.linuxcapable.com/how-to-install-cinnamon-desktop-environment-on-fedora-linux/)
+		  sudo dnf upgrade --refresh
+		  sudo dnf group install "Cinnamon Desktop"
+		  reboot
+		  # to remove the desktop
+		  sudo dnf upgrade --refresh
+		  sudo dnf group remove "Cinnamon Desktop"
+		  reboot
+		  
+		  # install kde desktop
+		  sudo dnf upgrade --refresh
+		  sudo dnf groupinstall "KDE Plasma Workspaces"
+		  sudo reboot
+		  # remove
+		  sudo dnf upgrade --refresh
+		  sudo dnf groupremove "KDE"
+		  reboot
+		  
+		  # install deepin desktop
+		  sudo dnf upgrade --refresh
+		  sudo dnf group install "Deepin Desktop"
+		  sudo reboot
+		  # remove
+		  sudo dnf upgrade --refresh
+		  sudo dnf group remove "Deepin Desktop"
+		  reboot
 		  
 		  ```
 	- Additional setup:
