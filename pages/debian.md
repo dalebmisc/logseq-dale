@@ -26,26 +26,31 @@
 		  # 7. Install other apps
 		  
 		  # 8. Install popos window manager
+		  # The screen will go black, give it a minute then force power off then restart machine 
+		  sudo dnf install -y git nodejs typescript make
+		  git clone [GitHub - pop-os/shell: Pop!_OS Shell](https://github.com/pop-os/shell.git)
+		  cd shell
+		  make local-install
 		  
 		  # 9. Install gnome extensions (distros like cinnamon have their own extension store)
-		    # Clipboard Indicator by Tudmotu
-		    # Force Quit by megh
-		    # Tray Icons: Reloaded by Martin
-		    # Extension List by grroot
-		    # Happy Appy Hotkey by jgno
+		  # Clipboard Indicator by Tudmotu
+		  # Force Quit by megh
+		  # Tray Icons: Reloaded by Martin
+		  # Extension List by grroot
+		  # Happy Appy Hotkey by jgno
 		  
 		  # 10. Setup keyboard shortcuts
-		    # add program launch shortcuts
-		    # use launchers for:
-		    # browser <super> + <ctrl> + b
-		    # settings <super> + <ctrl> + s
-		    # 
-		    # setup shortcuts in Happy Appy Hotkey:
-		    # terminal <super> + <ctrl> + t
-		    # vs code <super> + <ctrl> + v
-		    # qbittorrent <super> + <ctrl> + q
-		    # bitwarden <super> + <ctrl> + p
-		    # nemo <super> + <ctrl> + f (terminal command is nemo)
+		  # add program launch shortcuts
+		  # use launchers for:
+		  # browser <super> + <ctrl> + b
+		  # settings <super> + <ctrl> + s
+		  # 
+		  # setup shortcuts in Happy Appy Hotkey:
+		  # terminal <super> + <ctrl> + t
+		  # vs code <super> + <ctrl> + v
+		  # qbittorrent <super> + <ctrl> + q
+		  # bitwarden <super> + <ctrl> + p
+		  # nemo <super> + <ctrl> + f (terminal command is nemo)
 		  
 		  
 		  
@@ -80,6 +85,9 @@
 		  flatpak install -y flathub io.dbeaver.DBeaverCommunity
 		  flatpak install -y flathub com.jetbrains.PyCharm-Community
 		  flatpak install -y flathub com.google.Chrome
+		  
+		  # Done
+		  echo "Script has finished."
 		  
 		  ```
 		- ```sh
@@ -151,8 +159,6 @@
 		      # chmod +x /home/dale/.local/share/applications/com.dale.starter.nemo.desktop
 		      # the file may rename itself but it can be double clicked to open the app, then on the dock the app icon can be right-clicked and added to dock
 		      # And that's it! Now once you are inside Nemo you can press F3 and the side panel will show up.
-		  
-		  
 		  
 		  # Done
 		  echo "All apps installed successfully."
