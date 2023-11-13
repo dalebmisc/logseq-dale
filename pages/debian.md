@@ -1,5 +1,7 @@
 - System setup:
 	- Script to automate much of the setup
+		-
+			- /home/dale/Documents/GitHub/logseq-dale/pages/debian_setup_flatpak.sh
 		- The following can be created in a file with extension .sh and then:
 		- chmod +x <filename> to set permissions
 		- ./<filename> to run
