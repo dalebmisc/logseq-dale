@@ -4,11 +4,6 @@
 		- chmod +x <filename> to set permissions
 		- ./<filename> to run
 		- ```terminal
-		  # Install flatpak apps
-		  
-		  
-		  ```
-		- ```sh
 		  #!/bin/bash
 		  # A script to install apps on debian
 		  
@@ -16,6 +11,11 @@
 		  # Can add more gmail accounts later in settings
 		  #
 		  # Go to gnome software and install any updates under the updates tab
+		  
+		  # Add flatpak apps
+		  ```
+		- ```terminal
+		  # Install flatpak apps
 		  
 		  # Add the flathub repository if not already added
 		  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -44,6 +44,11 @@
 		  flatpak install -y flathub io.dbeaver.DBeaverCommunity
 		  flatpak install -y flathub com.jetbrains.PyCharm-Community
 		  flatpak install -y flathub com.google.Chrome
+		  
+		  ```
+		- ```sh
+		  
+		  
 		  # other stuff to add: 
 		  
 		  # sudo dnf makecache --refreshhow t
