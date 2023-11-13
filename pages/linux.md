@@ -59,7 +59,7 @@ collapsed:: true
 	- #qdirstat
 	- #dbvisualizer
 	- #fsearch
-	- #openoffice
+	- #onlyoffice
 		- ```terminal
 		  flatpak install flathub org.onlyoffice.desktopeditors
 		  ```
