@@ -1,4 +1,5 @@
-## #links
+## #
+- ## #links
 	- can update settings so when you leave the line the brackets aren't shown, makes text nicer to read
 	- links will create a page that can be selected with all content for that topic
 	- when in doubt use a link
