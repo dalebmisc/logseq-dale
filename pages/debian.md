@@ -25,7 +25,9 @@
 		  
 		  # 8. Install popos window manager
 		  
-		  # 9. Setup keyboard shortcuts
+		  # 9. Install gnome extensions (distros like cinnamon have their own extension store)
+		  
+		  # 10. Setup keyboard shortcuts
 		  
 		  ```
 		- ```terminal
@@ -160,13 +162,6 @@
 		  # download: private internet access from internet, interactive brokers trader work station
 		  # on downloaded file: chmod +x <name of file>
 		  # to run: ./<name of file>
-		  
-		  # install the following gnome extensions
-		  # Clipboard Indicator by Tudmotu
-		  # Force Quit by megh
-		  # Tray Icons: Reloaded by Martin
-		  # Extension List by grroot
-		  # Happy Appy Hotkey by jgno
 		  
 		  # add program launch shortcuts
 		  # use launchers for:
