@@ -4,7 +4,7 @@
 			- Needs extension .sh
 			- chmod +x <filename> to set permissions
 			- ./<filename> to run
-		- logseq.order-list-type:: number
+		-
 		- [debian_setup_flatpak.sh](/home/dale/Documents/GitHub/logseq-dale/pages/debian_setup_flatpak.sh)
 		- ```terminal
 		  #!/bin/bash
