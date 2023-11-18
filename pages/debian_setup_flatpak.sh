@@ -30,5 +30,7 @@ flatpak install -y flathub io.dbeaver.DBeaverCommunity
 # flatpak install -y flathub com.jetbrains.PyCharm-Community
 flatpak install -y flathub com.google.Chrome
 
+sudo flatpak update
+
 # Done
 echo "Script has finished."
