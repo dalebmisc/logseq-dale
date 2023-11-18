@@ -9,8 +9,8 @@ flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kde
 # Install the apps
 flatpak install -y flathub org.telegram.desktop
 flatpak install -y flathub org.videolan.VLC
-flatpak install -y flathub org.libreoffice.LibreOffice
-flatpak install -y flathub com.viber.Viber
+# flatpak install -y flathub org.libreoffice.LibreOffice
+# flatpak install -y flathub com.viber.Viber
 flatpak install -y flathub org.qbittorrent.qBittorrent
 flatpak install -y flathub org.kde.dolphin
 flatpak install -y flathub com.bitwarden.desktop
@@ -23,11 +23,11 @@ flatpak install -y flathub org.kde.elisa
 flatpak install -y flathub org.kde.kpat
 flatpak install -y flathub org.gnome.Mahjongg
 flatpak install -y flathub org.gnome.Mines
-flatpak install -y flathub com.gitlab.newsflash
-flatpak install -y flathub com.mattjakeman.ExtensionManager
+# flatpak install -y flathub com.gitlab.newsflash
+# flatpak install -y flathub com.mattjakeman.ExtensionManager
 flatpak install -y flathub com.microsoft.Edge
 flatpak install -y flathub io.dbeaver.DBeaverCommunity
-flatpak install -y flathub com.jetbrains.PyCharm-Community
+# flatpak install -y flathub com.jetbrains.PyCharm-Community
 flatpak install -y flathub com.google.Chrome
 
 # Done
