@@ -29,6 +29,7 @@ flatpak install -y flathub com.microsoft.Edge
 flatpak install -y flathub io.dbeaver.DBeaverCommunity
 # flatpak install -y flathub com.jetbrains.PyCharm-Community
 flatpak install -y flathub com.google.Chrome
+flatpak install -y flathub com.skype.Client
 
 sudo flatpak update
 
