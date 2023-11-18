@@ -30,6 +30,7 @@ flatpak install -y flathub io.dbeaver.DBeaverCommunity
 # flatpak install -y flathub com.jetbrains.PyCharm-Community
 flatpak install -y flathub com.google.Chrome
 flatpak install -y flathub com.skype.Client
+flatpak install flathub com.visualstudio.code
 
 sudo flatpak update
 
