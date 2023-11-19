@@ -1,0 +1,11 @@
+{
+  "emoji_prefix": "📽️",
+  "insert_movie_properties_en": true,
+  "insert_movie_properties_zh": false,
+  "insert_person_properties_en": true,
+  "insert_person_properties_zh": false,
+  "insert_tv_properties_en": true,
+  "insert_tv_properties_zh": false,
+  "insert_book_info": true,
+  "disabled": false
+}

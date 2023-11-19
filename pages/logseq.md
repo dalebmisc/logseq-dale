@@ -269,3 +269,5 @@
 	- Add plugins:
 		- ![image.png](../assets/image_1700410841622_0.png)
 		- ![image.png](../assets/image_1700410915098_0.png){:height 333, :width 720}
+		- some plugin settings are in json files:
+			-
