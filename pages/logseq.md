@@ -272,9 +272,10 @@
 		- some plugin settings are in json files:
 			- 📽️
 			- ![image.png](../assets/image_1700411566485_0.png)
-			- x
-			- x
-			- x
+			- ![image.png](../assets/image_1700412462329_0.png)
+				- ![image.png](../assets/image_1700412486264_0.png)
+			- ![image.png](../assets/image_1700412533301_0.png)
+			- ![image.png](../assets/image_1700412680488_0.png)
 			- x
 			- x
 			- x
