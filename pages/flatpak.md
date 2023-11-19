@@ -1,6 +1,6 @@
 - https://flathub.org/
 - ## install flatpak on popos
-id:: 65593f71-f908-47c4-9cde-34592672fcc3
+  id:: 65593f71-f908-47c4-9cde-34592672fcc3
 	- ```bash
 	  #!/bin/bash
 	  
@@ -66,6 +66,7 @@ id:: 65593f71-f908-47c4-9cde-34592672fcc3
 	  sudo nala install nemo-fileroller
 	  sudo nala install synaptic
 	  sudo nala install neofetch
+	  sudo nala install hub
 	  
 	  # Brave browser
 	  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
