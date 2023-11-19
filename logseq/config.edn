@@ -209,14 +209,14 @@
  :default-queries
   {:journals
   [
-  {:title "Priority A Incomplete Tasks"
-   :query [:find (pull ?b [*])]
-   :where
-   [?b :block/children ?c]
-   [?c :block/string ?entry]
-   [(not= ?entry "{{renderer :todomaster}}")]
-   [?c :block/marker "TODO"]
-   [?b :block/priority "A"]}
+;  {:title "Priority A Incomplete Tasks"
+;   :query [:find (pull ?b [*])]
+;   :where
+;   [?b :block/children ?c]
+;   [?c :block/string ?entry]
+;   [(not= ?entry "{{renderer :todomaster}}")]
+;   [?c :block/marker "TODO"]
+;   [?b :block/priority "A"]}
 
    {:title "📅 Priority `A` TODO"
     :query [:find (pull ?h [*])
@@ -235,6 +235,44 @@
     :group-by-page? true
     :inputs [:100d :14d-after]
     :collapsed? false}
+
+   {:title "📅 Priority `B` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/priority "B"]
+			(or
+             [?h :block/marker "TODO"]
+             [?h :block/marker "DOING"]
+             [?h :block/marker "NOW"]
+             [?h :block/marker "LATER"])
+            ]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? true
+    :inputs [:100d :14d-after]
+    :collapsed? false}
+
+   {:title "📅 Priority `C` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/priority "C"]
+			(or
+             [?h :block/marker "TODO"]
+             [?h :block/marker "DOING"]
+             [?h :block/marker "NOW"]
+             [?h :block/marker "LATER"])
+            ]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? true
+    :inputs [:100d :14d-after]
+    :collapsed? false}
+
+   
    {:title "🎨🔨🎰 WORKING ON IT 🎄"
     :query [:find (pull ?b [*])
             :where
