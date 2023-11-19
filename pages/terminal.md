@@ -11,6 +11,7 @@
 		  PS1="\[\033[41m\]\[\033[37m\][\s-\V    \d  \@] \u@\h    -->    \w \$(git_branch)\$ \[\033[0m\]"
 		  
 		  # reload bashrc
+		  source ~/.bashrc
 		  ```
 	-
 	-
