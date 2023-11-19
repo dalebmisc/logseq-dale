@@ -8,7 +8,7 @@
 	- Compares actual cash flows to forecasts
 	- Lots of cool graphs
 - # program
-	- DOING create shell script that sets up environment and launches streamlit app
+	- DOING create [[shell script]] that sets up environment and launches streamlit app
 	  :LOGBOOK:
 	  CLOCK: [2023-11-12 Sun 12:47:57]
 	  :END:

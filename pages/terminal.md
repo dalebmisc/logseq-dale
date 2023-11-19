@@ -1,9 +1,14 @@
 - customize
 	- make terminal look nice
-	- add the following to the end of the /etc/bashrc file: to open the file type the following in terminal: sudo nano /etc/bashrc
-		- Function to get the current git branch
-		- Set the PS1: [Bash Shell PS1: 10 Examples to Make Your Linux Prompt like Angelina Jolie](https://www.thegeekstuff.com/2008/09/bash-shell-ps1-10-examples-to-make-your-linux-prompt-like-angelina-jolie/)
+	- add the lines below to the end of the bashrc #file:
+		- try this #file first: /home/dale/.bashrc
+			- then reload it: source ~/.bashrc
+			- this #file works on #popos
+		- if not, try this #file next: sudo nano /etc/bashrc
+		- Reference if the above doesn't work:
+			- Set the PS1: [Bash Shell PS1: 10 Examples to Make Your Linux Prompt like Angelina Jolie](https://www.thegeekstuff.com/2008/09/bash-shell-ps1-10-examples-to-make-your-linux-prompt-like-angelina-jolie/)
 		- ```
+		  # Function to get the current git branch
 		  git_branch() {
 		  	git rev-parse --abbrev-ref HEAD 2> /dev/null
 		  }
