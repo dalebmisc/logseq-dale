@@ -20,8 +20,8 @@
 		- a.tag[data-ref="dairen"] { background-color: purple !important; }
 		- a.tag[data-ref="test"] { background-color: gold !important; color: black !important; }
 - ## `#todo`
-	- {{renderer :todomaster}} #[[todo progress]]
-		- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}} #[[todo progress]]
+	- {{renderer :todomaster}}
+		- Test todo list {{renderer :todomaster}} {{renderer :wordcount_}}
 		  id:: 6545de18-dc84-4dee-b21b-a3a53a78a295
 			- DONE haricut #deadline
 			  DEADLINE: <2023-11-04 Sat 1 PM>
@@ -61,7 +61,7 @@
 		- /emoji to get emoji picker
 - ## #logseq-queries
 	- ### Default queries
-		- Add to config.edn and they show on journal {{renderer :todomaster}} #[[todo progress]]
+		- Add to config.edn and they show on journal {{renderer :todomaster}}
 			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
 			- DONE look up some default queries
 		- ```edn
@@ -133,7 +133,7 @@
 		              (task ?b #{"WAITING"})]
 		      :collapsed? true}]}
 		  ```
-	- ### Queries {{renderer :todomaster}} #[[todo progress]]
+	- ### Queries {{renderer :todomaster}}
 		- DONE look at the logseq site section on queries
 - ## #videos
   :LOGBOOK:
@@ -145,7 +145,7 @@
 		- <ctrl> + <shift> + y will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
 		- {{youtube-timestamp 669}} Helium plugin
 - ## #logseq-extensions
-	- test all extensions to see what to keep {{renderer :todomaster}} #[[todo progress]]
+	- test all extensions to see what to keep {{renderer :todomaster}}
 		- DONE heatmap - keep for now, looks like a nice compact view of activity
 		  :LOGBOOK:
 		  CLOCK: [2023-11-04 Sat 20:41:04]--[2023-11-04 Sat 20:41:05] =>  00:00:01
