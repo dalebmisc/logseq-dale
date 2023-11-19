@@ -250,6 +250,26 @@
 ;    :group-by-page? false
 ;    :collapsed? false}
     ; new queries to try
+   {:title "📅 Priority `A` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/marker ?marker]
+            [(contains? #{"A"} ?marker)]
+            ; I want to see TODOs from all pages, not just journals
+            ; and I ignore start and limit, just show all.
+            ; [?h :block/page ?p]
+            ; [?p :block/journal? true]
+            ; [?p :block/journal-day ?d]
+            ; [(>= ?d ?start)]
+            ; [(< ?d ?limit)]
+	]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? false
+    :inputs [:100d :14d-after]
+    :collapsed? false}
    {:title "📅 NEXT"
     :query [:find (pull ?h [*])
             :in $ ?start ?limit
@@ -369,7 +389,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["qbittorrent" "anaconda" "proton vpn" "shell script" "popos" "cashflow python app" "dairen" "debian" "halloween" "learning" "linux" "logseq" "omnivore" "open source" "nala" "python" "templates" "logseq learnings" "the curse of oak island" "todo" "todo progress" "vscode" "my-logseq-learnings-and-workflow"]
+ :favorites ["anaconda" "cashflow python app" "dairen" "debian" "halloween" "learning" "linux" "logseq" "omnivore" "open source" "nala" "popos" "proton vpn" "python" "shell script" "qbittorrent" "templates" "logseq learnings" "the curse of oak island" "todo" "todo progress" "todomaster" "vscode" "my-logseq-learnings-and-workflow"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -489,4 +509,5 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :ui/show-brackets? false}
+ :ui/show-brackets? false
+ :feature/enable-flashcards? false}

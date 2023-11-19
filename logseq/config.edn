@@ -254,7 +254,7 @@
     :query [:find (pull ?h [*])
             :in $ ?start ?limit
             :where
-            [?h :block/marker ?marker]
+            [?h :block/priority ?marker]
             [(contains? #{"A"} ?marker)]
             ; I want to see TODOs from all pages, not just journals
             ; and I ignore start and limit, just show all.
@@ -289,7 +289,7 @@
                                    (get h :block/priority "Z")) result))
     :group-by-page? false
     :inputs [:100d :14d-after]
-    :collapsed? false}
+    :collapsed? true}
 ;   {:title "🔨 Ongoing tasks"
 ;    :query [:find (pull ?h [*])
 ;            :where
