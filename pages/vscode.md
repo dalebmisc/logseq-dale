@@ -14,8 +14,15 @@
 	- data wrangler
 - ## vscode installation
   id:: 65593d0c-b4bd-433b-b561-60004fdaaa5c
-	- https://flathub.org/apps/com.visualstudio.code
-	  id:: 65593c40-eef6-4285-bac5-01e000851736
+	- #flatpak
+		-
+			- [Visual Studio Code | Flathub](https://omnivore.app/me/visual-studio-code-flathub-18be4dc103f)
+			  collapsed:: true
+			  site:: [Flathub - Apps for Linux](https://flathub.org/apps/com.visualstudio.code)
+			  date-saved:: [[Nov 18th, 2023]]
+			  id:: 44ae2570-be4d-438b-823f-5c410b277fe5
+			- [Visual Studio Code | Flathub](https://flathub.org/apps/com.visualstudio.code)
+			- {{renderer :linkpreview,https://flathub.org/apps/com.visualstudio.code}}
 	- download: microsoft visual studio code
 	- double-click downloaded file to install it
 	- if double-clicking doesn't work you may have to enter the following in the terminal on the downloaded file: chmod +x <name of file>
