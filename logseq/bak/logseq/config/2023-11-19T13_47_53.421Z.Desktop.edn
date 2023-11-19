@@ -209,6 +209,35 @@
  :default-queries
   {:journals
   [
+   {:title "📅 Priority `A` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/priority ?marker]
+            [(contains? #{"A"} ?marker)]
+	]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? false
+    :inputs [:100d :14d-after]
+    :collapsed? false}
+   {:title "📅 XXX Priority `A` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/priority "A"]
+;			(and
+            [?h :block/marker ?marker]
+            [(contains? #{"NOW" "LATER" "TODO", "DOING"} ?marker)]
+;			)
+    ]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? false
+    :inputs [:100d :14d-after]
+    :collapsed? false}
    {:title "🎨🔨🎰 WORKING ON IT 🎄"
     :query [:find (pull ?b [*])
             :where
@@ -250,26 +279,6 @@
 ;    :group-by-page? false
 ;    :collapsed? false}
     ; new queries to try
-   {:title "📅 Priority `A` TODO"
-    :query [:find (pull ?h [*])
-            :in $ ?start ?limit
-            :where
-            [?h :block/marker ?marker]
-            [(contains? #{"A"} ?marker)]
-            ; I want to see TODOs from all pages, not just journals
-            ; and I ignore start and limit, just show all.
-            ; [?h :block/page ?p]
-            ; [?p :block/journal? true]
-            ; [?p :block/journal-day ?d]
-            ; [(>= ?d ?start)]
-            ; [(< ?d ?limit)]
-	]
-    :result-transform (fn [result]
-                        (sort-by (fn [h]
-                                   (get h :block/priority "Z")) result))
-    :group-by-page? false
-    :inputs [:100d :14d-after]
-    :collapsed? false}
    {:title "📅 NEXT"
     :query [:find (pull ?h [*])
             :in $ ?start ?limit

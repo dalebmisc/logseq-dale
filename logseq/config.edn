@@ -209,29 +209,29 @@
  :default-queries
   {:journals
   [
+;   {:title "📅 Priority `A` TODO"
+;    :query [:find (pull ?h [*])
+;            :in $ ?start ?limit
+;            :where
+;            [?h :block/priority ?marker]
+;            [(contains? #{"A"} ?marker)];
+;	]
+;    :result-transform (fn [result]
+;                        (sort-by (fn [h]
+;                                   (get h :block/priority "Z")) result))
+;    :group-by-page? false
+;    :inputs [:100d :14d-after]
+;    :collapsed? false}
    {:title "📅 Priority `A` TODO"
     :query [:find (pull ?h [*])
             :in $ ?start ?limit
             :where
-            [?h :block/priority ?marker]
-            [(contains? #{"A"} ?marker)]
-	]
-    :result-transform (fn [result]
-                        (sort-by (fn [h]
-                                   (get h :block/priority "Z")) result))
-    :group-by-page? false
-    :inputs [:100d :14d-after]
-    :collapsed? false}
-   {:title "📅 XXX Priority `A` TODO"
-    :query [:find (pull ?h [*])
-            :in $ ?start ?limit
-            :where
             [?h :block/priority "A"]
-;			(and
-            [?h :block/marker ?marker]
-            [(contains? #{"NOW" "LATER" "TODO", "DOING"} ?marker)]
-;			)
-    ]
+			(or
+             [?h :block/marker "TODO"]
+             [?h :block/marker "DOING"]
+             [?h :block/marker "NOW"]
+             [?h :block/marker "LATER"])]
     :result-transform (fn [result]
                         (sort-by (fn [h]
                                    (get h :block/priority "Z")) result))
