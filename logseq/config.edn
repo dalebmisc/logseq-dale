@@ -231,7 +231,8 @@
              [?h :block/marker "TODO"]
              [?h :block/marker "DOING"]
              [?h :block/marker "NOW"]
-             [?h :block/marker "LATER"])]
+             [?h :block/marker "LATER"])
+            ]
     :result-transform (fn [result]
                         (sort-by (fn [h]
                                    (get h :block/priority "Z")) result))
