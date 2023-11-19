@@ -43,10 +43,10 @@
 	- dale #test a flashcard #card
 	  card-last-score:: 1
 	  card-repeats:: 1
-	  card-next-schedule:: 2023-11-05T06:00:00.000Z
+	  card-next-schedule:: 2023-11-19T06:00:00.000Z
 	  card-last-interval:: -1
 	  card-ease-factor:: 2.5
-	  card-last-reviewed:: 2023-11-04T14:20:01.270Z
+	  card-last-reviewed:: 2023-11-19T00:58:08.862Z
 	  collapsed:: true
 		- 1 + 1 = {{cloze 2}}
 		- the capital city of saskatchewan is {{cloze regina}}

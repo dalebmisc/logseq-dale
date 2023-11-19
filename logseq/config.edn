@@ -489,4 +489,5 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :ui/show-brackets? false}
+ :ui/show-brackets? false
+ :feature/enable-flashcards? false}
