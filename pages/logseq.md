@@ -268,4 +268,4 @@
 	- Download Logseq AppImage file, then chmod +x ... and run it
 	- Add plugins:
 		- ![image.png](../assets/image_1700410841622_0.png)
-		- ![image.png](../assets/image_1700410915098_0.png)
+		- ![image.png](../assets/image_1700410915098_0.png){:height 333, :width 720}
