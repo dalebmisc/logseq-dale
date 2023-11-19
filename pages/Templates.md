@@ -59,7 +59,7 @@
 		-
 	- ## Content
 		-
-	- ## [[inbox]] {{renderer :todomaster}}
+	- ## {{renderer :todomaster}}
 		-
 - procons #.v-kanban
   template:: proscons-horizontal
