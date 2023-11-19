@@ -226,8 +226,7 @@
     :query [:find (pull ?h [*])
             :in $ ?start ?limit
             :where
-            [?h :block/priority ?marker]
-            [(contains? #{"A"} ?marker)]
+            [?h :block/priority "A"]
 ;			(and
             [?h :block/marker ?marker]
             [(contains? #{"NOW" "LATER" "TODO", "DOING"} ?marker)]
