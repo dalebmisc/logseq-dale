@@ -208,3 +208,7 @@
 			- on the #pdf select the outline button, then the highlight tab to show a list of everything that is highlighted in the #pdf
 			- click the annotations page button to display the page in #logseq with all the highlights
 		- ![A Dimensional Modeling Manifesto - Kimball Group.pdf](../assets/A_Dimensional_Modeling_Manifesto_-_Kimball_Group_1699671695610_0.pdf)
+	- ## #installation
+	- The following script provides code to install AppImage apps and integrate them:
+		- ((65593987-36fe-4b80-8a30-7414ce500782))
+	- Download Logseq AppImage file, then chmod +x ... and run it

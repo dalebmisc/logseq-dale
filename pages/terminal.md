@@ -1,3 +1,17 @@
+- customize
+	- make terminal look nice
+	- add the following to the end of the /etc/bashrc file: to open the file type the following in terminal: sudo nano /etc/bashrc
+		- Function to get the current git branch
+		- Set the PS1: [Bash Shell PS1: 10 Examples to Make Your Linux Prompt like Angelina Jolie](https://www.thegeekstuff.com/2008/09/bash-shell-ps1-10-examples-to-make-your-linux-prompt-like-angelina-jolie/)
+		- ```
+		  git_branch() {
+		  	git rev-parse --abbrev-ref HEAD 2> /dev/null
+		  }
+		  
+		  PS1="\[\033[41m\]\[\033[37m\][\s-\V    \d  \@] \u@\h    -->    \w \$(git_branch)\$ \[\033[0m\]"
+		  ```
+	-
+	-
 - [[terminal rmlint]]
 	- sudo apt install rmlint
 	- usage:
