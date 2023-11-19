@@ -1,11 +1,9 @@
 ## 🔖 Articles
 	- [Visual Studio Code | Flathub](https://omnivore.app/me/visual-studio-code-flathub-18be4dc103f)
-	  collapsed:: true
 	  site:: [Flathub - Apps for Linux](https://flathub.org/apps/com.visualstudio.code)
 	  date-saved:: [[Nov 18th, 2023]]
 	  id:: 44ae2570-be4d-438b-823f-5c410b277fe5
 	- [Flathub - Apps for Linux](https://omnivore.app/me/flathub-apps-for-linux-18be4da085a)
-	  collapsed:: true
 	  site:: [Flathub - Apps for Linux](https://flathub.org)
 	  date-saved:: [[Nov 18th, 2023]]
 	  id:: 0d52b134-5810-4e9c-8d12-704d3aa832a1
