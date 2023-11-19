@@ -65,6 +65,60 @@
 			- See example on combiningminds knowledge's video 'logseq tutorial 5 tips...'
 			- DONE look up some default queries
 		- ```edn
+		     {:title "📅 Priority `A` TODO"
+		      :query [:find (pull ?h [*])
+		              :in $ ?start ?limit
+		              :where
+		              [?h :block/priority "A"]
+		  			(or
+		               [?h :block/marker "TODO"]
+		               [?h :block/marker "DOING"]
+		               [?h :block/marker "NOW"]
+		               [?h :block/marker "LATER"])
+		              ]
+		      :result-transform (fn [result]
+		                          (sort-by (fn [h]
+		                                     (get h :block/priority "Z")) result))
+		      :group-by-page? true
+		      :inputs [:100d :14d-after]
+		      :collapsed? false}
+		  
+		     {:title "📅 Priority `B` TODO"
+		      :query [:find (pull ?h [*])
+		              :in $ ?start ?limit
+		              :where
+		              [?h :block/priority "B"]
+		  			(or
+		               [?h :block/marker "TODO"]
+		               [?h :block/marker "DOING"]
+		               [?h :block/marker "NOW"]
+		               [?h :block/marker "LATER"])
+		              ]
+		      :result-transform (fn [result]
+		                          (sort-by (fn [h]
+		                                     (get h :block/priority "Z")) result))
+		      :group-by-page? true
+		      :inputs [:100d :14d-after]
+		      :collapsed? false}
+		  
+		     {:title "📅 Priority `C` TODO"
+		      :query [:find (pull ?h [*])
+		              :in $ ?start ?limit
+		              :where
+		              [?h :block/priority "C"]
+		  			(or
+		               [?h :block/marker "TODO"]
+		               [?h :block/marker "DOING"]
+		               [?h :block/marker "NOW"]
+		               [?h :block/marker "LATER"])
+		              ]
+		      :result-transform (fn [result]
+		                          (sort-by (fn [h]
+		                                     (get h :block/priority "Z")) result))
+		      :group-by-page? true
+		      :inputs [:100d :14d-after]
+		      :collapsed? false}
+		     
 		     {:title "📅 NEXT2"
 		      :query [:find (pull ?h [*])
 		              :in $ ?start ?limit
