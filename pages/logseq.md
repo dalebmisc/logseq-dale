@@ -198,8 +198,8 @@
 	- DONE {{video https://www.youtube.com/watch?v=7yVdh7ITvz4}}
 		- <ctrl> + <shift> + y will enter the current timestamp in the video as shown below, and when clicking it you will go directly to that place in the video
 		- {{youtube-timestamp 669}} Helium plugin
-- ## #logseq-extensions
-	- test all extensions to see what to keep {{renderer :todomaster}}
+- ## #logseq-plugins
+	- test all plugins to see what to keep {{renderer :todomaster}}
 		- DONE heatmap - keep for now, looks like a nice compact view of activity
 		  :LOGBOOK:
 		  CLOCK: [2023-11-04 Sat 20:41:04]--[2023-11-04 Sat 20:41:05] =>  00:00:01
@@ -266,3 +266,6 @@
 	- The following script provides code to install AppImage apps and integrate them:
 		- ((65593987-36fe-4b80-8a30-7414ce500782))
 	- Download Logseq AppImage file, then chmod +x ... and run it
+	- Add plugins:
+		- ![image.png](../assets/image_1700410841622_0.png)
+		- ![image.png](../assets/image_1700410915098_0.png)

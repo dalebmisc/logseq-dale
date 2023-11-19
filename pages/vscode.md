@@ -22,7 +22,7 @@
 			  date-saved:: [[Nov 18th, 2023]]
 			  id:: 44ae2570-be4d-438b-823f-5c410b277fe5
 			- [Visual Studio Code | Flathub](https://flathub.org/apps/com.visualstudio.code)
-			- {{renderer :linkpreview,https://flathub.org/apps/com.visualstudio.code}}
+			- {{renderer :linkpreview,[Server Error | Flathub](https://flathub.org/apps/com.visualstudio.code}})
 	- download: microsoft visual studio code
 	- double-click downloaded file to install it
 	- if double-clicking doesn't work you may have to enter the following in the terminal on the downloaded file: chmod +x <name of file>
