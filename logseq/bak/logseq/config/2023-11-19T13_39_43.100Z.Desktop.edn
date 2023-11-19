@@ -209,6 +209,36 @@
  :default-queries
   {:journals
   [
+   {:title "📅 Priority `A` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/priority ?marker]
+            [(contains? #{"A"} ?marker)]
+	]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? false
+    :inputs [:100d :14d-after]
+    :collapsed? false}
+   {:title "📅 XXX Priority `A` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/priority ?marker]
+            [(contains? #{"A"} ?marker)]
+			;(or
+            [?h :block/marker ?marker]
+            [(contains? #{"NOW" "LATER" "TODO", "DOING"} ?marker)]
+			;)
+    ]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? false
+    :inputs [:100d :14d-after]
+    :collapsed? false}
    {:title "🎨🔨🎰 WORKING ON IT 🎄"
     :query [:find (pull ?b [*])
             :where
@@ -269,7 +299,7 @@
                                    (get h :block/priority "Z")) result))
     :group-by-page? false
     :inputs [:100d :14d-after]
-    :collapsed? false}
+    :collapsed? true}
 ;   {:title "🔨 Ongoing tasks"
 ;    :query [:find (pull ?h [*])
 ;            :where
@@ -369,7 +399,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["anaconda" "popos" "cashflow python app" "dairen" "debian" "halloween" "learning" "linux" "logseq" "omnivore" "open source" "nala" "proton vpn" "python" "shell script" "qbittorrent" "templates" "logseq learnings" "the curse of oak island" "todo" "todo progress" "vscode" "my-logseq-learnings-and-workflow"]
+ :favorites ["anaconda" "cashflow python app" "dairen" "debian" "halloween" "learning" "linux" "logseq" "omnivore" "open source" "nala" "popos" "proton vpn" "python" "shell script" "qbittorrent" "templates" "logseq learnings" "the curse of oak island" "todo" "todo progress" "todomaster" "vscode" "my-logseq-learnings-and-workflow"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -489,4 +519,5 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :ui/show-brackets? false}
+ :ui/show-brackets? false
+ :feature/enable-flashcards? false}

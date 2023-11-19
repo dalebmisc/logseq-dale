@@ -228,10 +228,10 @@
             :where
             [?h :block/priority ?marker]
             [(contains? #{"A"} ?marker)]
-			(or
+;			(and
             [?h :block/marker ?marker]
             [(contains? #{"NOW" "LATER" "TODO", "DOING"} ?marker)]
-			)
+;			)
     ]
     :result-transform (fn [result]
                         (sort-by (fn [h]
