@@ -209,30 +209,39 @@
  :default-queries
   {:journals
   [
+;   {:title "📅 Priority `A` TODO"
+;    :query [:find (pull ?h [*])
+;            :in $ ?start ?limit
+;            :where
+;            [?h :block/priority ?marker]
+;            [(contains? #{"A"} ?marker)];
+;	]
+;    :result-transform (fn [result]
+;                        (sort-by (fn [h]
+;                                   (get h :block/priority "Z")) result))
+;    :group-by-page? false
+;    :inputs [:100d :14d-after]
+;    :collapsed? false}
+  {:title "Priority A Incomplete Tasks"
+   :query [:find (pull ?b [*])]
+   :where
+   [?b :block/children ?c]
+   [?c :block/string ?entry]
+   [(not= ?entry "{{renderer :todomaster}}")]
+   [?c :block/marker "TODO"]
+   [?b :block/marker "A"]}
+
    {:title "📅 Priority `A` TODO"
     :query [:find (pull ?h [*])
             :in $ ?start ?limit
             :where
-            [?h :block/priority ?marker]
-            [(contains? #{"A"} ?marker)]
-	]
-    :result-transform (fn [result]
-                        (sort-by (fn [h]
-                                   (get h :block/priority "Z")) result))
-    :group-by-page? false
-    :inputs [:100d :14d-after]
-    :collapsed? false}
-   {:title "📅 XXX Priority `A` TODO"
-    :query [:find (pull ?h [*])
-            :in $ ?start ?limit
-            :where
-            [?h :block/priority ?marker]
-            [(contains? #{"A"} ?marker)]
-			;(or
-            [?h :block/marker ?marker]
-            [(contains? #{"NOW" "LATER" "TODO", "DOING"} ?marker)]
-			;)
-    ]
+            [?h :block/priority "A"]
+			(or
+             [?h :block/marker "TODO"]
+             [?h :block/marker "DOING"]
+             [?h :block/marker "NOW"]
+             [?h :block/marker "LATER"])
+            ]
     :result-transform (fn [result]
                         (sort-by (fn [h]
                                    (get h :block/priority "Z")) result))
