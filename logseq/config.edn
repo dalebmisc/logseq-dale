@@ -250,6 +250,26 @@
 ;    :group-by-page? false
 ;    :collapsed? false}
     ; new queries to try
+   {:title "📅 Priority `A` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/marker ?marker]
+            [(contains? #{"A"} ?marker)]
+            ; I want to see TODOs from all pages, not just journals
+            ; and I ignore start and limit, just show all.
+            ; [?h :block/page ?p]
+            ; [?p :block/journal? true]
+            ; [?p :block/journal-day ?d]
+            ; [(>= ?d ?start)]
+            ; [(< ?d ?limit)]
+	]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? false
+    :inputs [:100d :14d-after]
+    :collapsed? false}
    {:title "📅 NEXT"
     :query [:find (pull ?h [*])
             :in $ ?start ?limit
