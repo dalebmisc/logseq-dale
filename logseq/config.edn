@@ -281,7 +281,7 @@
                         (sort-by (fn [h]
                                    (get h :block/priority "Z")) result))
     :group-by-page? false
-    :collapsed? false}
+    :collapsed? true}
 ;   {:title "🔨 NOW"
 ;    :query [:find (pull ?h [*])
 ;            :in $ ?start ?today
