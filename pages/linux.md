@@ -78,7 +78,6 @@
 - ## #[[keyboard shortcuts]]
 	- add program launch shortcuts
 		- use launchers for:
-			-
 			- browser <super> + <ctrl> + b
 			- settings <super> + <ctrl> + s
 		- setup shortcuts in Happy Appy Hotkey:

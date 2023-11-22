@@ -1,6 +1,6 @@
 # anaconda installation
 id:: 65594161-2581-49bb-8b99-f2f43bdf1525
-	- download Anaconda
+	- download Anaconda: https://www.anaconda.com/download
 		- on downloaded #file: chmod +x <name of file>
 		- to run: sudo ./<name of file>
 	- read license agreement:

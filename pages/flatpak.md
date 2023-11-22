@@ -4,6 +4,8 @@
 	- ```bash
 	  #!/bin/bash
 	  
+	  DEBIAN_FRONTEND=noninteractive 
+	  
 	  # Install nala package manager
 	  sudo apt install nala
 	  sudo nala update
@@ -13,7 +15,7 @@
 	  # 	Without this you can launch the app, you just can't pin the app to the
 	  #	dock and find it in the applications list.
 	  sudo nala install software-properties-common
-	  sudo add-apt-repository ppa:appimagelauncher-team/stable
+	  echo | sudo add-apt-repository ppa:appimagelauncher-team/stable
 	  sudo nala update
 	  sudo nala install appimagelauncher
 	  
@@ -23,35 +25,38 @@
 	  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 	  # Add the kdeapps repository if not already added
 	  flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
+	  # Update runtime
+	  flatpak update --appstream && flatpak update
 	  # Install the apps
-	  flatpak install -y flathub org.telegram.desktop
-	  flatpak install -y flathub org.videolan.VLC
-	  # flatpak install -y flathub org.libreoffice.LibreOffice
-	  # flatpak install -y flathub com.viber.Viber
-	  flatpak install -y flathub org.qbittorrent.qBittorrent
-	  flatpak install -y flathub org.kde.dolphin
-	  flatpak install -y flathub com.bitwarden.desktop
-	  flatpak install -y flathub org.wireshark.Wireshark
-	  flatpak install -y flathub com.plexamp.Plexamp
-	  flatpak install -y flathub io.missioncenter.MissionCenter
-	  flatpak install -y flathub org.kde.isoimagewriter
-	  flatpak install -y flathub org.kde.konsole
-	  flatpak install -y flathub org.kde.elisa
-	  flatpak install -y flathub org.kde.kpat
-	  flatpak install -y flathub org.gnome.Mahjongg
-	  flatpak install -y flathub org.gnome.Mines
-	  # flatpak install -y flathub com.gitlab.newsflash
-	  # flatpak install -y flathub com.mattjakeman.ExtensionManager
-	  flatpak install -y flathub com.microsoft.Edge
-	  flatpak install -y flathub io.dbeaver.DBeaverCommunity
-	  # flatpak install -y flathub com.jetbrains.PyCharm-Community
-	  flatpak install -y flathub com.google.Chrome
-	  flatpak install -y flathub com.skype.Client
-	  flatpak install flathub com.visualstudio.code
-	  flatpak install flathub ch.protonmail.protonmail-bridge
-	  flatpak install flathub org.mozilla.Thunderbird
+	  flatpak install --system -y flathub org.telegram.desktop
+	  flatpak install --system -y flathub org.videolan.VLC
+	  # flatpak install --system -y flathub org.libreoffice.LibreOffice
+	  # flatpak install --system -y flathub com.viber.Viber
+	  flatpak install --system -y flathub org.qbittorrent.qBittorrent
+	  flatpak install --system -y flathub org.kde.dolphin
+	  flatpak install --system -y flathub com.bitwarden.desktop
+	  flatpak install --system -y flathub org.wireshark.Wireshark
+	  flatpak install --system -y flathub com.plexamp.Plexamp
+	  flatpak install --system -y flathub io.missioncenter.MissionCenter
+	  flatpak install --system -y flathub org.kde.isoimagewriter
+	  flatpak install --system -y flathub org.kde.konsole
+	  flatpak install --system -y flathub org.kde.elisa
+	  flatpak install --system -y flathub org.kde.kpat
+	  flatpak install --system -y flathub org.gnome.Mahjongg
+	  flatpak install --system -y flathub org.gnome.Mines
+	  # flatpak install --system -y flathub com.gitlab.newsflash
+	  # flatpak install --system -y flathub com.mattjakeman.ExtensionManager
+	  flatpak install --system -y flathub com.microsoft.Edge
+	  flatpak install --system -y flathub io.dbeaver.DBeaverCommunity
+	  # flatpak install --system -y flathub com.jetbrains.PyCharm-Community
+	  flatpak install --system -y flathub com.google.Chrome
+	  flatpak install --system -y flathub com.skype.Client
+	  flatpak install --system -y flathub com.visualstudio.code
+	  flatpak install --system -y flathub ch.protonmail.protonmail-bridge
+	  flatpak install --system -y flathub org.mozilla.Thunderbird
+	  flatpak install --system -y flathub io.github.cboxdoerfer.FSearch
 	  
-	  sudo flatpak update
+	  sudo flatpak update -y
 	  
 	  # Install apps with nala
 	  sudo nala install gnome-tweaks
@@ -67,6 +72,12 @@
 	  sudo nala install synaptic
 	  sudo nala install neofetch
 	  sudo nala install hub
+	  sudo nala install qdirstat
+	  
+	  
+	  # git
+	  echo | sudo add-apt-repository ppa:git-core/ppa
+	  sudo nala install git
 	  
 	  # Brave browser
 	  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
