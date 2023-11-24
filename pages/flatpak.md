@@ -73,6 +73,7 @@
 	  sudo nala install neofetch
 	  sudo nala install hub
 	  sudo nala install qdirstat
+	  sudo nala install steam
 	  
 	  
 	  # git
