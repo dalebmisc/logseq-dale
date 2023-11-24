@@ -57,6 +57,7 @@
 	  flatpak install --system -y flathub io.github.cboxdoerfer.FSearch
 	  flatpak install --system -y flathub com.mattjakeman.ExtensionManager
 	  flatpak install --system -y flathub org.onlyoffice.desktopeditors
+	  flatpak install --system -y flathub ca.desrt.dconf-editor
 	  
 	  sudo flatpak update -y
 	  
