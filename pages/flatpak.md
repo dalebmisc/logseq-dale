@@ -55,6 +55,7 @@
 	  flatpak install --system -y flathub ch.protonmail.protonmail-bridge
 	  flatpak install --system -y flathub org.mozilla.Thunderbird
 	  flatpak install --system -y flathub io.github.cboxdoerfer.FSearch
+	  flatpak install --system -y flathub com.mattjakeman.ExtensionManager
 	  
 	  sudo flatpak update -y
 	  
