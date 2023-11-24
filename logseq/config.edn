@@ -433,7 +433,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["flatpak" "anaconda" "cashflow python app" "dairen" "debian" "halloween" "learning" "linux" "logseq" "omnivore" "open source" "nala" "popos" "proton vpn" "python" "shell script" "qbittorrent" "templates" "logseq learnings" "the curse of oak island" "todo" "todo progress" "todomaster" "vscode" "my-logseq-learnings-and-workflow"]
+ :favorites ["terminal" "flatpak" "anaconda" "cashflow python app" "dairen" "debian" "halloween" "learning" "linux" "logseq" "omnivore" "open source" "nala" "popos" "proton vpn" "python" "shell script" "qbittorrent" "templates" "logseq learnings" "the curse of oak island" "todo" "todo progress" "todomaster" "vscode" "my-logseq-learnings-and-workflow"]
 
  ;; Set flashcards interval.
  ;; Expected value:

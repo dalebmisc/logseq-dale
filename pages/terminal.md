@@ -154,6 +154,11 @@
 		- open multiple terminals in a single window
 - [[terminal wikit]]
 	- wikit can be used to parse wikipedia text in the command line, try installing and see how it works, looks pretty neat...
+	- ```bash
+	  sudo nala install -y nodejs
+	  sudo nala install -y npm
+	  sudo npm install wikit -g
+	  ```
 - [[terminal ddgr]]
 	- duckduckgo searches from terminal
 	- ```terminal

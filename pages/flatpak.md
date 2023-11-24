@@ -97,6 +97,11 @@
 	  wget https://github.com/jarun/ddgr/archive/refs/tags/v2.1.zip
 	  unzip file, then go to folder with terminal, then type: sudo make install
 	  
+	  #wikit
+	  sudo nala install -y nodejs
+	  sudo nala install -y npm
+	  sudo npm install wikit -g
+	  
 	  # git
 	  echo | sudo add-apt-repository ppa:git-core/ppa
 	  sudo nala install git
