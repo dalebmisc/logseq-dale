@@ -7,17 +7,17 @@
 	  DEBIAN_FRONTEND=noninteractive 
 	  
 	  # Install nala package manager
-	  sudo apt install nala
+	  sudo apt install -y nala
 	  sudo nala update
 	  sudo nala upgrade
 	  
 	  # Install software for integrating AppImage formats into dock, applications
 	  # 	Without this you can launch the app, you just can't pin the app to the
 	  #	dock and find it in the applications list.
-	  sudo nala install software-properties-common
+	  sudo nala install -y software-properties-common
 	  echo | sudo add-apt-repository ppa:appimagelauncher-team/stable
 	  sudo nala update
-	  sudo nala install appimagelauncher
+	  sudo nala install -y appimagelauncher
 	  
 	  # Install flatpak apps
 	  
@@ -61,22 +61,41 @@
 	  sudo flatpak update -y
 	  
 	  # Install apps with nala
-	  sudo nala install gnome-tweaks
-	  sudo nala install kate
-	  sudo nala install ncdu # install app to view what is taking up space 
+	  sudo nala install -y gnome-tweaks
+	  sudo nala install -y kate
+	  sudo nala install -y ncdu # install app to view what is taking up space 
 	        # run:
 	        # ncdu / - what is taking up space in the folders the user has access to. / is the folder to start in
 	        # ncdu / - / is the folder to start in, where / is the root of the system
 	        # su ncdu - shows what is taking up space in all dir
 	        # su ncdu -x - excludes attached file systems
-	  sudo nala install nemo
-	  sudo nala install nemo-fileroller
-	  sudo nala install synaptic
-	  sudo nala install neofetch
-	  sudo nala install hub
-	  sudo nala install qdirstat
-	  sudo nala install steam
+	  sudo nala install -y nemo
+	  sudo nala install -y nemo-fileroller
+	  sudo nala install -y synaptic
+	  sudo nala install -y neofetch
+	  sudo nala install -y hub
+	  sudo nala install -y qdirstat
+	  sudo nala install -y steam
+	  sudo nala install -y rmlint
+	  sudo nala install -y rmlint
+	  sudo nala install -y rclone
+	  sudo nala install -y ncdu
+	  sudo nala install -y btop
+	  sudo nala install -y htop
+	  sudo nala install -y exa
+	  sudo nala install -y bat
+	  sudo nala install -y ripgrep
+	  sudo nala install -y fzf
+	  sudo nala install -y zoxide
+	  sudo nala install -y entr
+	  sudo nala install -y mc
+	  sudo nala install -y tldr
+	  sudo nala install -y tmux
 	  
+	  #ddgr
+	  sudo apt-get install build-essential unzip -y
+	  wget https://github.com/jarun/ddgr/archive/refs/tags/v2.1.zip
+	  unzip file, then go to folder with terminal, then type: sudo make install
 	  
 	  # git
 	  echo | sudo add-apt-repository ppa:git-core/ppa
@@ -86,7 +105,7 @@
 	  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 	  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 	  sudo nala update
-	  sudo nala install brave-browser
+	  sudo nala install -y brave-browser
 	  
 	  # Done
 	  echo "Script has finished."
