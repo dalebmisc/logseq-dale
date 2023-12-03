@@ -6927,7 +6927,7 @@
 	- [Organize your Omnivore library with labels](https://omnivore.app/me/organize-your-omnivore-library-with-labels)
 	  collapsed:: true
 	  site:: [Omnivore Blog](https://blog.omnivore.app/p/organize-your-omnivore-library-with)
-	  author:: The #Omnivore Team
+	  author:: The Omnivore Team
 	  labels:: [[recipes]] [[sent to logseq]]
 	  date-saved:: [[Nov 11th, 2023]]
 	  date-published:: [[Apr 17th, 2022]]
