@@ -1,0 +1,25 @@
+- barbarian
+	- {{video https://www.youtube.com/watch?v=s2lGizIhjX0&t=1765s}}
+	-
+	- stats
+		- crit damage
+			- physical damage never comes close to crit damage
+		- vulnerability damage
+	- gearing
+		- hat
+			- cooldown
+		- chest
+		- gloves
+		- pants
+		- boots
+		- necklace
+			- cooldown
+		- ring
+			- resource gen
+			- vulnerability
+			- crit strike
+			- crit damage
+		- weapon
+	- pickup highest #type of gear, ancestral, sacred, depending on where you are at
+	- legendaries
+	-
