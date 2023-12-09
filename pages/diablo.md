@@ -15,6 +15,7 @@
 		- gloves
 		- pants
 		- boots
+			- fury cost reduction
 		- necklace
 			- cooldown
 		- ring
@@ -23,6 +24,7 @@
 			- crit strike
 			- crit damage
 		- weapon
+			- resource gen
 	- pickup highest #type of gear, ancestral, sacred, depending on where you are at
 	- legendaries
 	-
