@@ -92,6 +92,7 @@
 	  sudo nala install -y mc
 	  sudo nala install -y tldr
 	  sudo nala install -y tmux
+	  sudo nala install -y lutris
 	  
 	  #ddgr
 	  sudo apt-get install build-essential unzip -y
