@@ -2,9 +2,12 @@
 	- {{video https://www.youtube.com/watch?v=s2lGizIhjX0&t=1765s}}
 	-
 	- stats
-		- crit damage
+		- strength
+		- crit strike damage
 			- physical damage never comes close to crit damage
 		- vulnerability damage
+		- damage with core
+		- try to make critical strike damage and vulnerability damage to be as close as possible
 	- gearing
 		- hat
 			- cooldown
