@@ -93,6 +93,7 @@
 	  sudo nala install -y tldr
 	  sudo nala install -y tmux
 	  sudo nala install -y lutris
+	  sudo nala install -y handbrake
 	  
 	  #ddgr
 	  sudo apt-get install build-essential unzip -y
