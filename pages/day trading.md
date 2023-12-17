@@ -1,0 +1,8 @@
+- Strategy: Gap over +/- 3% without any news including no analyst price targets
+	- Do not do:
+		- Place a price target to get in trade
+			- Because the price may go well through the target and you start out in a serious hole
+		- Jumping in as soon as price target hits being in fear of missing out
+			- Because the price may go well through the target and you start out in a serious hole
+			- This is more when I am looking for a reversal in price, for example if price get to this level then I will short
+		- Not considering the trend on the daily chart
