@@ -10,8 +10,50 @@
 - ## settings
 	- #### black formatter or others such as autopep8
 		- [Powerful VSCode Tips And Tricks For Python Development And Design - YouTube](https://youtu.be/fj2tuTIcUys?si=teDGSSNKbpB13U0Q&t=446)
+		- ```user/settings.json
+		  {
+		  "window.zoomLevel": 2
+		  workbench.colorCustomizations:{
+		  editorSuggestWidget.selectedBackground: setcolorvalue
+		  sidebar.background: setcolor
+		  list.activeSelectionBackground:
+		  list.inactiveSelectionBackground:
+		  list.focusBackground:
+		  list.hoverBackground:
+		  }
+		  editor.fontFamily: "JetBrains Mono"
+		  editor.fontSize: 14
+		  editor.lineHeight: 1.5
+		  breadcrumbs.enabled: false
+		  explorer.compactFolders: false
+		  files.insertFinalNewLine: true
+		  extensions.ignoreRecommendations: true
+		  files.autoSave: "afterDelay"
+		  ```
 - ## extensions
 	- data wrangler
+	- codium ai
+	- python snippets
+	- json to ts
+	- pretty typescript errors
+	- peacock
+	- projects
+	- error lens
+	- auto open markdown preview
+	- markdown all in one
+	- code runner
+	- jest
+	- jest runner
+	- better comments
+	- colorize
+	- output colorizer
+	- polacode
+	-
+- ## theme
+	- aura dracula spirit or aura spirit dracula
+	- material icon theme
+	- atom one dark theme
+	- fluent icons
 - ## vscode installation
   id:: 65593d0c-b4bd-433b-b561-60004fdaaa5c
 	- #flatpak

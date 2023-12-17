@@ -1,5 +1,5 @@
 - map
-	- {{renderer :linkpreview,https://mapgenie.io/diablo-4/maps/sanctuary}}
+	- {{renderer :linkpreview,[Not Found](https://mapgenie.io/diablo-4/maps/sanctuary}})
 - barbarian
 	- {{video https://www.youtube.com/watch?v=s2lGizIhjX0&t=1765s}}
 	-
