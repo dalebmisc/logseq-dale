@@ -94,6 +94,7 @@
 	  sudo nala install -y tmux
 	  sudo nala install -y lutris
 	  sudo nala install -y handbrake
+	  sudo nala install -y obs-studio
 	  
 	  #ddgr
 	  sudo apt-get install build-essential unzip -y
