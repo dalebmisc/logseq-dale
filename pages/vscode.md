@@ -1,5 +1,5 @@
 ## Scratchpad
-	-
+	- `# %%``
 - ## {{renderer :todomaster}}
 	- TODO Figure out how the aws code whisperer works
 	- DONE  Can I get a good openai plugin #openai #chatgpt
@@ -48,6 +48,10 @@
 	- colorize
 	- output colorizer
 	- polacode
+	- gather
+	- codetour
+	- drawio
+	- kanban
 	-
 - ## theme
 	- aura dracula spirit or aura spirit dracula
