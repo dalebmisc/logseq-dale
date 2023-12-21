@@ -58,6 +58,7 @@
 	  flatpak install --system -y flathub com.mattjakeman.ExtensionManager
 	  flatpak install --system -y flathub org.onlyoffice.desktopeditors
 	  flatpak install --system -y flathub ca.desrt.dconf-editor
+	  flatpak install --system -y flathub org.openshot.OpenShot
 	  
 	  sudo flatpak update -y
 	  
@@ -95,6 +96,9 @@
 	  sudo nala install -y lutris
 	  sudo nala install -y handbrake
 	  sudo nala install -y obs-studio
+	  sudo nala install -y shotcut
+	  sudo nala install -y kdenlive
+	  
 	  
 	  #ddgr
 	  sudo apt-get install build-essential unzip -y
