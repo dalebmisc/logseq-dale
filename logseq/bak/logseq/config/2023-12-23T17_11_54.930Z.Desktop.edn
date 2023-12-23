@@ -209,36 +209,70 @@
  :default-queries
   {:journals
   [
-;   {:title "📅 Priority `A` TODO"
-;    :query [:find (pull ?h [*])
-;            :in $ ?start ?limit
-;            :where
-;            [?h :block/priority ?marker]
-;            [(contains? #{"A"} ?marker)];
-;	]
-;    :result-transform (fn [result]
-;                        (sort-by (fn [h]
-;                                   (get h :block/priority "Z")) result))
-;    :group-by-page? false
-;    :inputs [:100d :14d-after]
-;    :collapsed? false}
+;  {:title "Priority A Incomplete Tasks"
+;   :query [:find (pull ?b [*])]
+;   :where
+;   [?b :block/children ?c]
+;   [?c :block/string ?entry]
+;   [(not= ?entry "{{renderer :todomaster}}")]
+;   [?c :block/marker "TODO"]
+;   [?b :block/priority "A"]}
+
    {:title "📅 Priority `A` TODO"
     :query [:find (pull ?h [*])
             :in $ ?start ?limit
             :where
             [?h :block/priority "A"]
-;			(or
-;             [?h :block/marker "TODO"]
-;             [?h :block/marker "DOING"]
-;             [?h :block/marker "NOW"]
-;             [?h :block/marker "LATER"])
+			(or
+             [?h :block/marker "TODO"]
+             [?h :block/marker "DOING"]
+             [?h :block/marker "NOW"]
+             [?h :block/marker "LATER"])
             ]
     :result-transform (fn [result]
                         (sort-by (fn [h]
                                    (get h :block/priority "Z")) result))
-    :group-by-page? false
+    :group-by-page? true
     :inputs [:100d :14d-after]
     :collapsed? false}
+
+   {:title "📅 Priority `B` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/priority "B"]
+			(or
+             [?h :block/marker "TODO"]
+             [?h :block/marker "DOING"]
+             [?h :block/marker "NOW"]
+             [?h :block/marker "LATER"])
+            ]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? true
+    :inputs [:100d :14d-after]
+    :collapsed? false}
+
+   {:title "📅 Priority `C` TODO"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?limit
+            :where
+            [?h :block/priority "C"]
+			(or
+             [?h :block/marker "TODO"]
+             [?h :block/marker "DOING"]
+             [?h :block/marker "NOW"]
+             [?h :block/marker "LATER"])
+            ]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? true
+    :inputs [:100d :14d-after]
+    :collapsed? false}
+
+   
    {:title "🎨🔨🎰 WORKING ON IT 🎄"
     :query [:find (pull ?b [*])
             :where
@@ -247,7 +281,7 @@
                         (sort-by (fn [h]
                                    (get h :block/priority "Z")) result))
     :group-by-page? false
-    :collapsed? false}
+    :collapsed? true}
 ;   {:title "🔨 NOW"
 ;    :query [:find (pull ?h [*])
 ;            :in $ ?start ?today
@@ -399,7 +433,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["anaconda" "cashflow python app" "dairen" "debian" "halloween" "learning" "linux" "logseq" "omnivore" "open source" "nala" "popos" "proton vpn" "python" "shell script" "qbittorrent" "templates" "logseq learnings" "the curse of oak island" "todo" "todo progress" "todomaster" "vscode" "my-logseq-learnings-and-workflow"]
+ :favorites ["terminal" "flatpak" "anaconda" "cashflow python app" "dairen" "debian" "halloween" "learning" "linux" "logseq" "omnivore" "open source" "nala" "popos" "proton vpn" "python" "shell script" "qbittorrent" "templates" "logseq learnings" "the curse of oak island" "todo" "todo progress" "todomaster" "vscode" "my-logseq-learnings-and-workflow"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -520,4 +554,5 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :ui/show-brackets? false
- :feature/enable-flashcards? false}
+ :feature/enable-flashcards? false
+ :editor/preferred-pasting-file? true}
