@@ -98,7 +98,7 @@
 	  sudo nala install -y obs-studio
 	  sudo nala install -y shotcut
 	  sudo nala install -y kdenlive
-	  
+	  sudo apt install rmlint
 	  
 	  #ddgr
 	  sudo apt-get install build-essential unzip -y
