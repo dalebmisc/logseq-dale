@@ -100,6 +100,7 @@
 	  sudo nala install -y kdenlive
 	  sudo apt install -y rmlint
 	  sudo nala install -y tldr
+	  sudo nala install -y nmap
 	  
 	  #ddgr
 	  sudo apt-get install build-essential unzip -y
